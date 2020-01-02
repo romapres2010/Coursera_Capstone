@@ -1,0 +1,1328 @@
+Neighborhood,Neighborhood Latitude,Neighborhood Longitude,Venue,Venue Latitude,Venue Longitude,Venue Category
+"Rouge,Malvern",43.806686299999996,-79.19435340000001,Wendy's,43.80744841934756,-79.19905558052072,Fast Food Restaurant
+"Highland Creek,Rouge Hill,Port Union",43.7845351,-79.16049709999999,RIGHT WAY TO GOLF,43.785176919005714,-79.16110754013062,Golf Course
+"Highland Creek,Rouge Hill,Port Union",43.7845351,-79.16049709999999,Royal Canadian Legion,43.78253332838298,-79.16308473261682,Bar
+"Guildwood,Morningside,West Hill",43.7635726,-79.1887115,Swiss Chalet Rotisserie & Grill,43.76769708292701,-79.1899135003439,Pizza Place
+"Guildwood,Morningside,West Hill",43.7635726,-79.1887115,G & G Electronics,43.765309,-79.191537,Electronics Store
+"Guildwood,Morningside,West Hill",43.7635726,-79.1887115,Big Bite Burrito,43.766299084470795,-79.19071980583941,Mexican Restaurant
+"Guildwood,Morningside,West Hill",43.7635726,-79.1887115,Enterprise Rent-A-Car,43.7640757,-79.1934057,Rental Car Location
+"Guildwood,Morningside,West Hill",43.7635726,-79.1887115,Woburn Medical Centre,43.766631153138455,-79.19228553771973,Medical Center
+"Guildwood,Morningside,West Hill",43.7635726,-79.1887115,Lawrence Ave E & Kingston Rd,43.767704,-79.18949,Intersection
+"Guildwood,Morningside,West Hill",43.7635726,-79.1887115,Eggsmart,43.7678,-79.190466,Breakfast Spot
+Woburn,43.7709921,-79.21691740000001,Starbucks,43.770037201625215,-79.22115586641958,Coffee Shop
+Woburn,43.7709921,-79.21691740000001,Tim Hortons,43.7708270725628,-79.22307810384153,Coffee Shop
+Woburn,43.7709921,-79.21691740000001,Korean Grill House,43.7708117291354,-79.21450208834013,Korean Restaurant
+Woburn,43.7709921,-79.21691740000001,Leslie & Giles Insurance Limited,43.7731162,-79.2195586,Insurance Office
+Cedarbrae,43.773136,-79.23947609999999,Federick Restaurant,43.77469659057996,-79.24114242818267,Hakka Restaurant
+Cedarbrae,43.773136,-79.23947609999999,Drupati's Roti & Doubles,43.775222138791534,-79.24167761001029,Caribbean Restaurant
+Cedarbrae,43.773136,-79.23947609999999,Thai One On,43.77446763641413,-79.24126833717742,Thai Restaurant
+Cedarbrae,43.773136,-79.23947609999999,Centennial Recreation Centre,43.77459330890341,-79.23649962433035,Athletics & Sports
+Cedarbrae,43.773136,-79.23947609999999,TD Canada Trust,43.77495189482367,-79.24134314060211,Bank
+Cedarbrae,43.773136,-79.23947609999999,Petro-Canada,43.774106,-79.243097,Gas Station
+Cedarbrae,43.773136,-79.23947609999999,B&A Bakery,43.77439074389114,-79.24387684648542,Bakery
+Cedarbrae,43.773136,-79.23947609999999,Popeyes Louisiana Kitchen,43.7759298356196,-79.23532833470263,Fried Chicken Joint
+Scarborough Village,43.7447342,-79.23947609999999,McCowan Park,43.74508851212816,-79.239335687338,Playground
+Scarborough Village,43.7447342,-79.23947609999999,Canada Edge Marketers Corporation,43.7416801,-79.2370605,Women's Store
+Scarborough Village,43.7447342,-79.23947609999999,True Discount Convenience Store,43.74385420196717,-79.24464963318577,Convenience Store
+"East Birchmount Park,Ionview,Kennedy Park",43.7279292,-79.26202940000002,Giant Tiger,43.72744662939136,-79.26624035854763,Department Store
+"East Birchmount Park,Ionview,Kennedy Park",43.7279292,-79.26202940000002,Tim Hortons,43.72689508691926,-79.26615692675114,Coffee Shop
+"East Birchmount Park,Ionview,Kennedy Park",43.7279292,-79.26202940000002,Dollarama,43.727092,-79.265784,Discount Store
+"East Birchmount Park,Ionview,Kennedy Park",43.7279292,-79.26202940000002,Tandy Leather,43.7269737868054,-79.26651349240451,Hobby Shop
+"Clairlea,Golden Mile,Oakridge",43.711111700000004,-79.2845772,Dairy Queen,43.71037770465013,-79.29070115089417,Fast Food Restaurant
+"Clairlea,Golden Mile,Oakridge",43.711111700000004,-79.2845772,Warden Ave & St. Clair Ave E,43.71205669347002,-79.28100496530533,Intersection
+"Clairlea,Golden Mile,Oakridge",43.711111700000004,-79.2845772,TTC Bus #68 Warden,43.71177810997778,-79.27971412913774,Bus Line
+"Clairlea,Golden Mile,Oakridge",43.711111700000004,-79.2845772,Warden Subway Station,43.71122905571982,-79.27960224480387,Metro Station
+"Clairlea,Golden Mile,Oakridge",43.711111700000004,-79.2845772,TTC Bus 102 Markham Road,43.711381420906115,-79.27958752636661,Bus Line
+"Clairlea,Golden Mile,Oakridge",43.711111700000004,-79.2845772,Warden Station Bus Loop,43.71124084776515,-79.27957605867647,Bus Station
+"Clairlea,Golden Mile,Oakridge",43.711111700000004,-79.2845772,Bakery On The Go,43.711270905205765,-79.27950587661704,Bakery
+"Clairlea,Golden Mile,Oakridge",43.711111700000004,-79.2845772,Cafe on the go,43.71115104374148,-79.27946923512921,Bakery
+"Clairlea,Golden Mile,Oakridge",43.711111700000004,-79.2845772,Warden Woods Park,43.71052711027375,-79.27896551895955,Park
+"Clairlea,Golden Mile,Oakridge",43.711111700000004,-79.2845772,Clairlea Futbol Centre,43.71523429184505,-79.28650639185544,Soccer Field
+"Cliffcrest,Cliffside,Scarborough Village West",43.716316,-79.23947609999999,Have A Nap Motel,43.718256,-79.240135,Motel
+"Cliffcrest,Cliffside,Scarborough Village West",43.716316,-79.23947609999999,Vincent's Spot,43.71700152544261,-79.24235338465942,American Restaurant
+"Birch Cliff,Cliffside West",43.692657000000004,-79.2648481,The Birchcliff,43.69166644406541,-79.26453158481682,Café
+"Birch Cliff,Cliffside West",43.692657000000004,-79.2648481,Birchmount Community Centre,43.69517507509799,-79.26216087070237,General Entertainment
+"Birch Cliff,Cliffside West",43.692657000000004,-79.2648481,Scarborough Gardens,43.6946465192162,-79.26223031725522,Skating Rink
+"Birch Cliff,Cliffside West",43.692657000000004,-79.2648481,Birchmount Stadium,43.695322867712626,-79.26129341125488,College Stadium
+"Dorset Park,Scarborough Town Centre,Wexford Heights",43.7574096,-79.27330400000001,Kairali,43.754914739291834,-79.27694504646365,Indian Restaurant
+"Dorset Park,Scarborough Town Centre,Wexford Heights",43.7574096,-79.27330400000001,Kim Kim restaurant,43.75383283792732,-79.27661122245037,Chinese Restaurant
+"Dorset Park,Scarborough Town Centre,Wexford Heights",43.7574096,-79.27330400000001,Pho Vietnam,43.757770305647185,-79.27857193068989,Vietnamese Restaurant
+"Dorset Park,Scarborough Town Centre,Wexford Heights",43.7574096,-79.27330400000001,Big Al's Pet Supercentre,43.75927894411595,-79.27832544749343,Pet Store
+"Dorset Park,Scarborough Town Centre,Wexford Heights",43.7574096,-79.27330400000001,Karaikudi Chettinad South Indian Restaurant,43.756041539453136,-79.27627591942013,Indian Restaurant
+"Maryvale,Wexford",43.750071500000004,-79.2958491,Crown Pastries,43.746098,-79.293142,Bakery
+"Maryvale,Wexford",43.750071500000004,-79.2958491,Wexford Restaurant,43.7460300445972,-79.29384330907153,Breakfast Spot
+"Maryvale,Wexford",43.750071500000004,-79.2958491,Subway,43.746007572548756,-79.29323762088987,Sandwich Place
+"Maryvale,Wexford",43.750071500000004,-79.2958491,Lebanese bakery,43.74670137305754,-79.29289639281615,Middle Eastern Restaurant
+"Maryvale,Wexford",43.750071500000004,-79.2958491,Scarborough Garage Door Repair,43.75128820404063,-79.30150777101517,Auto Garage
+"Maryvale,Wexford",43.750071500000004,-79.2958491,Sequoia Lounge,43.74564498729392,-79.29573737087405,Middle Eastern Restaurant
+Agincourt,43.7942003,-79.26202940000002,Panagio's Breakfast & Lunch,43.79237001092506,-79.26020325805978,Breakfast Spot
+Agincourt,43.7942003,-79.26202940000002,Twilight,43.791999483291015,-79.25858447143591,Lounge
+Agincourt,43.7942003,-79.26202940000002,El Pulgarcito,43.792647695283875,-79.25920775335268,Latin American Restaurant
+Agincourt,43.7942003,-79.26202940000002,Mark's,43.791178865505806,-79.25971427359902,Clothing Store
+Agincourt,43.7942003,-79.26202940000002,Commander Arena,43.794867324063404,-79.26798888527924,Skating Rink
+"Clarks Corners,Sullivan,Tam O'Shanter",43.7816375,-79.3043021,Remezzo Italian Bistro,43.778649,-79.308264,Italian Restaurant
+"Clarks Corners,Sullivan,Tam O'Shanter",43.7816375,-79.3043021,The Royal Chinese Restaurant 避風塘小炒,43.78050473445372,-79.29884391314476,Chinese Restaurant
+"Clarks Corners,Sullivan,Tam O'Shanter",43.7816375,-79.3043021,Kub Khao,43.780437780734204,-79.2998370364667,Thai Restaurant
+"Clarks Corners,Sullivan,Tam O'Shanter",43.7816375,-79.3043021,Eight Noodles,43.77823412485005,-79.30829897588661,Noodle House
+"Clarks Corners,Sullivan,Tam O'Shanter",43.7816375,-79.3043021,TD Canada Trust,43.7791686,-79.3036167,Bank
+"Clarks Corners,Sullivan,Tam O'Shanter",43.7816375,-79.3043021,KFC,43.77943993243305,-79.30337149356963,Fast Food Restaurant
+"Clarks Corners,Sullivan,Tam O'Shanter",43.7816375,-79.3043021,Popeyes Louisiana Kitchen,43.780476,-79.29846,Fried Chicken Joint
+"Clarks Corners,Sullivan,Tam O'Shanter",43.7816375,-79.3043021,Little Caesars Pizza,43.78056271894292,-79.2986242771319,Pizza Place
+"Clarks Corners,Sullivan,Tam O'Shanter",43.7816375,-79.3043021,Rexall,43.7809,-79.298764,Pharmacy
+"Clarks Corners,Sullivan,Tam O'Shanter",43.7816375,-79.3043021,Circle K,43.7809377,-79.2986338,Convenience Store
+"Clarks Corners,Sullivan,Tam O'Shanter",43.7816375,-79.3043021,Gusto Pizza,43.78360724036883,-79.29898327417831,Pizza Place
+"Clarks Corners,Sullivan,Tam O'Shanter",43.7816375,-79.3043021,Rexall,43.78073190083844,-79.2982568317862,Pharmacy
+"Agincourt North,L'Amoreaux East,Milliken,Steeles East",43.8152522,-79.2845772,Port Royal Park,43.815477,-79.289773,Park
+"Agincourt North,L'Amoreaux East,Milliken,Steeles East",43.8152522,-79.2845772,Milliken Public School Playground,43.81538282984429,-79.2898673242174,Playground
+L'Amoreaux West,43.799525200000005,-79.3183887,Mr Congee Chinese Cuisine 龍粥記,43.798878792587615,-79.3183345011537,Chinese Restaurant
+L'Amoreaux West,43.799525200000005,-79.3183887,Phoenix Restaurant 金鳳餐廳,43.79819775434163,-79.31843152382791,Chinese Restaurant
+L'Amoreaux West,43.799525200000005,-79.3183887,Subway,43.798982701368914,-79.31883822486604,Sandwich Place
+L'Amoreaux West,43.799525200000005,-79.3183887,Price Chopper,43.799444969304986,-79.3185634598668,Grocery Store
+L'Amoreaux West,43.799525200000005,-79.3183887,KFC,43.7989384013184,-79.31885368338149,Fast Food Restaurant
+L'Amoreaux West,43.799525200000005,-79.3183887,Shoppers Drug Mart,43.799966,-79.317985,Pharmacy
+L'Amoreaux West,43.799525200000005,-79.3183887,Tim Hortons,43.7991018,-79.3187148,Coffee Shop
+L'Amoreaux West,43.799525200000005,-79.3183887,McDonald's,43.79824882031983,-79.31816666829309,Fast Food Restaurant
+L'Amoreaux West,43.799525200000005,-79.3183887,Pizza Pizza,43.79790927666095,-79.31811332702635,Pizza Place
+L'Amoreaux West,43.799525200000005,-79.3183887,Eggsmart,43.796375,-79.318681,Breakfast Spot
+L'Amoreaux West,43.799525200000005,-79.3183887,Metro,43.79807490046229,-79.31844889524201,Supermarket
+Hillcrest Village,43.8037622,-79.3634517,Eagle's Nest Golf Club,43.805454826002794,-79.36418592243415,Golf Course
+Hillcrest Village,43.8037622,-79.3634517,AY Jackson Pool,43.804515413699576,-79.36613821581467,Pool
+Hillcrest Village,43.8037622,-79.3634517,Villa Madina,43.80168506227364,-79.36393844569061,Mediterranean Restaurant
+Hillcrest Village,43.8037622,-79.3634517,Duncan Creek Park,43.80553928816196,-79.36069456944033,Dog Run
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,The LEGO Store,43.77820727238842,-79.34348299621146,Toy / Game Store
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,SilverCity Fairview Mall Cinemas,43.77868093228815,-79.3440850072426,Movie Theater
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Hero Certified Burgers,43.7772948385197,-79.34458372068603,Burger Joint
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Michel's Baguette,43.77708227220403,-79.34455653003414,Bakery
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,CF Fairview Mall,43.777993908591895,-79.34366510981064,Shopping Mall
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Purdys Chocolatier,43.77816,-79.344154,Candy Store
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,DAVIDsTEA,43.77754451824154,-79.34526267457191,Tea Room
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Apple Fairview,43.7779146,-79.343561,Electronics Store
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Moxie's Classic Grill,43.777778810576905,-79.34318499889385,American Restaurant
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Aroma Espresso Bar,43.777700197902725,-79.34465166972005,Coffee Shop
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Shoppers Drug Mart,43.776079,-79.34363,Pharmacy
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,New York Fries,43.77829829945936,-79.34326735202254,Fast Food Restaurant
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Hudson's Bay,43.777830351654046,-79.34304327486974,Department Store
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Starbucks,43.77799,-79.344091,Coffee Shop
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,De Berardini's,43.77806925637981,-79.34264197549473,Salon / Barbershop
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,H&M,43.77754859086118,-79.34560423018411,Clothing Store
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Booster Juice,43.77742786,-79.3449699,Smoothie Shop
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Old Navy,43.7779901,-79.3440914,Clothing Store
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Fairview Library Theatre,43.779018057023805,-79.34652599431665,Theater
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,J.Crew,43.7779417,-79.3451178,Clothing Store
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Heart Sushi,43.777203,-79.343805,Japanese Restaurant
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Fairview Mall Food Garden,43.77836930887007,-79.34321606591291,Food Court
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,LCBO,43.77895496200283,-79.34504796258686,Liquor Store
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,TD Canada Trust,43.777763,-79.345974,Bank
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Ten Ren's Tea Time,43.777158444629066,-79.34453087278449,Juice Bar
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Zara,43.777961241763556,-79.34469070057258,Clothing Store
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Thai Express,43.77799,-79.344091,Restaurant
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Tim Hortons,43.777964,-79.344715,Coffee Shop
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,SEPHORA,43.778366,-79.3437003,Cosmetics Shop
+"Fairview,Henry Farm,Oriole",43.7785175,-79.3465557,Tim Hortons,43.7749925,-79.3463027,Coffee Shop
+Bayview Village,43.7869473,-79.385975,Sun Star Chinese Cuisine 翠景小炒,43.78791448422642,-79.38123404311649,Chinese Restaurant
+Bayview Village,43.7869473,-79.385975,TD Canada Trust,43.7880740139986,-79.38036672770977,Bank
+Bayview Village,43.7869473,-79.385975,Maxim's Cafe and Patisserie,43.78786337669778,-79.38075094208715,Café
+Bayview Village,43.7869473,-79.385975,Kaga Sushi,43.78775840092113,-79.38108976991016,Japanese Restaurant
+"Silver Hills,York Mills",43.7574902,-79.37471409999999,Windfields Cafeteria,43.755862,-79.370649,Cafeteria
+Willowdale South,43.7701199,-79.40849279999999,Loblaws,43.768722,-79.412101,Grocery Store
+Willowdale South,43.7701199,-79.40849279999999,Konjiki Ramen,43.76699771023422,-79.41222209328754,Ramen Restaurant
+Willowdale South,43.7701199,-79.40849279999999,The Keg,43.7665789176648,-79.41213141222555,Steakhouse
+Willowdale South,43.7701199,-79.40849279999999,Aroma Espresso Bar,43.76944882099181,-79.41308107735675,Café
+Willowdale South,43.7701199,-79.40849279999999,Cineplex Cinemas Empress Walk,43.76862539839479,-79.41261307104753,Movie Theater
+Willowdale South,43.7701199,-79.40849279999999,Starbucks,43.768353,-79.413046,Coffee Shop
+Willowdale South,43.7701199,-79.40849279999999,Saryo,43.76697902009232,-79.41220491675689,Café
+Willowdale South,43.7701199,-79.40849279999999,Satay Sate,43.76669,-79.4121,Indonesian Restaurant
+Willowdale South,43.7701199,-79.40849279999999,Wako Sushi + Bar,43.77080606720809,-79.41313811956255,Japanese Restaurant
+Willowdale South,43.7701199,-79.40849279999999,Empress Walk,43.768540252857974,-79.4126707082784,Shopping Mall
+Willowdale South,43.7701199,-79.40849279999999,Michaels,43.76724487394571,-79.41197372883607,Arts & Crafts Store
+Willowdale South,43.7701199,-79.40849279999999,PetSmart,43.769139,-79.412522,Pet Store
+Willowdale South,43.7701199,-79.40849279999999,Mel Lastman Square,43.76770145783431,-79.41297541544051,Plaza
+Willowdale South,43.7701199,-79.40849279999999,Booster Juice,43.76889,-79.4129899,Juice Bar
+Willowdale South,43.7701199,-79.40849279999999,Symposium Cafe Restaurant & Lounge,43.77107544003332,-79.41339624610163,Restaurant
+Willowdale South,43.7701199,-79.40849279999999,Starbucks,43.768464,-79.414017,Coffee Shop
+Willowdale South,43.7701199,-79.40849279999999,Aura,43.766012799364795,-79.41081286441447,Lounge
+Willowdale South,43.7701199,-79.40849279999999,Subway,43.768175813865255,-79.41367417969296,Sandwich Place
+Willowdale South,43.7701199,-79.40849279999999,Dairy Queen (Treat),43.76701557770687,-79.4120009150447,Ice Cream Shop
+Willowdale South,43.7701199,-79.40849279999999,KINTON RAMEN,43.76968375926793,-79.41304877291766,Ramen Restaurant
+Willowdale South,43.7701199,-79.40849279999999,Wendy's,43.76846127243853,-79.4123771060805,Fast Food Restaurant
+Willowdale South,43.7701199,-79.40849279999999,Best Buy,43.76811518063931,-79.4126082683499,Electronics Store
+Willowdale South,43.7701199,-79.40849279999999,Aburi Room,43.769197,-79.414039,Sushi Restaurant
+Willowdale South,43.7701199,-79.40849279999999,Pho 88 Vietnamese Cuisine,43.77045596393368,-79.41306424537943,Vietnamese Restaurant
+Willowdale South,43.7701199,-79.40849279999999,Ajisen Ramen 味千ラーメン,43.771444,-79.413139,Ramen Restaurant
+Willowdale South,43.7701199,-79.40849279999999,Dollarama,43.768722,-79.412101,Discount Store
+Willowdale South,43.7701199,-79.40849279999999,Shawarma Max,43.76601170897119,-79.41084443679077,Middle Eastern Restaurant
+Willowdale South,43.7701199,-79.40849279999999,Boston Pizza,43.76966566980136,-79.41305666054794,Pizza Place
+Willowdale South,43.7701199,-79.40849279999999,Subway,43.77140090446779,-79.41345717293876,Sandwich Place
+Willowdale South,43.7701199,-79.40849279999999,Ten Ren's Tea Time 喫茶新饌,43.769574852327395,-79.41259669370922,Bubble Tea Shop
+York Mills West,43.752758299999996,-79.4000493,TD Canada Trust Branch and ATM,43.7509235,-79.4010039,Bank
+York Mills West,43.752758299999996,-79.4000493,Kitchen Food Fair,43.751297901387304,-79.40139340223642,Convenience Store
+York Mills West,43.752758299999996,-79.4000493,Tournament Park,43.75125720420175,-79.39971685409546,Park
+Willowdale West,43.7827364,-79.4422593,Tov-Li,43.78421369713337,-79.44609771646198,Pizza Place
+Willowdale West,43.7827364,-79.4422593,Shoppers Drug Mart,43.784847,-79.446028,Pharmacy
+Willowdale West,43.7827364,-79.4422593,Dollarama,43.78467,-79.4466696,Discount Store
+Willowdale West,43.7827364,-79.4422593,Tim Hortons,43.7809395,-79.4442308,Coffee Shop
+Willowdale West,43.7827364,-79.4422593,Price Chopper,43.783237418498096,-79.44633923214607,Grocery Store
+Willowdale West,43.7827364,-79.4422593,Hartman's,43.78431215202778,-79.44621271750725,Butcher
+Willowdale West,43.7827364,-79.4422593,Painters With a Brush,43.7826682,-79.44828139999998,Home Service
+Parkwoods,43.7532586,-79.3296565,Brookbanks Park,43.751976046055574,-79.33214044722958,Park
+Parkwoods,43.7532586,-79.3296565,Variety Store,43.75197441585782,-79.33311418516017,Food & Drink Shop
+Parkwoods,43.7532586,-79.3296565,TTC stop - 44 Valley Woods,43.75540238129278,-79.33374133300899,Bus Stop
+Don Mills North,43.745905799999996,-79.352188,LA Fitness,43.74766522888878,-79.34707696065234,Gym / Fitness Center
+Don Mills North,43.745905799999996,-79.352188,Island Foods,43.745866073988985,-79.34603533317939,Caribbean Restaurant
+Don Mills North,43.745905799999996,-79.352188,Baretto Caffé,43.74445646349851,-79.34645978471785,Café
+Don Mills North,43.745905799999996,-79.352188,Gonoe Sushi,43.74573681959921,-79.34599119916211,Japanese Restaurant
+Don Mills North,43.745905799999996,-79.352188,Elite Camps,43.745053,-79.354296,Basketball Court
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Fitness Connection,43.72747286430573,-79.34170684305083,Gym
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Sorento Restaurant,43.72657509457231,-79.34198930569546,Italian Restaurant
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Oomomo,43.72642908913988,-79.34328336099873,Discount Store
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Swiss Chalet Rotisserie & Grill,43.7267367878352,-79.34140272120312,Restaurant
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Tilley Endurables,43.72703319748601,-79.34292634000684,Clothing Store
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Memories of Japan,43.72734746849249,-79.34136445237439,Japanese Restaurant
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Skiis and Biikes,43.726350918006425,-79.34297712786963,Bike Shop
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Japanese Canadian Cultural Centre,43.726429,-79.334971,Concert Hall
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Just Hockey Source For Sports,43.72709513128194,-79.34259061584578,Sporting Goods Shop
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,The Beer Store,43.7269871,-79.3414943,Beer Store
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Tim Hortons,43.72289725323043,-79.33911703526974,Coffee Shop
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Genghis Khan Mongolian Grill,43.7269059862849,-79.34121626053623,Asian Restaurant
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Real Canadian Superstore,43.722704,-79.337508,Supermarket
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Asian Legend,43.7265905030894,-79.34218786843495,Dim Sum Restaurant
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,GoodLife Fitness North York Don Mills and Eglinton,43.722704,-79.337508,Gym
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Congee Star 帝王名粥,43.72658622416194,-79.34183343111253,Chinese Restaurant
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,The Beer Store,43.7227042,-79.3375083,Beer Store
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Pho 88 發發餐廳,43.72664201962024,-79.3423446449432,Asian Restaurant
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Subway,43.72432189860479,-79.33685838010095,Sandwich Place
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Harvey's,43.726618141963044,-79.34099700109225,Fast Food Restaurant
+"Flemingdon Park,Don Mills South",43.72589970000001,-79.340923,Delimark Cafe,43.72753609649164,-79.33954737355866,Coffee Shop
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Wolfie's Deli,43.754875481443555,-79.44243785404784,Deli / Bodega
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Starbucks,43.755703,-79.440483,Coffee Shop
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Best for Bride in Toronto,43.755551,-79.437744,Bridal Shop
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Bagel Plus,43.75539484400371,-79.4406859789969,Restaurant
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Orly Restaurant & Grill,43.754493246006334,-79.44350727697311,Middle Eastern Restaurant
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Tim Hortons,43.75476686520758,-79.44325044751167,Coffee Shop
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Dairy Queen,43.75567964325238,-79.44016579234159,Fast Food Restaurant
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Wimpy's Diner,43.75620987159905,-79.43929448082638,Diner
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,TD Canada Trust,43.7562323,-79.4390254,Bank
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Wakame Sushi,43.755382185036986,-79.44094461257187,Sushi Restaurant
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Popeyes Louisiana Kitchen,43.754671343663034,-79.44274006861691,Fried Chicken Joint
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Subway,43.75572798067668,-79.43988217796945,Sandwich Place
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Pizza Pizza,43.75531145041057,-79.44112566629565,Pizza Place
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Yogurty's,43.756190568366485,-79.43941837290544,Frozen Yogurt Shop
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Petro-Canada,43.755112,-79.438838,Gas Station
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Shoppers Drug Mart,43.756239,-79.439599,Pharmacy
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Sheppard Plaza,43.75569512647938,-79.43961347354475,Shopping Mall
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Metro,43.755791531926526,-79.43980055649448,Supermarket
+"Bathurst Manor,Downsview North,Wilson Heights",43.7543283,-79.4422593,Rogers,43.75543769999999,-79.4411542,Video Store
+"Northwood Park,York University",43.7679803,-79.48726190000001,MUSE Massage Spa,43.7656861872247,-79.4893183666046,Massage Studio
+"Northwood Park,York University",43.7679803,-79.48726190000001,Carribean Heat,43.764155,-79.490227,Caribbean Restaurant
+"Northwood Park,York University",43.7679803,-79.48726190000001,Tim Hortons,43.764289283166015,-79.48879033327103,Coffee Shop
+"Northwood Park,York University",43.7679803,-79.48726190000001,Fox & Fiddle,43.76379461939549,-79.48849672002802,Bar
+"Northwood Park,York University",43.7679803,-79.48726190000001,Bad Boy Furniture - North York,43.76431446505117,-79.4865882396698,Furniture / Home Store
+"Northwood Park,York University",43.7679803,-79.48726190000001,Falafel Express,43.764187100541214,-79.48912096481943,Falafel Restaurant
+"Northwood Park,York University",43.7679803,-79.48726190000001,Lastman's Bad Boy,43.76387769549716,-79.48643532503631,Furniture / Home Store
+"CFB Toronto,Downsview East",43.737473200000004,-79.46476329999999,Toronto Downsview Airport (YZD),43.738882611749744,-79.47011109314882,Airport
+"CFB Toronto,Downsview East",43.737473200000004,-79.46476329999999,Canada's Gardenland,43.73746068250781,-79.46599960327148,Construction & Landscaping
+"CFB Toronto,Downsview East",43.737473200000004,-79.46476329999999,Ancaster Park,43.73470570807407,-79.46477740817078,Park
+Downsview West,43.7390146,-79.5069436,TD Canada Trust,43.740369455302194,-79.51237499713898,Bank
+Downsview West,43.7390146,-79.5069436,Giltspur Park,43.73572426577187,-79.50782060623169,Park
+Downsview West,43.7390146,-79.5069436,Win Farm Supermarket,43.739193173128825,-79.51205313205719,Grocery Store
+Downsview West,43.7390146,-79.5069436,Price Chopper,43.73990841084056,-79.51226143309357,Grocery Store
+Downsview West,43.7390146,-79.5069436,Gecko Hospitality,43.74266963059613,-79.50395822525024,Hotel
+Downsview Central,43.7284964,-79.49569740000001,Roding Park,43.728655041194294,-79.49291760986993,Baseball Field
+Downsview Central,43.7284964,-79.49569740000001,Blue Sail Energy Solutions,43.7314450238841,-79.49378728866577,Business Service
+Downsview Central,43.7284964,-79.49569740000001,Sean's Twisted,43.72443632963932,-79.49385166168213,Korean Restaurant
+Downsview Central,43.7284964,-79.49569740000001,Yummy Dogs,43.72651174068901,-79.50127950136176,Food Truck
+Downsview Northwest,43.7616313,-79.52099940000001,No Frills,43.758178,-79.51968,Grocery Store
+Downsview Northwest,43.7616313,-79.52099940000001,LCBO,43.759256617873106,-79.51945388294175,Liquor Store
+Downsview Northwest,43.7616313,-79.52099940000001,Dollarama,43.758177,-79.519679,Discount Store
+Downsview Northwest,43.7616313,-79.52099940000001,Driftwood community centre,43.76567959563023,-79.51970643195256,Athletics & Sports
+Downsview Northwest,43.7616313,-79.52099940000001,Planet Fitness,43.757538,-79.51961,Gym / Fitness Center
+Downsview Northwest,43.7616313,-79.52099940000001,Planet Fitness,43.757313,-79.519962,Gym
+Victoria Village,43.725882299999995,-79.31557159999998,Victoria Village Arena,43.72348055545508,-79.31563520925143,Hockey Arena
+Victoria Village,43.725882299999995,-79.31557159999998,Tim Hortons,43.725516631714754,-79.31310251366091,Coffee Shop
+Victoria Village,43.725882299999995,-79.31557159999998,Portugril,43.72581876267242,-79.31278541470671,Portuguese Restaurant
+Victoria Village,43.725882299999995,-79.31557159999998,The Frig,43.72705130603407,-79.31741760908679,French Restaurant
+Victoria Village,43.725882299999995,-79.31557159999998,Eglinton Ave E & Sloane Ave/Bermondsey Rd,43.726086,-79.31362,Intersection
+Victoria Village,43.725882299999995,-79.31557159999998,Pizza Nova,43.725823726352196,-79.31286041792907,Pizza Place
+"Woodbine Gardens,Parkview Hill",43.7063972,-79.309937,Jawny Bakers,43.705782646822,-79.31291304477831,Gastropub
+"Woodbine Gardens,Parkview Hill",43.7063972,-79.309937,East York Gymnastics,43.710654,-79.309279,Gym / Fitness Center
+"Woodbine Gardens,Parkview Hill",43.7063972,-79.309937,Shoppers Drug Mart,43.705933,-79.312825,Pharmacy
+"Woodbine Gardens,Parkview Hill",43.7063972,-79.309937,TD Canada Trust,43.705739883755946,-79.31227013468737,Bank
+"Woodbine Gardens,Parkview Hill",43.7063972,-79.309937,Pizza Pizza,43.70515901620182,-79.31312955571528,Pizza Place
+"Woodbine Gardens,Parkview Hill",43.7063972,-79.309937,Harvey's,43.71072995920288,-79.30883762217763,Fast Food Restaurant
+"Woodbine Gardens,Parkview Hill",43.7063972,-79.309937,East York Animal Clinic,43.70592051370348,-79.3121958344716,Pet Store
+"Woodbine Gardens,Parkview Hill",43.7063972,-79.309937,St. Clair Ave E & O'Connor Dr,43.70523283448301,-79.31327432821826,Intersection
+"Woodbine Gardens,Parkview Hill",43.7063972,-79.309937,Venice Pizza,43.70592051370348,-79.31395663414658,Pizza Place
+"Woodbine Gardens,Parkview Hill",43.7063972,-79.309937,Harvey's,43.70813627814792,-79.3141045886623,Fast Food Restaurant
+"Woodbine Gardens,Parkview Hill",43.7063972,-79.309937,TKTO - Toronto Knife Throwing Organization,43.7099660731501,-79.31341111891099,Athletics & Sports
+Woodbine Heights,43.695343900000005,-79.3183887,East York Memorial Arena,43.69722441688202,-79.31539709142582,Skating Rink
+Woodbine Heights,43.695343900000005,-79.3183887,East York Curling Club,43.69682672948465,-79.31365836861947,Curling Ice
+Woodbine Heights,43.695343900000005,-79.3183887,The Beer Store,43.6937312,-79.3167591,Beer Store
+Woodbine Heights,43.695343900000005,-79.3183887,Shoppers Drug Mart,43.699244,-79.318939,Pharmacy
+Woodbine Heights,43.695343900000005,-79.3183887,Beauty Boutique by Shoppers Drug Mart,43.699232,-79.319319,Cosmetics Shop
+Woodbine Heights,43.695343900000005,-79.3183887,East York Skating Club,43.6973057668991,-79.31537625461134,Skating Rink
+Woodbine Heights,43.695343900000005,-79.3183887,Stan Wadlow Park,43.697835820584395,-79.31430328766514,Park
+Woodbine Heights,43.695343900000005,-79.3183887,Thai Wok,43.692789,-79.315951,Asian Restaurant
+Woodbine Heights,43.695343900000005,-79.3183887,New Star Video,43.692565,-79.315937,Video Store
+The Beaches,43.67635739999999,-79.2930312,Glen Manor Ravine,43.67682094413784,-79.29394208780985,Trail
+The Beaches,43.67635739999999,-79.2930312,The Big Carrot Natural Food Market,43.678879,-79.297734,Health Food Store
+The Beaches,43.67635739999999,-79.2930312,Grover Pub and Grub,43.679181434941015,-79.29721535878515,Pub
+The Beaches,43.67635739999999,-79.2930312,Glen Stewart Ravine,43.67629984029563,-79.2947841389563,Other Great Outdoors
+The Beaches,43.67635739999999,-79.2930312,Upper Beaches,43.68056321147582,-79.2928688743688,Neighborhood
+Leaside,43.7090604,-79.3634517,Local Leaside,43.71001166793114,-79.36351433524794,Sports Bar
+Leaside,43.7090604,-79.3634517,LCBO,43.710571304463954,-79.36028703241085,Liquor Store
+Leaside,43.7090604,-79.3634517,Olde Yorke Fish & Chips,43.706141306111306,-79.3618288170822,Fish & Chips Shop
+Leaside,43.7090604,-79.3634517,Rack Attack,43.70693351467496,-79.36226108591485,Sporting Goods Shop
+Leaside,43.7090604,-79.3634517,CrossFit Toronto,43.7080995557005,-79.35905992984772,Gym
+Leaside,43.7090604,-79.3634517,The Leaside Pub,43.710428911854564,-79.36354706165021,Restaurant
+Leaside,43.7090604,-79.3634517,Enduro Sport,43.70605947915959,-79.36183454315712,Bike Shop
+Leaside,43.7090604,-79.3634517,Longo's,43.70643262604979,-79.35975310254634,Supermarket
+Leaside,43.7090604,-79.3634517,Bulk Barn,43.70611573147322,-79.36054145695127,Grocery Store
+Leaside,43.7090604,-79.3634517,Aroma Espresso Bar,43.70561065613986,-79.36077468518098,Coffee Shop
+Leaside,43.7090604,-79.3634517,PetSmart,43.7126819,-79.3626365,Pet Store
+Leaside,43.7090604,-79.3634517,Booster Juice,43.70617277,-79.36065194,Smoothie Shop
+Leaside,43.7090604,-79.3634517,South St. Burger,43.71051026319384,-79.36158441272885,Burger Joint
+Leaside,43.7090604,-79.3634517,Kintako Japanese Restaurant,43.71159659251094,-79.36396207124376,Sushi Restaurant
+Leaside,43.7090604,-79.3634517,Five Guys,43.70563811973093,-79.36121130859895,Burger Joint
+Leaside,43.7090604,-79.3634517,Winners,43.7094205909056,-79.36093211174,Clothing Store
+Leaside,43.7090604,-79.3634517,Subway,43.710410108561625,-79.36185814836224,Sandwich Place
+Leaside,43.7090604,-79.3634517,Leaside Village,43.70568229146645,-79.36077693042236,Shopping Mall
+Leaside,43.7090604,-79.3634517,Golf Town,43.70940869587626,-79.3623167837894,Sporting Goods Shop
+Leaside,43.7090604,-79.3634517,Cupcakes,43.70602656677556,-79.36086417950665,Dessert Shop
+Leaside,43.7090604,-79.3634517,TD Canada Trust Branch and ATM,43.711620471105384,-79.36354860663414,Bank
+Leaside,43.7090604,-79.3634517,Starbucks,43.706564,-79.359591,Coffee Shop
+Leaside,43.7090604,-79.3634517,Tim Hortons,43.70562930215073,-79.36102831503376,Coffee Shop
+Leaside,43.7090604,-79.3634517,Sunset Grill,43.71008051140994,-79.36252937590784,Breakfast Spot
+Leaside,43.7090604,-79.3634517,Amsterdam Barrel House,43.70602053200777,-79.36132913641597,Brewery
+Leaside,43.7090604,-79.3634517,Sport Chek,43.70985360457569,-79.36045518457757,Sporting Goods Shop
+Leaside,43.7090604,-79.3634517,Pier 1 Imports,43.7133394919619,-79.3643121421883,Furniture / Home Store
+Leaside,43.7090604,-79.3634517,Linen Chest,43.70693984029428,-79.35987973289845,Furniture / Home Store
+Leaside,43.7090604,-79.3634517,Mucho Burrito Fresh Mexican Grill,43.706746,-79.361707,Mexican Restaurant
+Leaside,43.7090604,-79.3634517,Best Buy,43.709255121223215,-79.36168044805527,Electronics Store
+Thorncliffe Park,43.7053689,-79.34937190000001,Costco,43.70705091308799,-79.3480933503406,Warehouse Store
+Thorncliffe Park,43.7053689,-79.34937190000001,Iqbal Kebab & Sweet Centre,43.705923230061344,-79.35152127765924,Indian Restaurant
+Thorncliffe Park,43.7053689,-79.34937190000001,Fit4Less,43.705689,-79.346018,Gym
+Thorncliffe Park,43.7053689,-79.34937190000001,Bikram Yoga East York,43.70545001006983,-79.35144826217264,Yoga Studio
+Thorncliffe Park,43.7053689,-79.34937190000001,Shoppers Drug Mart,43.70581,-79.347044,Pharmacy
+Thorncliffe Park,43.7053689,-79.34937190000001,Hero Certified Burgers,43.70551137025456,-79.34706447492002,Burger Joint
+Thorncliffe Park,43.7053689,-79.34937190000001,Subway,43.704627625493806,-79.34966067001598,Sandwich Place
+Thorncliffe Park,43.7053689,-79.34937190000001,Iqbal foods,43.70575095291481,-79.35205378554073,Grocery Store
+Thorncliffe Park,43.7053689,-79.34937190000001,Petro-Canada,43.704058,-79.348094,Gas Station
+Thorncliffe Park,43.7053689,-79.34937190000001,Hakka Garden,43.704578351261326,-79.34977027417523,Indian Restaurant
+Thorncliffe Park,43.7053689,-79.34937190000001,Tim Hortons,43.7050898,-79.3505453,Coffee Shop
+Thorncliffe Park,43.7053689,-79.34937190000001,Pizza Pizza,43.705564293137044,-79.34713894303022,Pizza Place
+Thorncliffe Park,43.7053689,-79.34937190000001,A&W Canada,43.706275,-79.34467,Burger Joint
+Thorncliffe Park,43.7053689,-79.34937190000001,TD Canada Trust,43.7063562,-79.3456426,Bank
+Thorncliffe Park,43.7053689,-79.34937190000001,Food Basics,43.7053872932289,-79.34733754588716,Supermarket
+Thorncliffe Park,43.7053689,-79.34937190000001,Dollarama,43.705689,-79.346018,Discount Store
+Thorncliffe Park,43.7053689,-79.34937190000001,TTC Bus #100 Flemingdon Park,43.70677140337971,-79.34658765792847,Bus Line
+Thorncliffe Park,43.7053689,-79.34937190000001,LCBO,43.706700447882305,-79.34501827004178,Liquor Store
+Thorncliffe Park,43.7053689,-79.34937190000001,Leaside park,43.70217669622919,-79.35137675914693,Park
+East Toronto,43.685347,-79.3381065,Aldwych Park,43.68490095564762,-79.34109075059628,Park
+East Toronto,43.685347,-79.3381065,The Path,43.68392344354094,-79.33500661843325,Park
+East Toronto,43.685347,-79.3381065,Sammon Convenience,43.68695102703702,-79.33500661843325,Convenience Store
+"The Danforth West,Riverdale",43.6795571,-79.352188,Pantheon,43.67762124481265,-79.35143390043564,Greek Restaurant
+"The Danforth West,Riverdale",43.6795571,-79.352188,Dolce Gelato,43.677772998450614,-79.35118737317053,Ice Cream Shop
+"The Danforth West,Riverdale",43.6795571,-79.352188,MenEssentials,43.677820068604575,-79.35126543045044,Cosmetics Shop
+"The Danforth West,Riverdale",43.6795571,-79.352188,Cafe Fiorentina,43.677743,-79.350115,Italian Restaurant
+"The Danforth West,Riverdale",43.6795571,-79.352188,Mezes,43.6779622615441,-79.35019606997218,Greek Restaurant
+"The Danforth West,Riverdale",43.6795571,-79.352188,Moksha Yoga Danforth,43.67762174479883,-79.3521159367257,Yoga Studio
+"The Danforth West,Riverdale",43.6795571,-79.352188,Louis Cifer Brew Works,43.677662745359996,-79.3513125762371,Brewery
+"The Danforth West,Riverdale",43.6795571,-79.352188,La Diperie,43.67753,-79.352295,Ice Cream Shop
+"The Danforth West,Riverdale",43.6795571,-79.352188,Messini Authentic Gyros,43.677827494513096,-79.35056873157725,Greek Restaurant
+"The Danforth West,Riverdale",43.6795571,-79.352188,Alexandros,43.67830448799868,-79.34948556208978,Greek Restaurant
+"The Danforth West,Riverdale",43.6795571,-79.352188,Valley Farm Produce,43.677999294687275,-79.3499690927287,Fruit & Vegetable Store
+"The Danforth West,Riverdale",43.6795571,-79.352188,7 Numbers,43.677061774959824,-79.35393428891682,Italian Restaurant
+"The Danforth West,Riverdale",43.6795571,-79.352188,The Auld Spot Pub,43.67733505610778,-79.35312964755529,Pub
+"The Danforth West,Riverdale",43.6795571,-79.352188,Pizzeria Libretto,43.678488633358,-79.34757579277853,Pizza Place
+"The Danforth West,Riverdale",43.6795571,-79.352188,The Big Carrot Organic Juice Bar,43.677438,-79.352683,Juice Bar
+"The Danforth West,Riverdale",43.6795571,-79.352188,Rikkochez,43.677267,-79.353274,Restaurant
+"The Danforth West,Riverdale",43.6795571,-79.352188,Re: Reading,43.678506570428084,-79.34767758382526,Bookstore
+"The Danforth West,Riverdale",43.6795571,-79.352188,Christina's On The Danforth,43.678239784878826,-79.34918494943804,Greek Restaurant
+"The Danforth West,Riverdale",43.6795571,-79.352188,Tsaa Tea Shop,43.67776898684133,-79.35130446081268,Bubble Tea Shop
+"The Danforth West,Riverdale",43.6795571,-79.352188,Athen's Pastries,43.67816589533113,-79.34892679522846,Greek Restaurant
+"The Danforth West,Riverdale",43.6795571,-79.352188,Pan on the Danforth,43.678263168189865,-79.34864777195595,Greek Restaurant
+"The Danforth West,Riverdale",43.6795571,-79.352188,Urban Nails,43.676667789021906,-79.35660190332753,Spa
+"The Danforth West,Riverdale",43.6795571,-79.352188,Don Valley Trail,43.67633091997674,-79.35392333297455,Trail
+"The Danforth West,Riverdale",43.6795571,-79.352188,IQ Living,43.678477,-79.347811,Furniture / Home Store
+"The Danforth West,Riverdale",43.6795571,-79.352188,Detroit Eatery,43.67759437002395,-79.35176144372598,Diner
+"The Danforth West,Riverdale",43.6795571,-79.352188,Astoria Shish Kebob House,43.677596,-79.351738,Greek Restaurant
+"The Danforth West,Riverdale",43.6795571,-79.352188,Bulk Barn,43.67678989740336,-79.35586511284247,Grocery Store
+"The Danforth West,Riverdale",43.6795571,-79.352188,Caffé Demetre,43.67768266377745,-79.35160842812537,Dessert Shop
+"The Danforth West,Riverdale",43.6795571,-79.352188,Marvel Coffee Co.,43.678629530863844,-79.34746013725268,Coffee Shop
+"The Danforth West,Riverdale",43.6795571,-79.352188,Sher-E-Punjab,43.67730788939673,-79.35306551709385,Indian Restaurant
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,System Fitness,43.667171452103204,-79.31273345707406,Gym
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,The Burger's Priest,43.66661154298639,-79.31553079617778,Burger Joint
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,British Style Fish & Chips,43.66872336908457,-79.31713935234417,Fish & Chips Shop
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,Brett's Ice Cream,43.667222,-79.312831,Ice Cream Shop
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,O Sushi,43.66668372330836,-79.3166142781831,Sushi Restaurant
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,Godspeed Brewery,43.67262030152577,-79.31922849103603,Brewery
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,Woodbine Park,43.66486036311473,-79.31510925292969,Park
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,LCBO,43.66673150624233,-79.31496605090986,Liquor Store
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,Casa di Giorgio,43.66664527559903,-79.31520351125722,Italian Restaurant
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,Pet Valu,43.66697917950893,-79.31466465565389,Pet Store
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,Burrito Bandidos,43.66644546137557,-79.31644740429473,Burrito Place
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,The Tulip Steakhouse,43.66634820248808,-79.31685400996346,Steakhouse
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,Murphy's Law,43.66731906186093,-79.31265587607287,Pub
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,Alliance Cinemas - The Beach,43.666746976047506,-79.31468500467349,Movie Theater
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,Harvey's,43.66666258400179,-79.3150811802549,Fast Food Restaurant
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,Subway,43.666238,-79.317019,Sandwich Place
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,Pizza Nova,43.66646175849127,-79.31648498219599,Pizza Place
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,Pizzaiolo,43.66895319839045,-79.31168339331794,Pizza Place
+"The Beaches West,India Bazaar",43.6689985,-79.31557159999998,Measurement Park,43.666916002070764,-79.31263053498228,Park
+Studio District,43.6595255,-79.340923,Ed's Real Scoop,43.660655832455014,-79.3420187548006,Ice Cream Shop
+Studio District,43.6595255,-79.340923,Leslieville Pumps,43.66089221309069,-79.34062599380812,Sandwich Place
+Studio District,43.6595255,-79.340923,Queen Books,43.6606506251737,-79.34226723956905,Bookstore
+Studio District,43.6595255,-79.340923,Te Aro,43.66137281675049,-79.33857736283377,Coffee Shop
+Studio District,43.6595255,-79.340923,Hooked,43.66040731524296,-79.34325721641623,Fish Market
+Studio District,43.6595255,-79.340923,The Bone House,43.66089376125636,-79.3410974737743,Pet Store
+Studio District,43.6595255,-79.340923,Purple Penguin Cafe,43.660501150739734,-79.34256490845178,Café
+Studio District,43.6595255,-79.340923,Brick Street Breads,43.66068453213004,-79.3425013474948,Bakery
+Studio District,43.6595255,-79.340923,Leslieville Cheese Market,43.66054639296253,-79.3423024562941,Cheese Shop
+Studio District,43.6595255,-79.340923,Leslieville,43.66207024392778,-79.33785619823739,Neighborhood
+Studio District,43.6595255,-79.340923,WAYLABAR,43.661234129782564,-79.33959722763221,Gay Bar
+Studio District,43.6595255,-79.340923,Baldini,43.661299966369135,-79.33902686943661,Italian Restaurant
+Studio District,43.6595255,-79.340923,Reliable Halibut and Chips,43.660874,-79.340938,Seafood Restaurant
+Studio District,43.6595255,-79.340923,Mercury Espresso Bar,43.66080615235188,-79.34124064841119,Coffee Shop
+Studio District,43.6595255,-79.340923,Starbucks,43.660742,-79.342362,Coffee Shop
+Studio District,43.6595255,-79.340923,eastside social,43.661288901982886,-79.33915476536174,Comfort Food Restaurant
+Studio District,43.6595255,-79.340923,EAT BKK Thai Kitchen,43.66045,-79.343113,Thai Restaurant
+Studio District,43.6595255,-79.340923,Tabule,43.65973096534363,-79.3463408134466,Middle Eastern Restaurant
+Studio District,43.6595255,-79.340923,Boxcar Social,43.659722741351565,-79.34687077721378,Café
+Studio District,43.6595255,-79.340923,braised,43.660451867292366,-79.34334606916272,American Restaurant
+Studio District,43.6595255,-79.340923,Wonder Pens,43.662809067344405,-79.34145159601191,Stationery Store
+Studio District,43.6595255,-79.340923,Lil' Baci,43.6605116572649,-79.34315072724176,Italian Restaurant
+Studio District,43.6595255,-79.340923,Bonjour Brioche,43.65973440286799,-79.34626614342186,Bakery
+Studio District,43.6595255,-79.340923,Chez Nous,43.65964,-79.3469,Wine Bar
+Studio District,43.6595255,-79.340923,District 28,43.65517388160507,-79.34059760137761,Coworking Space
+Studio District,43.6595255,-79.340923,Sweat & Soda,43.66185374187197,-79.33619591158853,Café
+Studio District,43.6595255,-79.340923,Jimmie Simpson Park,43.65922968838468,-79.3450629597167,Park
+Studio District,43.6595255,-79.340923,Brooklyn Tavern,43.66193697467491,-79.33593786927155,American Restaurant
+Studio District,43.6595255,-79.340923,Delica Kitchen,43.66080581509536,-79.34150197940215,Café
+Studio District,43.6595255,-79.340923,Barrio Cerveceria,43.66043013260822,-79.34350897486634,Latin American Restaurant
+Lawrence Park,43.7280205,-79.3887901,Lawrence Park Ravine,43.72696303913755,-79.39438246708775,Park
+Lawrence Park,43.7280205,-79.3887901,The Photo School – Toronto,43.730429240438326,-79.38876673579216,Photography Studio
+Lawrence Park,43.7280205,-79.3887901,Zodiac Swim School,43.72853205765438,-79.3828602612317,Swim School
+Lawrence Park,43.7280205,-79.3887901,TTC Bus #162 - Lawrence-Donway,43.72802605799448,-79.38280527753858,Bus Line
+Davisville North,43.7127511,-79.3901975,Summerhill Market North,43.71549914910689,-79.39288125988016,Food & Drink Shop
+Davisville North,43.7127511,-79.3901975,Sherwood Park,43.71655100307589,-79.38777567141624,Park
+Davisville North,43.7127511,-79.3901975,Homeway Restaurant & Brunch,43.71264120397444,-79.39155655199944,Breakfast Spot
+Davisville North,43.7127511,-79.3901975,Winners,43.71323606413252,-79.3938728363979,Clothing Store
+Davisville North,43.7127511,-79.3901975,Best Western Roehampton Hotel & Suites,43.7088783,-79.3908798,Hotel
+Davisville North,43.7127511,-79.3901975,Subway,43.708377580939676,-79.390473242753,Sandwich Place
+Davisville North,43.7127511,-79.3901975,Gym,43.71312601210131,-79.39353747528043,Gym
+Davisville North,43.7127511,-79.3901975,Ho Su Korean & Japanese Restaurant,43.71000214374543,-79.39385634325662,Asian Restaurant
+North Toronto West,43.7153834,-79.40567840000001,C'est Bon,43.71678474928588,-79.40040634837081,Chinese Restaurant
+North Toronto West,43.7153834,-79.40567840000001,Barreworks,43.71407030751952,-79.40010911522093,Yoga Studio
+North Toronto West,43.7153834,-79.40567840000001,Nailsense,43.71746731916717,-79.40065341489495,Spa
+North Toronto West,43.7153834,-79.40567840000001,Uncle Betty's Diner,43.7144524368588,-79.40009057656115,Diner
+North Toronto West,43.7153834,-79.40567840000001,Civello Salon,43.71511093497453,-79.40030409940266,Salon / Barbershop
+North Toronto West,43.7153834,-79.40567840000001,Starbucks,43.71559,-79.40045,Coffee Shop
+North Toronto West,43.7153834,-79.40567840000001,Sushi Shop,43.713861,-79.400093,Restaurant
+North Toronto West,43.7153834,-79.40567840000001,lululemon,43.7134783384539,-79.4000817882245,Sporting Goods Shop
+North Toronto West,43.7153834,-79.40567840000001,Tio's Urban Mexican,43.71463,-79.4,Mexican Restaurant
+North Toronto West,43.7153834,-79.40567840000001,Dufflet Pastries,43.71572948229811,-79.40028336157728,Dessert Shop
+North Toronto West,43.7153834,-79.40567840000001,A&W Canada,43.715149,-79.399944,Burger Joint
+North Toronto West,43.7153834,-79.40567840000001,Tim Hortons,43.71489400011398,-79.39977586269379,Coffee Shop
+North Toronto West,43.7153834,-79.40567840000001,Sporting Life,43.71627717160474,-79.40024796918705,Sporting Goods Shop
+North Toronto West,43.7153834,-79.40567840000001,Gap,43.71544977487359,-79.40008916661074,Clothing Store
+North Toronto West,43.7153834,-79.40567840000001,Second Cup,43.714583000256965,-79.40011973797179,Café
+North Toronto West,43.7153834,-79.40567840000001,St. Clements - Yonge Parkette,43.71206179547874,-79.40425523454469,Park
+North Toronto West,43.7153834,-79.40567840000001,Milkcow,43.71590694517564,-79.40012454986572,Ice Cream Shop
+North Toronto West,43.7153834,-79.40567840000001,Pet Valu,43.71412602510993,-79.39997509672807,Pet Store
+North Toronto West,43.7153834,-79.40567840000001,Degrees Kitchen Store,43.71430705492837,-79.3998816417247,Furniture / Home Store
+North Toronto West,43.7153834,-79.40567840000001,Gap,43.714009,-79.399959,Clothing Store
+Davisville,43.7043244,-79.3887901,Jules Cafe Patisserie,43.70413799694304,-79.38841260442167,Dessert Shop
+Davisville,43.7043244,-79.3887901,Thobors Boulangerie Patisserie Café,43.704513877453266,-79.38861602551758,Café
+Davisville,43.7043244,-79.3887901,XO Gelato,43.70517671239303,-79.3887930388649,Dessert Shop
+Davisville,43.7043244,-79.3887901,Marigold Indian Bistro,43.702880859375,-79.38800811767578,Indian Restaurant
+Davisville,43.7043244,-79.3887901,Viva Napoli,43.70575225315343,-79.38912464296774,Pizza Place
+Davisville,43.7043244,-79.3887901,Zee Grill,43.70498511291793,-79.38847622354874,Seafood Restaurant
+Davisville,43.7043244,-79.3887901,Starbucks,43.70594,-79.38941,Coffee Shop
+Davisville,43.7043244,-79.3887901,June Rowlands Park,43.70051698238234,-79.38918866607341,Park
+Davisville,43.7043244,-79.3887901,Sakae Sushi,43.70494407149989,-79.38870408604551,Sushi Restaurant
+Davisville,43.7043244,-79.3887901,Florentia Ristorante,43.703594,-79.3879846,Italian Restaurant
+Davisville,43.7043244,-79.3887901,Positano,43.704558,-79.38863854,Italian Restaurant
+Davisville,43.7043244,-79.3887901,Flaky Tart,43.70653850357435,-79.38961139953942,Dessert Shop
+Davisville,43.7043244,-79.3887901,GoodLife Fitness Toronto Mount Pleasant and Davisville,43.700802,-79.386417,Gym
+Davisville,43.7043244,-79.3887901,Granite Brewery,43.70799119535042,-79.38994275728216,Brewery
+Davisville,43.7043244,-79.3887901,Bread and Butter,43.70158248227423,-79.3873587869354,Sandwich Place
+Davisville,43.7043244,-79.3887901,Thai Spicy House,43.7019616162845,-79.3875129672506,Thai Restaurant
+Davisville,43.7043244,-79.3887901,Hazel's Diner,43.70210267511542,-79.3876176468172,Diner
+Davisville,43.7043244,-79.3887901,Crossfit Metric,43.70747956557104,-79.38985687683696,Gym
+Davisville,43.7043244,-79.3887901,Hokkaido Sushi,43.708081718364554,-79.38999467246003,Sushi Restaurant
+Davisville,43.7043244,-79.3887901,Mastermind Toys,43.704839243420075,-79.38854629838522,Toy / Game Store
+Davisville,43.7043244,-79.3887901,souvlaki express,43.70737794652891,-79.38984793934696,Greek Restaurant
+Davisville,43.7043244,-79.3887901,Second Cup,43.704344001380505,-79.38865888961692,Coffee Shop
+Davisville,43.7043244,-79.3887901,Shoppers Drug Mart,43.707806,-79.389893,Pharmacy
+Davisville,43.7043244,-79.3887901,Apple Tree Farmer's Market,43.70032613903132,-79.38976045544334,Farmers Market
+Davisville,43.7043244,-79.3887901,Marcheleo's Gourmet Marketplace,43.70804065392919,-79.39219480282117,Gourmet Shop
+Davisville,43.7043244,-79.3887901,Starving Artist,43.701538,-79.38724,Restaurant
+Davisville,43.7043244,-79.3887901,Subway,43.70174172309233,-79.38759973282761,Sandwich Place
+Davisville,43.7043244,-79.3887901,Meow Cat Cafe,43.702927,-79.38819,Café
+Davisville,43.7043244,-79.3887901,Pizza Pizza,43.70613821755869,-79.38929246805056,Pizza Place
+Davisville,43.7043244,-79.3887901,Subway,43.708377580939676,-79.390473242753,Sandwich Place
+"Moore Park,Summerhill East",43.6895743,-79.38315990000001,Loring-Wyle Parkette,43.690270427217385,-79.3834375880377,Park
+"Moore Park,Summerhill East",43.6895743,-79.38315990000001,Ravine,43.69035594864729,-79.38684099383201,Trail
+"Moore Park,Summerhill East",43.6895743,-79.38315990000001,Moore Park Tennis Club,43.693289308734215,-79.38289953522846,Tennis Court
+"Moore Park,Summerhill East",43.6895743,-79.38315990000001,Moorevale Park,43.693609879336925,-79.38346507970056,Playground
+"Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West",43.68641229999999,-79.4000493,The Market By Longo’s,43.686711,-79.399536,Supermarket
+"Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West",43.68641229999999,-79.4000493,LCBO,43.686990631074885,-79.39923810519545,Liquor Store
+"Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West",43.68641229999999,-79.4000493,Union Social Eatery,43.68789522205706,-79.39491559605742,American Restaurant
+"Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West",43.68641229999999,-79.4000493,Daeco Sushi,43.68783769992881,-79.39565249242683,Sushi Restaurant
+"Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West",43.68641229999999,-79.4000493,Mary Be Kitchen,43.687708,-79.395062,Restaurant
+"Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West",43.68641229999999,-79.4000493,Starbucks,43.686756,-79.398292,Coffee Shop
+"Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West",43.68641229999999,-79.4000493,Raiders E-Sports Centre,43.687682915990386,-79.39594439646025,Sports Bar
+"Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West",43.68641229999999,-79.4000493,Tim Hortons,43.687682,-79.39684,Coffee Shop
+"Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West",43.68641229999999,-79.4000493,Fionn MacCool's,43.68792137317272,-79.39478325313542,Pub
+"Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West",43.68641229999999,-79.4000493,Popeyes Louisiana Kitchen,43.6893,-79.395302,Fried Chicken Joint
+"Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West",43.68641229999999,-79.4000493,Scallywags,43.687981749962695,-79.39467568457059,Pub
+"Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West",43.68641229999999,-79.4000493,Pizzaiolo,43.68799051263145,-79.39463424218918,Pizza Place
+"Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West",43.68641229999999,-79.4000493,Sprout,43.687995609133544,-79.39465149552744,Vietnamese Restaurant
+"Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West",43.68641229999999,-79.4000493,TTC Stop #,43.6858256,-79.40498099,Light Rail Station
+"Deer Park,Forest Hill SE,Rathnelly,South Hill,Summerhill West",43.68641229999999,-79.4000493,Kiva's,43.687983764255456,-79.39471505267664,Bagel Shop
+Rosedale,43.6795626,-79.37752940000001,Rosedale Park,43.68232820227814,-79.37893434347683,Playground
+Rosedale,43.6795626,-79.37752940000001,Whitney Park,43.68203573063681,-79.37378835021306,Park
+Rosedale,43.6795626,-79.37752940000001,Alex Murray Parkette,43.678300240478954,-79.38277328698108,Park
+Rosedale,43.6795626,-79.37752940000001,Milkman's Lane,43.676352068015554,-79.37384239440172,Trail
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Cranberries,43.6678427705951,-79.36940687874281,Diner
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Kingyo Toronto,43.66589495808371,-79.36841520638596,Japanese Restaurant
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Butter Chicken Factory,43.66707247004843,-79.36918422958169,Indian Restaurant
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Murgatroid,43.66738149016019,-79.36931129229457,Restaurant
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Merryberry Cafe + Bistro,43.66663020301851,-79.36879184199822,Café
+"Cabbagetown,St. James Town",43.667967,-79.3676753,F'Amelia,43.66753590663226,-79.36861331485827,Italian Restaurant
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Cabbagetown Brew,43.66692279890784,-79.36928929560437,Café
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Absolute Bakery & Café,43.667469462461995,-79.36927654747196,Bakery
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Toronto Dance Theatre,43.66623230619368,-79.36707506629983,General Entertainment
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Fair Trade Jewellery Co.,43.6653480241165,-79.36836240366654,Jewelry Store
+"Cabbagetown,St. James Town",43.667967,-79.3676753,St. Jamestown Delicatessen,43.66581142395609,-79.36864825640076,Butcher
+"Cabbagetown,St. James Town",43.667967,-79.3676753,House on Parliament,43.663645704974314,-79.36785378722945,Gastropub
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Stout Irish Pub,43.66389071833622,-79.3690300810636,Pub
+"Cabbagetown,St. James Town",43.667967,-79.3676753,The Epicure Shop,43.663964860964924,-79.36779540886938,Deli / Bodega
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Mr. Jerk,43.66732847256732,-79.37338943621165,Caribbean Restaurant
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Pet Valu,43.66420501339666,-79.36846012382637,Pet Store
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Kanpai Snack Bar,43.664330935948634,-79.36806503124257,Taiwanese Restaurant
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Labour Of Love,43.663907,-79.368822,Gift Shop
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Sunny Green Vegetable and Fruit,43.667555388483756,-79.3724347693053,Market
+"Cabbagetown,St. James Town",43.667967,-79.3676753,The Pear Tree,43.664904018134834,-79.36824639094671,Restaurant
+"Cabbagetown,St. James Town",43.667967,-79.3676753,TD Canada Trust,43.66465469253796,-79.36788707971579,Bank
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Wellesley Park,43.6696487958367,-79.3621551990509,Park
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Thai Room - Cabbagetown,43.6641587260231,-79.36818872980979,Thai Restaurant
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Jetfuel Coffee,43.66529519392083,-79.3683345416816,Coffee Shop
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Hey Lucy,43.66407509923825,-79.36865505824356,Italian Restaurant
+"Cabbagetown,St. James Town",43.667967,-79.3676753,The Beer Store,43.6664079,-79.368833,Beer Store
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Subway,43.66559771704867,-79.36846996703981,Sandwich Place
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Daniel et Daniel Event Creation & Catering,43.66421724890659,-79.36826854052997,Bakery
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Tim Hortons,43.66716925802294,-79.36884865164751,Coffee Shop
+"Cabbagetown,St. James Town",43.667967,-79.3676753,Pizza Pizza,43.667178738521734,-79.36966873777858,Pizza Place
+Church and Wellesley,43.6658599,-79.38315990000001,Storm Crow Manor,43.66683985695023,-79.38159278029707,Theme Restaurant
+Church and Wellesley,43.6658599,-79.38315990000001,DanceLifeX Centre,43.66695583448771,-79.3852972984314,Dance Studio
+Church and Wellesley,43.6658599,-79.38315990000001,Smith,43.66692666745884,-79.38142135954267,Breakfast Spot
+Church and Wellesley,43.6658599,-79.38315990000001,The Alley,43.66592244798498,-79.38556672752236,Bubble Tea Shop
+Church and Wellesley,43.6658599,-79.38315990000001,Como En Casa,43.66516,-79.384796,Mexican Restaurant
+Church and Wellesley,43.6658599,-79.38315990000001,Wickson Social,43.66590450775969,-79.38571974166427,Gastropub
+Church and Wellesley,43.6658599,-79.38315990000001,DAVIDsTEA,43.66492997804687,-79.38063036396566,Tea Room
+Church and Wellesley,43.6658599,-79.38315990000001,Sansotei Ramen 三草亭,43.666734794517005,-79.3853530009483,Ramen Restaurant
+Church and Wellesley,43.6658599,-79.38315990000001,Bar Volo,43.66546184849369,-79.38569158315659,Beer Bar
+Church and Wellesley,43.6658599,-79.38315990000001,Ho's Team Barber Shop,43.66563031656884,-79.38135926650858,Salon / Barbershop
+Church and Wellesley,43.6658599,-79.38315990000001,Fabarnak,43.66637677585409,-79.38096396850409,Restaurant
+Church and Wellesley,43.6658599,-79.38315990000001,Hero Certified Burgers,43.66562403029978,-79.38090430769088,Burger Joint
+Church and Wellesley,43.6658599,-79.38315990000001,Barbara Hall Park,43.66687857011423,-79.38106777601625,Park
+Church and Wellesley,43.6658599,-79.38315990000001,Glad Day Bookshop,43.66527119350875,-79.38078512672504,Bookstore
+Church and Wellesley,43.6658599,-79.38315990000001,Riddle Room,43.665881092438454,-79.38493615023397,General Entertainment
+Church and Wellesley,43.6658599,-79.38315990000001,Ethiopian House,43.6665987043968,-79.38566906742606,Ethiopian Restaurant
+Church and Wellesley,43.6658599,-79.38315990000001,FUEL+,43.66439936324463,-79.38042718414235,Juice Bar
+Church and Wellesley,43.6658599,-79.38315990000001,North of Brooklyn Pizzeria,43.664383604568975,-79.38037571983865,Pizza Place
+Church and Wellesley,43.6658599,-79.38315990000001,Coach House Restaurant,43.66499059853204,-79.38481415727767,Diner
+Church and Wellesley,43.6658599,-79.38315990000001,Si Lom,43.66501007731949,-79.38068288199048,Thai Restaurant
+Church and Wellesley,43.6658599,-79.38315990000001,Starbucks,43.66498,-79.38051,Coffee Shop
+Church and Wellesley,43.6658599,-79.38315990000001,Churchmouse & Firkin,43.66463217328346,-79.38040612389896,Pub
+Church and Wellesley,43.6658599,-79.38315990000001,Tokyo Grill,43.665085238149395,-79.38470692554789,Japanese Restaurant
+Church and Wellesley,43.6658599,-79.38315990000001,Woody's and Sailor,43.664389684023526,-79.38036131100687,Gay Bar
+Church and Wellesley,43.6658599,-79.38315990000001,T-Swirl Crepe,43.663452,-79.384125,Creperie
+Church and Wellesley,43.6658599,-79.38315990000001,401 Games,43.663623277853254,-79.3840374323983,Hobby Shop
+Church and Wellesley,43.6658599,-79.38315990000001,Black Eagle,43.66408473971554,-79.38009823456886,Gay Bar
+Church and Wellesley,43.6658599,-79.38315990000001,Holy Chuck,43.66524054342597,-79.38472816592302,Burger Joint
+Church and Wellesley,43.6658599,-79.38315990000001,Tokyo Sushi,43.665885330936845,-79.38697684868161,Sushi Restaurant
+Church and Wellesley,43.6658599,-79.38315990000001,The Men's Room,43.664445596525944,-79.38006704821788,Men's Store
+Harbourfront,43.6542599,-79.3606359,Roselle Desserts,43.653446723052674,-79.3620167174383,Bakery
+Harbourfront,43.6542599,-79.3606359,Tandem Coffee,43.65355870959944,-79.36180945913513,Coffee Shop
+Harbourfront,43.6542599,-79.3606359,Cooper Koo Family YMCA,43.65319052672638,-79.35794700053884,Gym / Fitness Center
+Harbourfront,43.6542599,-79.3606359,Body Blitz Spa East,43.65473505045365,-79.35987433132891,Spa
+Harbourfront,43.6542599,-79.3606359,Impact Kitchen,43.65636850543279,-79.35697968750694,Restaurant
+Harbourfront,43.6542599,-79.3606359,Morning Glory Cafe,43.653946942635294,-79.36114884214422,Breakfast Spot
+Harbourfront,43.6542599,-79.3606359,Dominion Pub and Kitchen,43.65691857501867,-79.35896684476664,Pub
+Harbourfront,43.6542599,-79.3606359,Corktown Common,43.655617799749734,-79.3562113397429,Park
+Harbourfront,43.6542599,-79.3606359,The Distillery Historic District,43.65024435658077,-79.35932278633118,Historic Site
+Harbourfront,43.6542599,-79.3606359,SOMA chocolatemaker,43.65062222570758,-79.35812684032683,Chocolate Shop
+Harbourfront,43.6542599,-79.3606359,Distillery Sunday Market,43.650074989330655,-79.36183171318665,Farmers Market
+Harbourfront,43.6542599,-79.3606359,Figs Breakfast & Lunch,43.65567455427388,-79.3645032892494,Breakfast Spot
+Harbourfront,43.6542599,-79.3606359,Cacao 70,43.650066694561666,-79.36072263183006,Dessert Shop
+Harbourfront,43.6542599,-79.3606359,Brick Street Bakery,43.650574039683974,-79.35953942981405,Bakery
+Harbourfront,43.6542599,-79.3606359,Young Centre for the Performing Arts,43.65082466432163,-79.35759324240415,Performing Arts Venue
+Harbourfront,43.6542599,-79.3606359,Arvo,43.64996280366945,-79.36144178325522,Coffee Shop
+Harbourfront,43.6542599,-79.3606359,Rooster Coffee,43.65189965670432,-79.36560912104514,Coffee Shop
+Harbourfront,43.6542599,-79.3606359,Starbucks,43.651613,-79.364917,Coffee Shop
+Harbourfront,43.6542599,-79.3606359,Sumach Espresso,43.65813540553308,-79.35951549011845,Coffee Shop
+Harbourfront,43.6542599,-79.3606359,Cluny Bistro & Boulangerie,43.650565116074695,-79.35784287026658,French Restaurant
+Harbourfront,43.6542599,-79.3606359,ODIN Cafe + Bar,43.656738544928054,-79.35650305267754,Café
+Harbourfront,43.6542599,-79.3606359,El Catrin,43.650600737116996,-79.35892024942333,Mexican Restaurant
+Harbourfront,43.6542599,-79.3606359,Underpass Park,43.65576361726024,-79.3548059463501,Park
+Harbourfront,43.6542599,-79.3606359,Cocina Economica,43.65495889022676,-79.3656572507398,Mexican Restaurant
+Harbourfront,43.6542599,-79.3606359,Parliament Square Park,43.65026388338689,-79.36219509081177,Park
+Harbourfront,43.6542599,-79.3606359,The Sweet Escape Patisserie,43.65063217302609,-79.35870913127346,Bakery
+Harbourfront,43.6542599,-79.3606359,Dark Horse Espresso Bar,43.653080578844275,-79.3570778621122,Coffee Shop
+Harbourfront,43.6542599,-79.3606359,Berkeley Church,43.65512324174501,-79.36587330410705,Event Space
+Harbourfront,43.6542599,-79.3606359,Izumi,43.6499697935016,-79.36015326451906,Asian Restaurant
+Harbourfront,43.6542599,-79.3606359,Mill St. Brew Pub,43.65035331843578,-79.35848936650571,Pub
+"Ryerson,Garden District",43.6571618,-79.37893709999999,UNIQLO ユニクロ,43.65591027779457,-79.38064099181345,Clothing Store
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Blaze Pizza,43.656518,-79.380015,Pizza Place
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Silver Snail Comics,43.65703137958407,-79.38140310220501,Comic Shop
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Yonge-Dundas Square,43.65605389742188,-79.38049504264389,Plaza
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Page One Cafe,43.65777161112601,-79.3760725691681,Café
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Burrito Boyz,43.656265264409015,-79.37834318376771,Burrito Place
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Ed Mirvish Theatre,43.655101567321054,-79.37976762131545,Theater
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Hokkaido Ramen Santouka らーめん山頭火,43.65643520293576,-79.37758637997793,Ramen Restaurant
+"Ryerson,Garden District",43.6571618,-79.37893709999999,DAVIDsTEA,43.65658619027106,-79.38116704725516,Tea Room
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Jazz Bistro,43.65567828473835,-79.37927565514764,Music Venue
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Five Guys,43.65710635305761,-79.38130606340378,Burger Joint
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Salad King,43.65760101432665,-79.38161963017174,Thai Restaurant
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Tacos 101,43.656636132918166,-79.37696796225362,Taco Place
+"Ryerson,Garden District",43.6571618,-79.37893709999999,The Black Canary Espresso Bar,43.65702925121356,-79.38138512728051,Café
+"Ryerson,Garden District",43.6571618,-79.37893709999999,The Senator Restaurant,43.65564091455335,-79.37919882575557,Diner
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Cineplex Cinemas,43.65612555948613,-79.38039005666784,Movie Theater
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Banh Mi Boys,43.659292,-79.381949,Sandwich Place
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Infuse Cafe,43.658068043552504,-79.38172645275614,Coffee Shop
+"Ryerson,Garden District",43.6571618,-79.37893709999999,306 Yonge Street - Jordan Store,43.65649471160899,-79.38101531134684,Sporting Goods Shop
+"Ryerson,Garden District",43.6571618,-79.37893709999999,JOEY Eaton Centre,43.65540379999999,-79.38192889999999,Restaurant
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Nordstrom,43.655041,-79.3809665,Clothing Store
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Barberian's Steak House,43.65775512925926,-79.38217741375935,Steakhouse
+"Ryerson,Garden District",43.6571618,-79.37893709999999,JOEY,43.6560936540828,-79.38187792357716,American Restaurant
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Balzac's Coffee,43.65785440672277,-79.37919981155157,Coffee Shop
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Spring Sushi,43.656252529816086,-79.38065954471074,Sushi Restaurant
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Crepe Delicious,43.654536488277245,-79.38088885547485,Fast Food Restaurant
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Urban Herbivore,43.65497185575342,-79.38085556030273,Vegetarian / Vegan Restaurant
+"Ryerson,Garden District",43.6571618,-79.37893709999999,Kinka Izakaya Original,43.66059636632361,-79.37889120754515,Japanese Restaurant
+"Ryerson,Garden District",43.6571618,-79.37893709999999,The Grand Hotel & Suites Toronto,43.65644901207743,-79.3741100180102,Hotel
+"Ryerson,Garden District",43.6571618,-79.37893709999999,The Queen and Beaver Public House,43.65747228208784,-79.38352412327917,Gastropub
+St. James Town,43.6514939,-79.3754179,Gyu-Kaku Japanese BBQ,43.651422275497914,-79.37504693687086,Japanese Restaurant
+St. James Town,43.6514939,-79.3754179,Terroni,43.650927,-79.375602,Italian Restaurant
+St. James Town,43.6514939,-79.3754179,GoodLife Fitness Toronto 137 Yonge Street,43.651242,-79.378068,Gym
+St. James Town,43.6514939,-79.3754179,GEORGE Restaurant,43.65334645635036,-79.3744449051126,Restaurant
+St. James Town,43.6514939,-79.3754179,Pearl Diver,43.651481290733734,-79.37359954211877,Gastropub
+St. James Town,43.6514939,-79.3754179,Crepe TO,43.650063279511016,-79.37458664523871,Creperie
+St. James Town,43.6514939,-79.3754179,Fahrenheit Coffee,43.65238358726612,-79.37271903848271,Coffee Shop
+St. James Town,43.6514939,-79.3754179,Triple A Bar (AAA),43.65165840099557,-79.3727201723461,BBQ Joint
+St. James Town,43.6514939,-79.3754179,Hogtown Smoke,43.64928693557788,-79.37468932637938,Food Truck
+St. James Town,43.6514939,-79.3754179,Mystic Muffin,43.652483550499326,-79.37265472845176,Middle Eastern Restaurant
+St. James Town,43.6514939,-79.3754179,Versus Coffee,43.65121343781903,-79.37523564828548,Coffee Shop
+St. James Town,43.6514939,-79.3754179,Aveda Institute Toronto,43.65009640955562,-79.37362952211767,Cosmetics Shop
+St. James Town,43.6514939,-79.3754179,Beerbistro,43.64941904378835,-79.37723726034164,Gastropub
+St. James Town,43.6514939,-79.3754179,Dineen Coffee,43.650497,-79.378765,Café
+St. James Town,43.6514939,-79.3754179,NAMI,43.650853361785124,-79.37588746641697,Japanese Restaurant
+St. James Town,43.6514939,-79.3754179,The Poké Box,43.65046931503178,-79.37631703952829,Poke Place
+St. James Town,43.6514939,-79.3754179,Richmond Station,43.65156872562108,-79.37926594000328,American Restaurant
+St. James Town,43.6514939,-79.3754179,Cambridge Suites Toronto,43.65183649475983,-79.37810738045548,Hotel
+St. James Town,43.6514939,-79.3754179,The Carbon Bar,43.65336708689279,-79.37496515174824,Restaurant
+St. James Town,43.6514939,-79.3754179,The Omni King Edward Hotel,43.64919051601911,-79.37600612640387,Hotel
+St. James Town,43.6514939,-79.3754179,St James Anglican Cathedral,43.650109744784004,-79.37429172248066,Church
+St. James Town,43.6514939,-79.3754179,Elgin And Winter Garden Theatres,43.653393796019586,-79.3785073962175,Theater
+St. James Town,43.6514939,-79.3754179,La Bettola Di Terroni,43.65199330592565,-79.37805579614488,Italian Restaurant
+St. James Town,43.6514939,-79.3754179,HI-Toronto Hostel,43.650623213878255,-79.37519039641123,Hostel
+St. James Town,43.6514939,-79.3754179,Vintage Conservatory,43.6522291429876,-79.37348666333094,Speakeasy
+St. James Town,43.6514939,-79.3754179,The Chase,43.650951982093595,-79.37942201983014,New American Restaurant
+St. James Town,43.6514939,-79.3754179,The George Street Diner,43.65297,-79.371467,Diner
+St. James Town,43.6514939,-79.3754179,Sukhothai,43.64848710249909,-79.37454735245633,Thai Restaurant
+St. James Town,43.6514939,-79.3754179,Craft Beer Market,43.6498722789121,-79.37839828995996,Beer Bar
+St. James Town,43.6514939,-79.3754179,Victoria's Restaurant,43.64929834396347,-79.37643067251867,Restaurant
+Berczy Park,43.644770799999996,-79.3733064,The Keg Steakhouse + Bar,43.64667637593993,-79.37482154865866,Steakhouse
+Berczy Park,43.644770799999996,-79.3733064,LCBO,43.64294379917171,-79.37243989044406,Liquor Store
+Berczy Park,43.644770799999996,-79.3733064,Fresh On Front,43.64781466405137,-79.3744527618627,Vegetarian / Vegan Restaurant
+Berczy Park,43.644770799999996,-79.3733064,Meridian Hall,43.646292124205594,-79.37602179505662,Concert Hall
+Berczy Park,43.644770799999996,-79.3733064,Hockey Hall Of Fame (Hockey Hall of Fame),43.646974451431056,-79.37732323942681,Museum
+Berczy Park,43.644770799999996,-79.3733064,Berczy Park,43.64804835388851,-79.3751722909452,Park
+Berczy Park,43.644770799999996,-79.3733064,Biff's Bistro,43.647084825125084,-79.37634231908494,French Restaurant
+Berczy Park,43.644770799999996,-79.3733064,Goose Island Brewhouse,43.64732926809359,-79.37354117631912,Beer Bar
+Berczy Park,43.644770799999996,-79.3733064,D.W. Alexander,43.64833304339161,-79.3738261420116,Cocktail Bar
+Berczy Park,43.644770799999996,-79.3733064,St. Lawrence Market (South Building),43.64874320223593,-79.37159697627527,Farmers Market
+Berczy Park,43.644770799999996,-79.3733064,Sukhothai,43.64848710249909,-79.37454735245633,Thai Restaurant
+Berczy Park,43.644770799999996,-79.3733064,DAVIDsTEA,43.646657736285796,-79.37764102856944,Tea Room
+Berczy Park,43.644770799999996,-79.3733064,St. Lawrence Market (North Building),43.64879290161719,-79.37194535820687,Farmers Market
+Berczy Park,43.644770799999996,-79.3733064,Eggspectation,43.646526,-79.375134,Breakfast Spot
+Berczy Park,43.644770799999996,-79.3733064,Dog Fountain,43.64799795147863,-79.37536096948996,Fountain
+Berczy Park,43.644770799999996,-79.3733064,C'est What,43.64842583928427,-79.37343925237656,Beer Bar
+Berczy Park,43.644770799999996,-79.3733064,Stonemill Bread,43.648668221542096,-79.37160962302049,Bakery
+Berczy Park,43.644770799999996,-79.3733064,Market Street Catch,43.64850142396483,-79.3718080237409,Seafood Restaurant
+Berczy Park,43.644770799999996,-79.3733064,Starbucks,43.644525,-79.36856,Coffee Shop
+Berczy Park,43.644770799999996,-79.3733064,FARMR Eatery & Catering,43.648419863375096,-79.37027379521088,Bistro
+Berczy Park,43.644770799999996,-79.3733064,Scotiabank Arena,43.64344617535107,-79.37903988889991,Basketball Stadium
+Berczy Park,43.644770799999996,-79.3733064,Movenpick Cafe,43.647686808930885,-79.3772953884033,Café
+Berczy Park,43.644770799999996,-79.3733064,Pravda Vodka Bar,43.64851553067474,-79.37473231149953,Cocktail Bar
+Berczy Park,43.644770799999996,-79.3733064,Seafront Fish Market,43.6484785341064,-79.37148942972523,Fish Market
+Berczy Park,43.644770799999996,-79.3733064,Buster's Sea Cove,43.6484950904393,-79.37146231793892,Seafood Restaurant
+Berczy Park,43.644770799999996,-79.3733064,The Reservoir Lounge,43.64851659851552,-79.37455623391588,Jazz Club
+Berczy Park,43.644770799999996,-79.3733064,Balzac's Coffee,43.64845650131932,-79.37178993724407,Café
+Berczy Park,43.644770799999996,-79.3733064,St. Lawrence Market Plaza,43.64916860422451,-79.37232987433548,Art Gallery
+Berczy Park,43.644770799999996,-79.3733064,Scheffler's Deli,43.648643353516086,-79.37153681663685,Cheese Shop
+Berczy Park,43.644770799999996,-79.3733064,Everyday Gourmet (Teas & Coffees),43.64875714757637,-79.37164539765817,Coffee Shop
+Central Bay Street,43.6579524,-79.3873826,Jimmy's Coffee,43.65842123574496,-79.38561319551111,Coffee Shop
+Central Bay Street,43.6579524,-79.3873826,Tim Hortons,43.658569999999976,-79.38512341104502,Coffee Shop
+Central Bay Street,43.6579524,-79.3873826,Hailed Coffee,43.65883296982352,-79.38368351986598,Coffee Shop
+Central Bay Street,43.6579524,-79.3873826,The Elm Tree Restaurant,43.65739749535259,-79.38376054171513,Modern European Restaurant
+Central Bay Street,43.6579524,-79.3873826,College Park Area,43.65975136823981,-79.38491112965691,Park
+Central Bay Street,43.6579524,-79.3873826,Mercatto,43.660390911898546,-79.38766421192705,Italian Restaurant
+Central Bay Street,43.6579524,-79.3873826,The Queen and Beaver Public House,43.65747228208784,-79.38352412327917,Gastropub
+Central Bay Street,43.6579524,-79.3873826,Japango,43.65526771691681,-79.38516506734886,Sushi Restaurant
+Central Bay Street,43.6579524,-79.3873826,Red Lobster,43.656328,-79.383621,Seafood Restaurant
+Central Bay Street,43.6579524,-79.3873826,Chatime 日出茶太,43.65554164147378,-79.38468427043244,Bubble Tea Shop
+Central Bay Street,43.6579524,-79.3873826,Starbucks,43.6595874273128,-79.3852515870617,Coffee Shop
+Central Bay Street,43.6579524,-79.3873826,Sansotei Ramen 三草亭,43.655157467561246,-79.38650067479335,Ramen Restaurant
+Central Bay Street,43.6579524,-79.3873826,Rolltation,43.65491791857301,-79.3874242454196,Japanese Restaurant
+Central Bay Street,43.6579524,-79.3873826,Bubble Republic Tea House 奶茶黨部,43.656707495984975,-79.38416470657434,Bubble Tea Shop
+Central Bay Street,43.6579524,-79.3873826,Starbucks,43.65945605353152,-79.39041123272168,Coffee Shop
+Central Bay Street,43.6579524,-79.3873826,Bubble Bath & Spa,43.65904951746615,-79.38534357912432,Spa
+Central Bay Street,43.6579524,-79.3873826,Fugo Desserts,43.654922556722134,-79.38738186530605,Ice Cream Shop
+Central Bay Street,43.6579524,-79.3873826,Yueh Tung Chinese Restaurant,43.655281263429195,-79.3853365267765,Chinese Restaurant
+Central Bay Street,43.6579524,-79.3873826,Banh Mi Boys,43.659292,-79.381949,Sandwich Place
+Central Bay Street,43.6579524,-79.3873826,GB Hand-Pulled Noodles,43.65643422548463,-79.3837827356398,Chinese Restaurant
+Central Bay Street,43.6579524,-79.3873826,MUJI,43.656024,-79.383284,Miscellaneous Shop
+Central Bay Street,43.6579524,-79.3873826,Coffee Public,43.66076299149323,-79.38618409033066,Coffee Shop
+Central Bay Street,43.6579524,-79.3873826,Cafe Plenty,43.65457125894357,-79.38944976536852,Café
+Central Bay Street,43.6579524,-79.3873826,Tsujiri,43.65537430780922,-79.38535434742991,Tea Room
+Central Bay Street,43.6579524,-79.3873826,Scaddabush Italian Kitchen & Bar,43.658920292028725,-79.38289105381784,Italian Restaurant
+Central Bay Street,43.6579524,-79.3873826,Duke's Refresher + Bar,43.65897985683036,-79.38294890507811,Bar
+Central Bay Street,43.6579524,-79.3873826,Nando's,43.661617063338966,-79.38609536960354,Portuguese Restaurant
+Central Bay Street,43.6579524,-79.3873826,Jimmy's Coffee,43.65582710322224,-79.39204216888555,Café
+Central Bay Street,43.6579524,-79.3873826,Silver Snail Comics,43.65703137958407,-79.38140310220501,Comic Shop
+Central Bay Street,43.6579524,-79.3873826,Kekou Gelato House,43.65609938127313,-79.39271479734887,Ice Cream Shop
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Four Seasons Centre for the Performing Arts,43.650592,-79.385806,Concert Hall
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Nathan Phillips Square,43.65227047322295,-79.38351631164551,Plaza
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,The Keg Steakhouse & Bar,43.649937252985254,-79.38419604942506,Steakhouse
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Rosalinda,43.650252483069295,-79.38515575620075,Vegetarian / Vegan Restaurant
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Shangri-La Toronto,43.64912919417502,-79.3865566853963,Hotel
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Bosk at Shangri-La,43.649022736761516,-79.38582635521233,Asian Restaurant
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Soho House Toronto,43.64873430659662,-79.38654117564838,Speakeasy
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Hy's Steakhouse,43.649504756476944,-79.38291850488223,Steakhouse
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Canadian Opera Company,43.6506601893789,-79.38624169559013,Opera House
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Cafe Landwer,43.64875349932059,-79.3853673607289,Café
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Estiatorio Volos,43.65032912559998,-79.38453301297716,Greek Restaurant
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,M Square Coffee Co,43.65121797253777,-79.38355459932247,Coffee Shop
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Bulldog On The Block,43.65065218852629,-79.38414092873634,Coffee Shop
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Pizzeria Libretto,43.64833354686235,-79.38511050184168,Pizza Place
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Noodle King,43.65170632794881,-79.38304628912547,Asian Restaurant
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Downtown Toronto,43.65323167517444,-79.38529600606677,Neighborhood
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Cactus Club Cafe,43.6495520142626,-79.38167072512041,American Restaurant
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Adelaide Club Toronto,43.64927944291712,-79.38192123284551,Gym / Fitness Center
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Lobby Lounge at the Shangri-La Toronto,43.64915499986854,-79.38654574367817,Lounge
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Assembly Chef's Hall,43.650578865093934,-79.3834119303614,Food Court
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Hilton Toronto,43.6499459,-79.385479,Hotel
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,John & Sons Oyster House,43.65065642537144,-79.38161285228475,Seafood Restaurant
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,JaBistro,43.64968685893743,-79.38809001547467,Sushi Restaurant
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Friendly Stranger - Cannabis Culture Shop,43.650386666114635,-79.38852348995324,Smoke Shop
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Boxcar Social Temperance,43.65055725249405,-79.38195634640063,Bar
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Tachi,43.65059603893127,-79.38339613055128,Sushi Restaurant
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Old City Hall,43.652008800876125,-79.3817442232328,Monument / Landmark
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Toronto PATH System,43.64990340698978,-79.3830527039004,General Travel
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Momofuku Noodle Bar,43.6493658716176,-79.38621652451032,Noodle House
+"Adelaide,King,Richmond",43.65057120000001,-79.3845675,Sam James Coffee Bar (SJCB),43.64788137014028,-79.38433152836829,Café
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Harbourfront,43.639525632239106,-79.38068838052389,Neighborhood
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Roundhouse Park,43.64174513889102,-79.38427882922346,Park
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,iQ Food Co,43.642851,-79.382081,Salad Place
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Real Sports Apparel,43.64285984835777,-79.38018363195047,Sporting Goods Shop
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,BeaverTails,43.639736,-79.380068,Dessert Shop
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Lake Ontario,43.63894493157648,-79.37966465950012,Lake
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Longo's Maple Leaf Square,43.64251679604069,-79.38139301653129,Supermarket
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Harbourfront Centre,43.63855578926675,-79.38319016270458,Performing Arts Venue
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Natrel Pond/Rink,43.6384313677662,-79.38252754335107,Skating Rink
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Maple Leaf Square,43.64292522840183,-79.38089182467687,Plaza
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Delta Hotels by Marriott Toronto,43.6428819,-79.3839491,Hotel
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Ontario Square,43.63937829745867,-79.38209598496967,Plaza
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Evviva Restaurant,43.64157991761808,-79.38345644030795,Deli / Bodega
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Harbour Square Park,43.63925269130776,-79.37839547902978,Park
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Sharetea,43.640175967763966,-79.37960567018246,Bubble Tea Shop
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Boxcar Social,43.63831906511549,-79.38246311921247,Café
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Real Sports Bar & Grill,43.64255846521551,-79.37996506690979,Sports Bar
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,e11even,43.64242558687748,-79.38144094115985,New American Restaurant
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Lick It Gelato,43.63925633222479,-79.38464951914256,Ice Cream Shop
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Aroma Espresso Bar,43.6423209103846,-79.38374932648954,Café
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Le Germain Hotel,43.64312502979691,-79.38091770864038,Hotel
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,SOCO Kitchen+Bar,43.64280448399251,-79.38392149415381,Bistro
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Miku,43.64137436,-79.37753063,Japanese Restaurant
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,The Power Plant,43.63827200397285,-79.38199390946676,Art Gallery
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Taverna Mercatto,43.64262514139939,-79.38325673989138,Italian Restaurant
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Pearl Harbourfront,43.63815654013541,-79.38068763743328,Chinese Restaurant
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,TELUS Store,43.64331243103257,-79.38099939294844,IT Services
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Scotiabank Arena,43.64344617535107,-79.37903988889991,Basketball Stadium
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Delta Toronto Club Lounge,43.64308454373067,-79.38388489051405,Roof Deck
+"Harbourfront East,Toronto Islands,Union Station",43.6408157,-79.38175229999999,Air Canada Club,43.643224100030416,-79.37915938219528,Lounge
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Canoe,43.647452066183476,-79.38132001815676,Restaurant
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Equinox Bay Street,43.64809974034856,-79.37998869411526,Gym
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,The Fairmont Royal York,43.64544914616651,-79.3815076529019,Hotel
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Walrus Pub & Beer Hall,43.64737470920577,-79.37951515363918,Pub
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,WVRST,43.64496809087762,-79.38137631843854,Beer Bar
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Pilot Coffee Roasters,43.648835391245896,-79.3809358125033,Coffee Shop
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Starbucks,43.646731,-79.383951,Coffee Shop
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Adelaide Club Toronto,43.64927944291712,-79.38192123284551,Gym / Fitness Center
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Brick Street Bakery,43.6488151631615,-79.38060468610949,Bakery
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Pilot Coffee Roasters,43.64501814464698,-79.3804150931199,Coffee Shop
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Olly Fresco's,43.646912231909276,-79.37959661696463,Deli / Bodega
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Mos Mos Coffee,43.64815919753501,-79.37874450467258,Café
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Ki Modern Japanese + Bar,43.647167,-79.379608,Japanese Restaurant
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Dineen @CommerceCourt,43.648250543365556,-79.38012728220869,Coffee Shop
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,King Taps,43.648475974183,-79.38205778358744,Gastropub
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Sam James Coffee Bar (SJCB),43.64788137014028,-79.38433152836829,Café
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Design Exchange,43.64797219581623,-79.38010382588462,Art Gallery
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Cactus Club Cafe,43.6495520142626,-79.38167072512041,American Restaurant
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Bymark,43.647217284018005,-79.38125188166379,Restaurant
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Kupfert & Kim (First Canadian Place),43.64854659465186,-79.38162406470161,Gluten-free Restaurant
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Chotto Matte,43.646473,-79.378782,Japanese Restaurant
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Library Bar,43.64550019136729,-79.38160166851243,Hotel Bar
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Pumpernickel's Deli,43.64883150054619,-79.38197006345457,Deli / Bodega
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Union Pearson Express,43.64436200658875,-79.38319927907953,Train Station
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Pizzeria Libretto,43.64833354686235,-79.38511050184168,Pizza Place
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Hy's Steakhouse,43.649504756476944,-79.38291850488223,Steakhouse
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Hockey Hall Of Fame (Hockey Hall of Fame),43.646974451431056,-79.37732323942681,Museum
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Marché Mövenpick,43.6472616,-79.3785998,Restaurant
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,Roy Thomson Hall,43.6465886970634,-79.38597899374354,Concert Hall
+"Design Exchange,Toronto Dominion Centre",43.6471768,-79.38157640000001,DAVIDsTEA,43.646657736285796,-79.37764102856944,Tea Room
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Canoe,43.647452066183476,-79.38132001815676,Restaurant
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Equinox Bay Street,43.64809974034856,-79.37998869411526,Gym
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Mos Mos Coffee,43.64815919753501,-79.37874450467258,Café
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Walrus Pub & Beer Hall,43.64737470920577,-79.37951515363918,Pub
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Adelaide Club Toronto,43.64927944291712,-79.38192123284551,Gym / Fitness Center
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Cactus Club Cafe,43.6495520142626,-79.38167072512041,American Restaurant
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Pilot Coffee Roasters,43.648835391245896,-79.3809358125033,Coffee Shop
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Hockey Hall Of Fame (Hockey Hall of Fame),43.646974451431056,-79.37732323942681,Museum
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Movenpick Cafe,43.647686808930885,-79.3772953884033,Café
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Beerbistro,43.64941904378835,-79.37723726034164,Gastropub
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Café Plenty,43.6491179354577,-79.37831288380438,Café
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Brick Street Bakery,43.6488151631615,-79.38060468610949,Bakery
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Olly Fresco's,43.646912231909276,-79.37959661696463,Deli / Bodega
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Dineen Coffee,43.650497,-79.378765,Café
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Ki Modern Japanese + Bar,43.647167,-79.379608,Japanese Restaurant
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Dineen @CommerceCourt,43.648250543365556,-79.38012728220869,Coffee Shop
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,King Taps,43.648475974183,-79.38205778358744,Gastropub
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Chotto Matte,43.646473,-79.378782,Japanese Restaurant
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Craft Beer Market,43.6498722789121,-79.37839828995996,Beer Bar
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Design Exchange,43.64797219581623,-79.38010382588462,Art Gallery
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,iQ Food Co. (First Canadian Place),43.64835708519922,-79.38219241858727,Salad Place
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Maman,43.64830873804684,-79.38225333898805,Café
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,DAVIDsTEA,43.646657736285796,-79.37764102856944,Tea Room
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Bymark,43.647217284018005,-79.38125188166379,Restaurant
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Kupfert & Kim (First Canadian Place),43.64854659465186,-79.38162406470161,Gluten-free Restaurant
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,deKEFIR,43.65043319523819,-79.37939324949957,Ice Cream Shop
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Marché Mövenpick,43.6472616,-79.3785998,Restaurant
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Pumpernickel's Deli,43.64883150054619,-79.38197006345457,Deli / Bodega
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,The Chase,43.650951982093595,-79.37942201983014,New American Restaurant
+"Commerce Court,Victoria Hotel",43.6481985,-79.37981690000001,Starbucks,43.647261,-79.378599,Coffee Shop
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Aroma Espresso Bar,43.73597504480755,-79.42039080887425,Café
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Darbar Persian Grill,43.735484,-79.420006,Restaurant
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Starbucks,43.732604,-79.419136,Coffee Shop
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,The Copper Chimney,43.73619518432498,-79.42027081330127,Indian Restaurant
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Drums N Flats,43.73503512478632,-79.42003978035157,Comfort Food Restaurant
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Sakura Garden,43.73339792581388,-79.41949129828605,Sushi Restaurant
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Tim Hortons,43.735355956224325,-79.41960454261636,Coffee Shop
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Pheasant & Firkin,43.73517255469138,-79.41970208136466,Pub
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Francobollo,43.734556923055784,-79.41954908679143,Italian Restaurant
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Freshii,43.731582455410454,-79.41910939095219,Juice Bar
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Satay on the Road,43.735310312009226,-79.41978338676937,Thai Restaurant
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Karbouzi Greek Taverna,43.7362044620751,-79.42035885441898,Greek Restaurant
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,LCBO,43.73106478660271,-79.41923740055336,Liquor Store
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Dino's No Frills,43.730699,-79.418535,Grocery Store
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Bruno's Fine Food,43.7366419570093,-79.4198699051871,Butcher
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Subway,43.73159539578682,-79.41963959053555,Sandwich Place
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Il Fornaro,43.734073,-79.41987,Italian Restaurant
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Shoppers Drug Mart,43.736276,-79.419705,Pharmacy
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Safari Bar and Grill,43.72905148409205,-79.41810862863923,American Restaurant
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,McDonald's,43.73254035428967,-79.41979624492376,Fast Food Restaurant
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Pizza Pizza,43.731952,-79.415019,Pizza Place
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Short & Sweet Cupcakes,43.73398728803477,-79.41965901042369,Cupcake Shop
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Greenhawk on the Avenue,43.73402483775977,-79.41980740711942,Hobby Shop
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Eggsmart,43.734886,-79.419632,Breakfast Spot
+"Bedford Park,Lawrence Manor East",43.7332825,-79.4197497,Harvey's & Swiss Chalet,43.730165663862444,-79.41867411150258,Fast Food Restaurant
+Roselawn,43.7116948,-79.41693559999999,Ceiling Champions,43.71389073142895,-79.42070245742796,Home Service
+Roselawn,43.7116948,-79.41693559999999,Rosalind's Garden Oasis,43.71218888050602,-79.41197784736922,Garden
+"Forest Hill North,Forest Hill West",43.6969476,-79.41130720000001,Kay Gardner Beltline Trail,43.700726252588964,-79.4101006611444,Trail
+"Forest Hill North,Forest Hill West",43.6969476,-79.41130720000001,TTC Bus #14 Glencairn,43.70022082088619,-79.41027359709935,Bus Line
+"Forest Hill North,Forest Hill West",43.6969476,-79.41130720000001,Forest Hill Road Park,43.69794474434431,-79.4066047668457,Park
+"Forest Hill North,Forest Hill West",43.6969476,-79.41130720000001,Nikko Sushi Japenese Restaurant,43.700443369880006,-79.40795690464067,Sushi Restaurant
+"Forest Hill North,Forest Hill West",43.6969476,-79.41130720000001,Oliver jewelry,43.70037360267825,-79.4076437784668,Jewelry Store
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Ezra's Pound,43.67515283323029,-79.40585846415303,Café
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Roti Cuisine of India,43.67461834990478,-79.40824866273744,Indian Restaurant
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Live Organic Food Bar,43.67505287052667,-79.40671518307245,Vegetarian / Vegan Restaurant
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Rose & Sons,43.6756684758828,-79.40361659752443,American Restaurant
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Big Crow,43.675896076491284,-79.40368028354095,BBQ Joint
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Fet Zun,43.675147,-79.406346,Middle Eastern Restaurant
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Creeds Coffee Bar,43.67410020855885,-79.41083780404273,Coffee Shop
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Madame Boeuf And Flea,43.67524,-79.40662,Burger Joint
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Jean Sibelius Square,43.67142628683921,-79.40883090368688,Park
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Dish Cooking Studio,43.67406646467061,-79.4107635453081,Café
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Toronto Archives,43.67644734460629,-79.40750861881347,History Museum
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,The Annex Hodgepodge,43.674975198818274,-79.40654256081908,Sandwich Place
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Pour House,43.675640867179204,-79.40382084040043,Pub
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,LCBO,43.675344431726565,-79.40532725232431,Liquor Store
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Haute Coffee,43.675817902127925,-79.40279309076072,Café
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Subway,43.674965,-79.406868,Sandwich Place
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Shoppers Drug Mart,43.674959,-79.407986,Pharmacy
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Martino's Pizza,43.67555992434719,-79.40355789179394,Pizza Place
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Beauty Boutique by Shoppers Drug Mart,43.674959,-79.407986,Cosmetics Shop
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Tim Hortons,43.67579963362535,-79.40353178302757,Coffee Shop
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Subway,43.67562647482443,-79.4101006611444,Sandwich Place
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Food Plus Market,43.674530236903806,-79.40714069959441,Convenience Store
+"The Annex,North Midtown,Yorkville",43.6727097,-79.40567840000001,Spadina Station North Entrance,43.67014790500963,-79.40558222395032,Metro Station
+"Harbord,University of Toronto",43.6626956,-79.4000493,Yasu,43.66283719650635,-79.40321739973975,Japanese Restaurant
+"Harbord,University of Toronto",43.6626956,-79.4000493,Piano Piano,43.66294872979362,-79.40289804116937,Italian Restaurant
+"Harbord,University of Toronto",43.6626956,-79.4000493,The Dessert Kitchen,43.66282317865166,-79.40274569154498,Dessert Shop
+"Harbord,University of Toronto",43.6626956,-79.4000493,Rasa,43.662756751275445,-79.40398803188654,Restaurant
+"Harbord,University of Toronto",43.6626956,-79.4000493,Her Father's Cider Bar + Kitchen,43.66244824890102,-79.40470324675829,Beer Bar
+"Harbord,University of Toronto",43.6626956,-79.4000493,Almond Butterfly,43.66283554072087,-79.40336494731255,Bakery
+"Harbord,University of Toronto",43.6626956,-79.4000493,Athletic Centre,43.66248699305214,-79.40065676565847,College Gym
+"Harbord,University of Toronto",43.6626956,-79.4000493,Bakka Phoenix Books,43.662958633796144,-79.40260149079198,Bookstore
+"Harbord,University of Toronto",43.6626956,-79.4000493,Harbord House,43.66246595195944,-79.40541041671369,Bar
+"Harbord,University of Toronto",43.6626956,-79.4000493,Harbord Bakery & Calandria,43.662519096022976,-79.40444270567404,Bakery
+"Harbord,University of Toronto",43.6626956,-79.4000493,Akai Sushi,43.66246971191281,-79.40494572728848,Sushi Restaurant
+"Harbord,University of Toronto",43.6626956,-79.4000493,Cafe Cancan,43.662735486588865,-79.40344738555669,French Restaurant
+"Harbord,University of Toronto",43.6626956,-79.4000493,Harvest Kitchen,43.662713770749434,-79.40433001263669,Restaurant
+"Harbord,University of Toronto",43.6626956,-79.4000493,Innis Cafe,43.665401003815745,-79.39971478706231,Café
+"Harbord,University of Toronto",43.6626956,-79.4000493,FLOCK Rotisserie + Greens,43.66263716795857,-79.4037981720113,Comfort Food Restaurant
+"Harbord,University of Toronto",43.6626956,-79.4000493,Hart House Theatre,43.66357134217992,-79.3946163990837,Theater
+"Harbord,University of Toronto",43.6626956,-79.4000493,Gyubee,43.66708824997601,-79.4005710246546,Japanese Restaurant
+"Harbord,University of Toronto",43.6626956,-79.4000493,Coach House Printing,43.66631964001284,-79.40027745050322,Bookstore
+"Harbord,University of Toronto",43.6626956,-79.4000493,The Clubhouse,43.6582455666801,-79.39989387989043,Sandwich Place
+"Harbord,University of Toronto",43.6626956,-79.4000493,Innis Town Hall,43.66541957367295,-79.39954635185894,College Arts Building
+"Harbord,University of Toronto",43.6626956,-79.4000493,Red Fish Blue Fish Creative Cafe,43.662826909852434,-79.40281748771667,Café
+"Harbord,University of Toronto",43.6626956,-79.4000493,A & C Games,43.66493880046117,-79.40319438893309,Video Game Store
+"Harbord,University of Toronto",43.6626956,-79.4000493,River Tai Restaurant,43.66290213,-79.403167,Chinese Restaurant
+"Harbord,University of Toronto",43.6626956,-79.4000493,Second Cup,43.66355135916493,-79.40178748741704,Café
+"Harbord,University of Toronto",43.6626956,-79.4000493,Second Cup Coffee Co.,43.66535,-79.398376,Café
+"Harbord,University of Toronto",43.6626956,-79.4000493,Daddyo's,43.66462215321565,-79.40268488417684,Italian Restaurant
+"Harbord,University of Toronto",43.6626956,-79.4000493,Hart House Gym,43.66417202442517,-79.39488839857401,Gym
+"Harbord,University of Toronto",43.6626956,-79.4000493,Charlie's Gallery,43.662809819602124,-79.40382164131282,Bar
+"Harbord,University of Toronto",43.6626956,-79.4000493,The Beer Store,43.6653855,-79.4034771,Beer Store
+"Harbord,University of Toronto",43.6626956,-79.4000493,Magic Noodle,43.66272766027783,-79.4036022699349,Noodle House
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Kid Icarus,43.653933260442265,-79.40171859012935,Arts & Crafts Store
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Seven Lives - Tacos y Mariscos,43.65441817160925,-79.40054467846261,Mexican Restaurant
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Essence of Life Organics,43.65411067840614,-79.4004308758787,Organic Grocery
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Jimmy's Coffee,43.65449315540114,-79.40131090393002,Café
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,The Moonbean Cafe,43.65414662211733,-79.40018175516231,Café
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Little Pebbles,43.654883,-79.400264,Coffee Shop
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,FIKA Cafe,43.653560276835684,-79.40040209660836,Café
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Blackbird Baking Co,43.65476385976386,-79.40056588367806,Bakery
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Grey Gardens,43.653479,-79.401427,Wine Bar
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,El Rey,43.652764,-79.400048,Cocktail Bar
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Cold Tea,43.65419313416817,-79.40107491108753,Bar
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Torteria San Cosme,43.65470199390117,-79.40064636669985,Mexican Restaurant
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Banh Mi Nguyen Huong,43.653628006211044,-79.3983759881993,Vietnamese Restaurant
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Saigon Lotus Restaurant,43.654310800343325,-79.39922450076845,Vietnamese Restaurant
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Kensington Food Market,43.654058473740236,-79.40037565547179,Farmers Market
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Millie Creperie,43.654993860126034,-79.3998292732052,Dessert Shop
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Golden Patty,43.6546590586465,-79.4011788108254,Caribbean Restaurant
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Global Cheese,43.65462257332082,-79.4006057130889,Cheese Shop
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Carlos' House of Spice,43.654188111731344,-79.40190419262933,Gourmet Shop
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Wafels and More,43.65465108367296,-79.40197747917576,Belgian Restaurant
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Hooked,43.6545853262614,-79.40174629702895,Fish Market
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Fudao Noodle House,43.654645274716124,-79.39887355126278,Noodle House
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Perola Supermarket,43.65489448176307,-79.40214642462199,Grocery Store
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,King's Cafe,43.65427040798248,-79.40189703859198,Vegetarian / Vegan Restaurant
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Dumpling House,43.65386003934455,-79.3985583639792,Dumpling Restaurant
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Pancho's Bakery,43.654750233381165,-79.40210500607643,Bakery
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Rasta Pasta,43.65420716538317,-79.40046891984555,Caribbean Restaurant
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,FILM CAFE,43.65510856565147,-79.40234241534543,Comfort Food Restaurant
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,Meeplemart,43.65162799198926,-79.39741037259144,Gaming Cafe
+"Chinatown,Grange Park,Kensington Market",43.6532057,-79.4000493,The Dirty Bird Chicken + Waffles,43.65461198283731,-79.40067408795788,Comfort Food Restaurant
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,Billy Bishop Toronto City Airport (YTZ) (Billy Bishop Toronto City Airport),43.631541287490016,-79.3958684847778,Airport
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,Porter Lounge,43.63068,-79.395756,Airport Lounge
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,Toronto Harbour,43.63304549594827,-79.39648421332333,Harbor / Marina
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,Billy Bishop Café,43.63113165872724,-79.39613873448842,Airport Food Court
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,Air Canada Check-In Counter,43.631225969080035,-79.3959873701636,Airport Terminal
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,Gate 8,43.63153617968721,-79.39456989797382,Airport Gate
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,Balzac’s Coffee Roasters,43.631392,-79.395952,Coffee Shop
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,Crew Room,43.63135993598351,-79.39610738952823,Airport Lounge
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,Porter Airlines Flight,43.63173361240356,-79.39458203868975,Plane
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,Porter Airlines Check-In Counter,43.631683,-79.395454,Airport Service
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,Hertz,43.632,-79.396223,Rental Car Location
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,Porter FBO Limited,43.630717162940016,-79.3986976146698,Airport Terminal
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,HeliTours,43.63070559837703,-79.39876017431267,Airport Service
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,ORNGE - Toronto Air Base,43.63166229946016,-79.39816647981402,Airport Service
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,Edward Hanlan Statue,43.62772066806761,-79.38927421473466,Sculpture Garden
+"CN Tower,Bathurst Quay,Island airport,Harbourfront West,King and Spadina,Railway Lands,South Niagara",43.6289467,-79.3944199,Hanlan's Point Ferry,43.62781263197712,-79.38910853273904,Boat or Ferry
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Fresh On Front,43.64781466405137,-79.3744527618627,Vegetarian / Vegan Restaurant
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Hockey Hall Of Fame (Hockey Hall of Fame),43.646974451431056,-79.37732323942681,Museum
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,The Keg Steakhouse + Bar,43.64667637593993,-79.37482154865866,Steakhouse
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Berczy Park,43.64804835388851,-79.3751722909452,Park
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Sukhothai,43.64848710249909,-79.37454735245633,Thai Restaurant
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,D.W. Alexander,43.64833304339161,-79.3738261420116,Cocktail Bar
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,DAVIDsTEA,43.646657736285796,-79.37764102856944,Tea Room
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Movenpick Cafe,43.647686808930885,-79.3772953884033,Café
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Dog Fountain,43.64799795147863,-79.37536096948996,Fountain
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Biff's Bistro,43.647084825125084,-79.37634231908494,French Restaurant
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Pravda Vodka Bar,43.64851553067474,-79.37473231149953,Cocktail Bar
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Hogtown Smoke,43.64928693557788,-79.37468932637938,Food Truck
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,The Reservoir Lounge,43.64851659851552,-79.37455623391588,Jazz Club
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,C'est What,43.64842583928427,-79.37343925237656,Beer Bar
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Meridian Hall,43.646292124205594,-79.37602179505662,Concert Hall
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Garrison Bespoke,43.648102,-79.376334,Tailor Shop
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,St. Lawrence Market (South Building),43.64874320223593,-79.37159697627527,Farmers Market
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,St. Lawrence Market (North Building),43.64879290161719,-79.37194535820687,Farmers Market
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Goose Island Brewhouse,43.64732926809359,-79.37354117631912,Beer Bar
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,The Omni King Edward Hotel,43.64919051601911,-79.37600612640387,Hotel
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Mos Mos Coffee,43.64815919753501,-79.37874450467258,Café
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Stonemill Bread,43.648668221542096,-79.37160962302049,Bakery
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Market Street Catch,43.64850142396483,-79.3718080237409,Seafood Restaurant
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Chotto Matte,43.646473,-79.378782,Japanese Restaurant
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Beerbistro,43.64941904378835,-79.37723726034164,Gastropub
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,St. Lawrence Market Plaza,43.64916860422451,-79.37232987433548,Art Gallery
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Walrus Pub & Beer Hall,43.64737470920577,-79.37951515363918,Pub
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Winners,43.6477479,-79.3745508,Clothing Store
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Eggspectation,43.646526,-79.375134,Breakfast Spot
+Stn A PO Boxes 25 The Esplanade,43.6464352,-79.37484599999999,Balzac's Coffee,43.64845650131932,-79.37178993724407,Café
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Canoe,43.647452066183476,-79.38132001815676,Restaurant
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Equinox Bay Street,43.64809974034856,-79.37998869411526,Gym
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Cactus Club Cafe,43.6495520142626,-79.38167072512041,American Restaurant
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Adelaide Club Toronto,43.64927944291712,-79.38192123284551,Gym / Fitness Center
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Pilot Coffee Roasters,43.648835391245896,-79.3809358125033,Coffee Shop
+"First Canadian Place,Underground city",43.6484292,-79.3822802,The Keg Steakhouse & Bar,43.649937252985254,-79.38419604942506,Steakhouse
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Sam James Coffee Bar (SJCB),43.64788137014028,-79.38433152836829,Café
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Pizzeria Libretto,43.64833354686235,-79.38511050184168,Pizza Place
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Hy's Steakhouse,43.649504756476944,-79.38291850488223,Steakhouse
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Brick Street Bakery,43.6488151631615,-79.38060468610949,Bakery
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Walrus Pub & Beer Hall,43.64737470920577,-79.37951515363918,Pub
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Dineen @CommerceCourt,43.648250543365556,-79.38012728220869,Coffee Shop
+"First Canadian Place,Underground city",43.6484292,-79.3822802,King Taps,43.648475974183,-79.38205778358744,Gastropub
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Starbucks,43.646731,-79.383951,Coffee Shop
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Design Exchange,43.64797219581623,-79.38010382588462,Art Gallery
+"First Canadian Place,Underground city",43.6484292,-79.3822802,iQ Food Co. (First Canadian Place),43.64835708519922,-79.38219241858727,Salad Place
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Maman,43.64830873804684,-79.38225333898805,Café
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Bymark,43.647217284018005,-79.38125188166379,Restaurant
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Kupfert & Kim (First Canadian Place),43.64854659465186,-79.38162406470161,Gluten-free Restaurant
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Mos Mos Coffee,43.64815919753501,-79.37874450467258,Café
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Cafe Landwer,43.64875349932059,-79.3853673607289,Café
+"First Canadian Place,Underground city",43.6484292,-79.3822802,John & Sons Oyster House,43.65065642537144,-79.38161285228475,Seafood Restaurant
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Rosalinda,43.650252483069295,-79.38515575620075,Vegetarian / Vegan Restaurant
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Bosk at Shangri-La,43.649022736761516,-79.38582635521233,Asian Restaurant
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Ki Modern Japanese + Bar,43.647167,-79.379608,Japanese Restaurant
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Pumpernickel's Deli,43.64883150054619,-79.38197006345457,Deli / Bodega
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Toronto PATH System,43.64990340698978,-79.3830527039004,General Travel
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Olly Fresco's,43.646912231909276,-79.37959661696463,Deli / Bodega
+"First Canadian Place,Underground city",43.6484292,-79.3822802,The Fairmont Royal York,43.64544914616651,-79.3815076529019,Hotel
+"First Canadian Place,Underground city",43.6484292,-79.3822802,Estiatorio Volos,43.65032912559998,-79.38453301297716,Greek Restaurant
+"Lawrence Heights,Lawrence Manor",43.718517999999996,-79.46476329999999,Roots,43.7182215,-79.4667762,Boutique
+"Lawrence Heights,Lawrence Manor",43.718517999999996,-79.46476329999999,Kitchen Stuff Plus (Clearance Outlet),43.71909636823933,-79.46267482419971,Furniture / Home Store
+"Lawrence Heights,Lawrence Manor",43.718517999999996,-79.46476329999999,Lac Vien Vietnamese Restaurant,43.72125878799614,-79.46847226859448,Vietnamese Restaurant
+"Lawrence Heights,Lawrence Manor",43.718517999999996,-79.46476329999999,Orfus Road Shopping Outlets,43.719045296434736,-79.46084915034818,Clothing Store
+"Lawrence Heights,Lawrence Manor",43.718517999999996,-79.46476329999999,Tim Hortons,43.7194274,-79.4679949,Coffee Shop
+"Lawrence Heights,Lawrence Manor",43.718517999999996,-79.46476329999999,Ardene Shoes Outlet,43.718892366644944,-79.46134358371631,Accessories Store
+"Lawrence Heights,Lawrence Manor",43.718517999999996,-79.46476329999999,Urban Behavior,43.71889855313541,-79.46469467303574,Clothing Store
+"Lawrence Heights,Lawrence Manor",43.718517999999996,-79.46476329999999,Kitchen Stuff Plus,43.71908675341768,-79.46296954870189,Furniture / Home Store
+"Lawrence Heights,Lawrence Manor",43.718517999999996,-79.46476329999999,Urban Planet,43.718121,-79.467567,Women's Store
+"Lawrence Heights,Lawrence Manor",43.718517999999996,-79.46476329999999,Lens Mills,43.71913704692334,-79.46196899954919,Arts & Crafts Store
+"Lawrence Heights,Lawrence Manor",43.718517999999996,-79.46476329999999,Party City,43.71941805471303,-79.459316806156,Miscellaneous Shop
+"Lawrence Heights,Lawrence Manor",43.718517999999996,-79.46476329999999,Gyros Gymnastics,43.71677614916025,-79.46167716204125,Athletics & Sports
+"Lawrence Heights,Lawrence Manor",43.718517999999996,-79.46476329999999,Orfus Road,43.719180444061294,-79.46036020806626,Clothing Store
+"Lawrence Heights,Lawrence Manor",43.718517999999996,-79.46476329999999,Universal Lighting,43.721790091210906,-79.46641411892136,Furniture / Home Store
+Glencairn,43.709577,-79.44507259999999,Miyako Sushi Restaurant,43.709111,-79.44393,Japanese Restaurant
+Glencairn,43.709577,-79.44507259999999,Li Cheng Restaurant,43.70882792296303,-79.44336647383521,Asian Restaurant
+Glencairn,43.709577,-79.44507259999999,"Chalker's Pub, Billiards and Bistro",43.705746734874204,-79.44237750652644,Pub
+Glencairn,43.709577,-79.44507259999999,Domino's Pizza,43.70690356871727,-79.44296913282217,Pizza Place
+Humewood-Cedarvale,43.6937813,-79.42819140000002,Cedarvale Park,43.692534923091934,-79.42870527613704,Field
+Humewood-Cedarvale,43.6937813,-79.42819140000002,Phil White Arena,43.69130271699826,-79.43176051142332,Hockey Arena
+Humewood-Cedarvale,43.6937813,-79.42819140000002,Cedarvale Ravine,43.690188230007266,-79.42610580222994,Trail
+Caledonia-Fairbanks,43.6890256,-79.453512,KFC,43.69064732256945,-79.456325832418,Fast Food Restaurant
+Caledonia-Fairbanks,43.6890256,-79.453512,Maximum Woman,43.69065130310669,-79.45633320240984,Women's Store
+Caledonia-Fairbanks,43.6890256,-79.453512,Walmart,43.690659578356374,-79.45631672044142,Market
+Caledonia-Fairbanks,43.6890256,-79.453512,Fairbank Memorial Park,43.69202800194052,-79.44892353333186,Park
+Christie,43.669542,-79.4225637,Fiesta Farms,43.66847077052224,-79.42048512748114,Grocery Store
+Christie,43.669542,-79.4225637,Contra Cafe,43.669107144072974,-79.42610471852032,Café
+Christie,43.669542,-79.4225637,Vinny’s Panini,43.67067884412717,-79.42614819830024,Italian Restaurant
+Christie,43.669542,-79.4225637,Starbucks,43.67153,-79.4214,Coffee Shop
+Christie,43.669542,-79.4225637,Universal Grill,43.670549820711926,-79.42654054306477,Diner
+Christie,43.669542,-79.4225637,Scout and Cash Caffe,43.66735987720157,-79.41993774586636,Café
+Christie,43.669542,-79.4225637,Actinolite,43.66785822046965,-79.42805427320322,Restaurant
+Christie,43.669542,-79.4225637,Faema Caffe,43.6710456734398,-79.41929697990417,Café
+Christie,43.669542,-79.4225637,Stubbe Chocolates,43.67156577026589,-79.42128899001831,Candy Store
+Christie,43.669542,-79.4225637,Loblaws,43.671657,-79.421364,Grocery Store
+Christie,43.669542,-79.4225637,Marlenes Just Babies,43.671824,-79.420499,Baby Store
+Christie,43.669542,-79.4225637,Dupont Disco,43.67048982553482,-79.42661141389264,Nightclub
+Christie,43.669542,-79.4225637,Queens Club,43.672386069777616,-79.41810570233238,Athletics & Sports
+Christie,43.669542,-79.4225637,Pioneer Gas,43.67035525082211,-79.42840047898076,Convenience Store
+Christie,43.669542,-79.4225637,Marian Engel Park,43.67375357657298,-79.42398759247811,Park
+Christie,43.669542,-79.4225637,Garrison Creek Park,43.67168977827157,-79.42780494689941,Park
+Christie,43.669542,-79.4225637,Foto Grocery,43.66797858931121,-79.42821689567089,Grocery Store
+"Dovercourt Village,Dufferin",43.66900510000001,-79.4422593,The Greater Good Bar,43.669409,-79.439267,Bar
+"Dovercourt Village,Dufferin",43.66900510000001,-79.4422593,Parallel,43.66951635632503,-79.43872770646192,Middle Eastern Restaurant
+"Dovercourt Village,Dufferin",43.66900510000001,-79.4422593,Planet Fitness Toronto Galleria,43.66758797288865,-79.44257365441428,Gym / Fitness Center
+"Dovercourt Village,Dufferin",43.66900510000001,-79.4422593,Happy Bakery & Pastries,43.66705039063128,-79.44179124412831,Bakery
+"Dovercourt Village,Dufferin",43.66900510000001,-79.4422593,Blood Brothers Brewing,43.66994369492681,-79.43653285503387,Brewery
+"Dovercourt Village,Dufferin",43.66900510000001,-79.4422593,FreshCo,43.66791838591585,-79.44075425394298,Supermarket
+"Dovercourt Village,Dufferin",43.66900510000001,-79.4422593,Rehearsal Factory,43.66887675155326,-79.44360330056674,Music Venue
+"Dovercourt Village,Dufferin",43.66900510000001,-79.4422593,Nova Era Bakery,43.66988647609785,-79.43758190821525,Bakery
+"Dovercourt Village,Dufferin",43.66900510000001,-79.4422593,The Sovereign,43.673115708192206,-79.44026498681781,Café
+"Dovercourt Village,Dufferin",43.66900510000001,-79.4422593,TD Canada Trust,43.6679341,-79.4416984,Bank
+"Dovercourt Village,Dufferin",43.66900510000001,-79.4422593,Food Basics,43.66683479434923,-79.446812421531,Supermarket
+"Dovercourt Village,Dufferin",43.66900510000001,-79.4422593,Rexall,43.667504,-79.442086,Pharmacy
+"Dovercourt Village,Dufferin",43.66900510000001,-79.4422593,Shoppers Drug Mart,43.666745,-79.447446,Pharmacy
+"Dovercourt Village,Dufferin",43.66900510000001,-79.4422593,Wallace Emerson Park,43.66693250395496,-79.4394486237563,Park
+"Dovercourt Village,Dufferin",43.66900510000001,-79.4422593,Lynx Music,43.667425,-79.444994,Recording Studio
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Bellwoods Brewery,43.647097254598236,-79.41995537873463,Brewery
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Pizzeria Libretto,43.64897862710277,-79.4206035669193,Pizza Place
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,OddSeoul,43.64619218474247,-79.4196014527498,Korean Restaurant
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Bang Bang Ice Cream & Bakery,43.64624619920086,-79.41955285188536,Ice Cream Shop
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Mamakas Taverna,43.64604217335094,-79.41967886278816,Greek Restaurant
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Reposado,43.647320789001384,-79.42003151431754,Bar
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Foxley Bistro,43.648642746283834,-79.42049525794245,Asian Restaurant
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Gift Shop,43.64614871682715,-79.41948131634449,Cocktail Bar
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Paris Paris Bar,43.649237,-79.421436,Wine Bar
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,La Cubana,43.64623003878161,-79.4196356996568,Cuban Restaurant
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Artscape Youngplace,43.646921206418654,-79.4173424662258,Art Gallery
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Union Restaurant,43.64585979013257,-79.41953208988866,New American Restaurant
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,The Communist's Daughter,43.64936167997857,-79.42096310360856,Bar
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,YogaSpace,43.64760744635252,-79.42013338783642,Yoga Studio
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Pho Rua Vang (Golden Turtle),43.64689319654605,-79.41977781583955,Vietnamese Restaurant
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,La Banane,43.64904020618134,-79.42059946263156,French Restaurant
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Rotate This,43.64854360521872,-79.42051802319355,Record Shop
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Dakota Tavern,43.64967991705445,-79.42083755592827,Bar
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Bellwoods Brewery Bottle Shop,43.64715605783796,-79.41995788555359,Beer Store
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Lower Ossington Theatre,43.64638945106542,-79.4197810126815,Theater
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Get Well,43.6493204037974,-79.42193705485465,Bar
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Pho Tien Thanh,43.6454840897343,-79.41927617283633,Vietnamese Restaurant
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,SoSo Food Club,43.649374803627865,-79.42160177446873,Asian Restaurant
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Hanmoto,43.649505301973576,-79.42276783144736,Asian Restaurant
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Venezia Bakery,43.6468112760052,-79.41980345671674,Bakery
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Superpoint,43.648438964819064,-79.42051429823161,Pizza Place
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Veghed,43.649224,-79.422326,Vegetarian / Vegan Restaurant
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Soos,43.64625487651962,-79.4196494517963,Malay Restaurant
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Ufficio,43.649439390888254,-79.42301401069709,Italian Restaurant
+"Little Portugal,Trinity",43.647926700000006,-79.4197497,Peace Collective,43.64710896042073,-79.41986423045904,Boutique
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Starbucks,43.63909,-79.427622,Coffee Shop
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Reebok Crossfit Liberty Village,43.637035591932005,-79.42480199455974,Gym
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Pharmacy,43.638089904034146,-79.43180974511733,Bar
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Caffino,43.63902121044261,-79.42528923382933,Italian Restaurant
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Louie Craft Coffee,43.639283775543895,-79.42561998986335,Coffee Shop
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Pet Valu,43.63908935811652,-79.42682834187295,Pet Store
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,The Abbott,43.637996211047366,-79.43071653853734,Café
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,SCHOOL Restaurant,43.6377753703417,-79.42429737067897,Breakfast Spot
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Structube,43.63983635997934,-79.42364186555774,Furniture / Home Store
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Brodflour,43.637535,-79.422761,Bakery
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Joe Rockhead's Climbing Gym,43.636342324798676,-79.423582112592,Climbing Gym
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Mike's Liberty Grill,43.63750507397488,-79.42464979436862,Breakfast Spot
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Vogue Supper Club,43.63695126198934,-79.42544606558822,Restaurant
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Lamport Stadium,43.638777912508445,-79.42353373474235,Stadium
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Joker Cafe,43.63572658167962,-79.42603944906266,Café
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,The Remix Project,43.63649113953229,-79.42251282693181,Performing Arts Venue
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Loco Burrito,43.63751255946425,-79.4228975016341,Burrito Place
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Uma Cafe,43.63701567204681,-79.42404784920467,Café
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Queen Supermarket,43.634264921487066,-79.42911195252461,Grocery Store
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Gardiner Expy & Dufferin St,43.6338,-79.42546,Intersection
+"Brockton,Exhibition Place,Parkdale Village",43.6368472,-79.42819140000002,Dunn Milk Variety,43.6336672441301,-79.43154947516645,Convenience Store
+"Downsview,North Park,Upwood Park",43.713756200000006,-79.4900738,Rustic Bakery,43.715413998974796,-79.49030028640821,Bakery
+"Downsview,North Park,Upwood Park",43.713756200000006,-79.4900738,Maple leaf park,43.716187513283,-79.4935309549699,Park
+"Downsview,North Park,Upwood Park",43.713756200000006,-79.4900738,Mika's Trim,43.714068,-79.496113,Construction & Landscaping
+"Del Ray,Keelesdale,Mount Dennis,Silverthorn",43.6911158,-79.47601329999999,Subway,43.69000119168634,-79.4757628440857,Sandwich Place
+"Del Ray,Keelesdale,Mount Dennis,Silverthorn",43.6911158,-79.47601329999999,2 Brothers shawarma,43.690118,-79.47515,Turkish Restaurant
+"Del Ray,Keelesdale,Mount Dennis,Silverthorn",43.6911158,-79.47601329999999,Z Bar & Grille,43.6906730071065,-79.47276425326548,Bar
+"Del Ray,Keelesdale,Mount Dennis,Silverthorn",43.6911158,-79.47601329999999,Chris Tonks Arena,43.68757035872996,-79.47941054928023,Skating Rink
+"The Junction North,Runnymede",43.67318529999999,-79.48726190000001,Bigger's Jamaican Restaurant,43.672725293535585,-79.48250832756949,Caribbean Restaurant
+"The Junction North,Runnymede",43.67318529999999,-79.48726190000001,Wonderfood,43.67235238324323,-79.49257115909873,Convenience Store
+"The Junction North,Runnymede",43.67318529999999,-79.48726190000001,195 Jane Rocket,43.672334850841,-79.49263389979957,Bus Line
+"The Junction North,Runnymede",43.67318529999999,-79.48726190000001,High Park Brewery,43.669903,-79.48343,Brewery
+"The Junction North,Runnymede",43.67318529999999,-79.48726190000001,Welcome Food Mart,43.66970140136457,-79.48349146580819,Grocery Store
+"High Park,The Junction South",43.6616083,-79.46476329999999,Lithuania Park,43.658666653470426,-79.46303844451904,Park
+"High Park,The Junction South",43.6616083,-79.46476329999999,nodo,43.665303321627505,-79.46562068004896,Italian Restaurant
+"High Park,The Junction South",43.6616083,-79.46476329999999,Hole in the Wall,43.66529624102518,-79.46511783107383,Bar
+"High Park,The Junction South",43.6616083,-79.46476329999999,Indie Alehouse,43.66547472315272,-79.46528973047275,Gastropub
+"High Park,The Junction South",43.6616083,-79.46476329999999,famous last words,43.665181,-79.468471,Speakeasy
+"High Park,The Junction South",43.6616083,-79.46476329999999,Junction Flea,43.665258286011984,-79.462867677381,Flea Market
+"High Park,The Junction South",43.6616083,-79.46476329999999,Mjölk,43.665432436685634,-79.46796194112322,Furniture / Home Store
+"High Park,The Junction South",43.6616083,-79.46476329999999,Junction City Music Hall,43.66533428942121,-79.46625298427486,Music Venue
+"High Park,The Junction South",43.6616083,-79.46476329999999,ARTiculations,43.6655499084009,-79.46719380367311,Arts & Crafts Store
+"High Park,The Junction South",43.6616083,-79.46476329999999,The Beet Organic Café,43.665339657389666,-79.46713655678533,Café
+"High Park,The Junction South",43.6616083,-79.46476329999999,Isaan Der,43.665311,-79.468078,Thai Restaurant
+"High Park,The Junction South",43.6616083,-79.46476329999999,Playa Cabana Cantina,43.6653150256334,-79.46554803042925,Mexican Restaurant
+"High Park,The Junction South",43.6616083,-79.46476329999999,Tim & Sue's No Frills,43.664243,-79.468643,Grocery Store
+"High Park,The Junction South",43.6616083,-79.46476329999999,Pandemonium,43.6655328625076,-79.46693103427353,Bookstore
+"High Park,The Junction South",43.6616083,-79.46476329999999,Cool Hand of a Girl,43.66541017820662,-79.46282167660381,Café
+"High Park,The Junction South",43.6616083,-79.46476329999999,Silk,43.66529073542964,-79.46623843808621,Thai Restaurant
+"High Park,The Junction South",43.6616083,-79.46476329999999,Dollarama,43.665792,-79.465906,Discount Store
+"High Park,The Junction South",43.6616083,-79.46476329999999,Chica’s Nashville Hot Chicken,43.665295,-79.464888,Fried Chicken Joint
+"High Park,The Junction South",43.6616083,-79.46476329999999,A&W Canada,43.66552,-79.464731,Fast Food Restaurant
+"High Park,The Junction South",43.6616083,-79.46476329999999,Junction Grill,43.66521011890175,-79.46846083483024,Diner
+"High Park,The Junction South",43.6616083,-79.46476329999999,ROUX,43.66541814719867,-79.46239204687215,Cajun / Creole Restaurant
+"High Park,The Junction South",43.6616083,-79.46476329999999,Pascal's Baguette & Bagels,43.665426,-79.466176,Bakery
+"High Park,The Junction South",43.6616083,-79.46476329999999,La Revolucion,43.66546024899212,-79.46430756434131,Mexican Restaurant
+"High Park,The Junction South",43.6616083,-79.46476329999999,Shoxs,43.665352769160776,-79.46356279142312,Bar
+"Parkdale,Roncesvalles",43.6489597,-79.456325,Offleash Dog Trail - High Park,43.64548543069719,-79.45874691009521,Dog Run
+"Parkdale,Roncesvalles",43.6489597,-79.456325,The Chocolateria,43.64992822697901,-79.45043667719423,Dessert Shop
+"Parkdale,Roncesvalles",43.6489597,-79.456325,La Cubana,43.65091223991817,-79.45090936982271,Cuban Restaurant
+"Parkdale,Roncesvalles",43.6489597,-79.456325,Revue Cinema,43.65111215463428,-79.4509612383593,Movie Theater
+"Parkdale,Roncesvalles",43.6489597,-79.456325,Inter Steer,43.64979631005809,-79.45030983497107,Eastern European Restaurant
+"Parkdale,Roncesvalles",43.6489597,-79.456325,Cider House,43.65068788125521,-79.45068513648656,Restaurant
+"Parkdale,Roncesvalles",43.6489597,-79.456325,Reunion Island Coffee Bar,43.65046251706493,-79.45060981846792,Coffee Shop
+"Parkdale,Roncesvalles",43.6489597,-79.456325,Scout,43.65097043195477,-79.45086621885267,Gift Shop
+"Parkdale,Roncesvalles",43.6489597,-79.456325,Domani Restaurant & Wine Bar,43.649235,-79.450229,Italian Restaurant
+"Parkdale,Roncesvalles",43.6489597,-79.456325,Likely General,43.65062189632695,-79.45063525580188,Gift Shop
+"Parkdale,Roncesvalles",43.6489597,-79.456325,A Good Read,43.64947021007538,-79.450339,Bookstore
+"Parkdale,Roncesvalles",43.6489597,-79.456325,The Local Pub and Restaurant,43.6510171734011,-79.45091108743782,Bar
+"Parkdale,Roncesvalles",43.6489597,-79.456325,Butler's Pantry,43.65008710183049,-79.45045784621456,Breakfast Spot
+"Runnymede,Swansea",43.6515706,-79.4844499,The Good Fork,43.64956534036813,-79.48402270694602,Food
+"Runnymede,Swansea",43.6515706,-79.4844499,Coffee Tree Roastery,43.64964735112305,-79.48343639040918,Café
+"Runnymede,Swansea",43.6515706,-79.4844499,The One That Got Away,43.64984188412754,-79.48261453424496,Fish & Chips Shop
+"Runnymede,Swansea",43.6515706,-79.4844499,Fat Bastard Burrito,43.6497791550768,-79.48289414342419,Burrito Place
+"Runnymede,Swansea",43.6515706,-79.4844499,Bryden's Pub,43.64925890136825,-79.4846509607823,Pub
+"Runnymede,Swansea",43.6515706,-79.4844499,Wibke's Espresso Bar,43.64913158497341,-79.48480237071465,Coffee Shop
+"Runnymede,Swansea",43.6515706,-79.4844499,Asa Sushi,43.64990164450559,-79.4846109228881,Sushi Restaurant
+"Runnymede,Swansea",43.6515706,-79.4844499,DAVIDsTEA,43.65058422430476,-79.47885289769167,Tea Room
+"Runnymede,Swansea",43.6515706,-79.4844499,Book City (Bloor West),43.65021080519715,-79.48122019699115,Bookstore
+"Runnymede,Swansea",43.6515706,-79.4844499,Campo,43.655191,-79.487067,Italian Restaurant
+"Runnymede,Swansea",43.6515706,-79.4844499,Booster Juice,43.64980188,-79.4836826,Smoothie Shop
+"Runnymede,Swansea",43.6515706,-79.4844499,Falafel World,43.649800784968164,-79.48272777159343,Falafel Restaurant
+"Runnymede,Swansea",43.6515706,-79.4844499,Yumi Sushi,43.64989127391365,-79.4824044490675,Sushi Restaurant
+"Runnymede,Swansea",43.6515706,-79.4844499,Amber European Restaurant,43.64994563414707,-79.48200902277628,French Restaurant
+"Runnymede,Swansea",43.6515706,-79.4844499,Max's Market,43.65052462233729,-79.47914453187883,Gourmet Shop
+"Runnymede,Swansea",43.6515706,-79.4844499,Goodfellas Wood Oven Pizza,43.648224,-79.486356,Italian Restaurant
+"Runnymede,Swansea",43.6515706,-79.4844499,Bloom Restaurant,43.65030692996379,-79.4798355748952,Latin American Restaurant
+"Runnymede,Swansea",43.6515706,-79.4844499,Subway,43.64951660399756,-79.48394719746555,Sandwich Place
+"Runnymede,Swansea",43.6515706,-79.4844499,Awai,43.65041203760419,-79.47847723960876,Vegetarian / Vegan Restaurant
+"Runnymede,Swansea",43.6515706,-79.4844499,A Dark Horse,43.64953295859084,-79.4830557372747,Bar
+"Runnymede,Swansea",43.6515706,-79.4844499,Humber Cinema,43.64911832002547,-79.48481789910943,Indie Movie Theater
+"Runnymede,Swansea",43.6515706,-79.4844499,Bloor-Jane Restaurant,43.64951305181438,-79.48407033610728,Diner
+"Runnymede,Swansea",43.6515706,-79.4844499,Tim Hortons,43.648525791237965,-79.48506608605385,Coffee Shop
+"Runnymede,Swansea",43.6515706,-79.4844499,Java Joe's,43.650424,-79.479755,Café
+"Runnymede,Swansea",43.6515706,-79.4844499,Henry VIII Ale House,43.64902448298273,-79.48492800936774,Gastropub
+"Runnymede,Swansea",43.6515706,-79.4844499,Heart,43.650310315403544,-79.48012458547709,Dessert Shop
+"Runnymede,Swansea",43.6515706,-79.4844499,Pizzaiolo,43.64939525764269,-79.48355965141116,Pizza Place
+"Runnymede,Swansea",43.6515706,-79.4844499,Classico,43.649194,-79.484699,Pizza Place
+"Runnymede,Swansea",43.6515706,-79.4844499,Second Cup,43.650136727534054,-79.48079476951547,Café
+"Runnymede,Swansea",43.6515706,-79.4844499,Supper Solved,43.64878101033567,-79.48523252831198,Restaurant
+Queen's Park,43.6623015,-79.3894938,Queen's Park,43.66394609897775,-79.39217952520835,Park
+Queen's Park,43.6623015,-79.3894938,Mercatto,43.660390911898546,-79.38766421192705,Italian Restaurant
+Queen's Park,43.6623015,-79.3894938,Nando's,43.661617063338966,-79.38609536960354,Portuguese Restaurant
+Queen's Park,43.6623015,-79.3894938,YMCA,43.66275344493089,-79.3848492869005,Gym
+Queen's Park,43.6623015,-79.3894938,Coffee Public,43.66076299149323,-79.38618409033066,Coffee Shop
+Queen's Park,43.6623015,-79.3894938,Starbucks,43.65945605353152,-79.39041123272168,Coffee Shop
+Queen's Park,43.6623015,-79.3894938,The Yoga Sanctuary,43.661499497597596,-79.38363613350754,Yoga Studio
+Queen's Park,43.6623015,-79.3894938,Bar Volo,43.66546184849369,-79.38569158315659,Beer Bar
+Queen's Park,43.6623015,-79.3894938,Tokyo Sushi,43.665885330936845,-79.38697684868161,Sushi Restaurant
+Queen's Park,43.6623015,-79.3894938,College Park Area,43.65975136823981,-79.38491112965691,Park
+Queen's Park,43.6623015,-79.3894938,T-Swirl Crepe,43.663452,-79.384125,Creperie
+Queen's Park,43.6623015,-79.3894938,Como En Casa,43.66516,-79.384796,Mexican Restaurant
+Queen's Park,43.6623015,-79.3894938,Starbucks,43.662407,-79.385943,Coffee Shop
+Queen's Park,43.6623015,-79.3894938,Curry's Art Store Ltd.,43.66283810530193,-79.38373201352064,Arts & Crafts Store
+Queen's Park,43.6623015,-79.3894938,401 Games,43.663623277853254,-79.3840374323983,Hobby Shop
+Queen's Park,43.6623015,-79.3894938,Burrito Bandidos,43.662962178169344,-79.38395554190546,Burrito Place
+Queen's Park,43.6623015,-79.3894938,Coach House Restaurant,43.66499059853204,-79.38481415727767,Diner
+Queen's Park,43.6623015,-79.3894938,Flock Rotisserie + Greens,43.659167,-79.389475,Fried Chicken Joint
+Queen's Park,43.6623015,-79.3894938,Hart House Theatre,43.66357134217992,-79.3946163990837,Theater
+Queen's Park,43.6623015,-79.3894938,Tokyo Grill,43.665085238149395,-79.38470692554789,Japanese Restaurant
+Queen's Park,43.6623015,-79.3894938,W Burger Bar,43.66133100835633,-79.3835570768382,Burger Joint
+Queen's Park,43.6623015,-79.3894938,Buddies In Bad Times Theatre,43.663058539371825,-79.38344927771267,Nightclub
+Queen's Park,43.6623015,-79.3894938,St. Louis Bar and Grill,43.66385323730235,-79.38418742909323,Wings Joint
+Queen's Park,43.6623015,-79.3894938,Starbucks,43.661527,-79.383411,Coffee Shop
+Queen's Park,43.6623015,-79.3894938,Starbucks,43.658204,-79.388998,Coffee Shop
+Queen's Park,43.6623015,-79.3894938,Crown Princess Fine Dining 伯爵名宴,43.66645492941117,-79.38769789187712,Chinese Restaurant
+Queen's Park,43.6623015,-79.3894938,The Captain's Boil,43.662374914979594,-79.38353475807129,Seafood Restaurant
+Queen's Park,43.6623015,-79.3894938,Booster Juice,43.65865699,-79.38868207,Smoothie Shop
+Queen's Park,43.6623015,-79.3894938,Aroma Espresso Bar,43.658927676749364,-79.38990298985978,Café
+Queen's Park,43.6623015,-79.3894938,Hart House Gym,43.66417202442517,-79.39488839857401,Gym
+Canada Post Gateway Processing Centre,43.6369656,-79.61581899999999,Hilton Garden Inn,43.63851877906645,-79.61872101399192,Hotel
+Canada Post Gateway Processing Centre,43.6369656,-79.61581899999999,Quesada Mexican Grill,43.63691569975329,-79.62058021407259,Burrito Place
+Canada Post Gateway Processing Centre,43.6369656,-79.61581899999999,Courtyard Mississauga-Airport Corporate Centre West,43.641405402386695,-79.61554332646301,Hotel
+Canada Post Gateway Processing Centre,43.6369656,-79.61581899999999,Tim Hortons,43.63629258792057,-79.61565527116397,Coffee Shop
+Canada Post Gateway Processing Centre,43.6369656,-79.61581899999999,Subway,43.6368014963905,-79.62088312119413,Sandwich Place
+Canada Post Gateway Processing Centre,43.6369656,-79.61581899999999,Starbucks,43.63696,-79.62103,Coffee Shop
+Canada Post Gateway Processing Centre,43.6369656,-79.61581899999999,Mary Brown's Famous Chicken,43.63683566544911,-79.62057539641114,Fried Chicken Joint
+Canada Post Gateway Processing Centre,43.6369656,-79.61581899999999,Great North American Grill,43.63842948751721,-79.61875587791347,American Restaurant
+Canada Post Gateway Processing Centre,43.6369656,-79.61581899999999,Anoush Middle Eastern Cuisine,43.636848,-79.62077,Middle Eastern Restaurant
+Canada Post Gateway Processing Centre,43.6369656,-79.61581899999999,Anoush,43.63676913761602,-79.62083985121491,Mediterranean Restaurant
+Canada Post Gateway Processing Centre,43.6369656,-79.61581899999999,LA Fitness,43.637794,-79.621765,Gym
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,Rorschach Brewing Co.,43.6634831695922,-79.31982368639481,Brewery
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,Leslieville Farmers Market,43.664901398008624,-79.31978354343948,Farmers Market
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,The Sidekick,43.66448428095712,-79.3251615270421,Comic Shop
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,Chino Locos,43.664653279986126,-79.32558448882219,Burrito Place
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,Queen Margherita Pizza,43.664685391781596,-79.32416396716876,Pizza Place
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,The Green Wood,43.66472825054798,-79.32411719351869,Restaurant
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,Chick-n-Joy,43.66518127981666,-79.32140349279904,Fast Food Restaurant
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,Ashbridges Bay Skatepark,43.662547867049305,-79.31563069104494,Skate Park
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,East End Garden Centre & Hardware,43.664555216809305,-79.32459829159242,Garden Center
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,Amin Car Repair Garage,43.66354387979742,-79.32013017528811,Auto Workshop
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,TTC Russell Division,43.66490791114473,-79.32255956772657,Light Rail Station
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,Jonathan Ashbridge Park,43.664702,-79.319898,Park
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,The Ten Spot,43.664814785818976,-79.32421263111455,Spa
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,TTC Stop #03049,43.66447,-79.325145,Light Rail Station
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,Greenwood Cigar & Variety,43.6645377446058,-79.32537913922498,Smoke Shop
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,Revolution Recording,43.662561,-79.32694,Recording Studio
+Business Reply Mail Processing Centre 969 Eastern,43.6627439,-79.321558,ONE Academy,43.66225256325049,-79.32691097259521,Gym / Fitness Center
+"Humber Bay Shores,Mimico South,New Toronto",43.6056466,-79.50132070000001,LCBO,43.60228082768786,-79.4993016827402,Liquor Store
+"Humber Bay Shores,Mimico South,New Toronto",43.6056466,-79.50132070000001,Domino's Pizza,43.60167573484193,-79.50090770555259,Pizza Place
+"Humber Bay Shores,Mimico South,New Toronto",43.6056466,-79.50132070000001,New Toronto Fish & Chips,43.60184940532482,-79.50328125758809,Restaurant
+"Humber Bay Shores,Mimico South,New Toronto",43.6056466,-79.50132070000001,Delicia Bakery & Pastry,43.601402988357286,-79.50301234678948,Bakery
+"Humber Bay Shores,Mimico South,New Toronto",43.6056466,-79.50132070000001,Lucky Dice Restaurant,43.601392135734876,-79.50305626141281,Café
+"Humber Bay Shores,Mimico South,New Toronto",43.6056466,-79.50132070000001,Popeyes Louisiana Kitchen,43.6020694028516,-79.49940016778937,Fried Chicken Joint
+"Humber Bay Shores,Mimico South,New Toronto",43.6056466,-79.50132070000001,Subway,43.602382,-79.498275,Sandwich Place
+"Humber Bay Shores,Mimico South,New Toronto",43.6056466,-79.50132070000001,McDonald's,43.60246404619248,-79.49885909892578,Fast Food Restaurant
+"Humber Bay Shores,Mimico South,New Toronto",43.6056466,-79.50132070000001,Shoppers Drug Mart,43.601677,-79.502239,Pharmacy
+"Humber Bay Shores,Mimico South,New Toronto",43.6056466,-79.50132070000001,Halibut House Fish and Chips Inc.,43.60196,-79.501147,Seafood Restaurant
+"Humber Bay Shores,Mimico South,New Toronto",43.6056466,-79.50132070000001,Crossfit Colosseum,43.604815756762726,-79.50702399614443,Gym
+"Humber Bay Shores,Mimico South,New Toronto",43.6056466,-79.50132070000001,Lakeshore Village Fruit,43.60125787389022,-79.50048875136308,Flower Shop
+"Alderwood,Long Branch",43.60241370000001,-79.54348409999999,Il Paesano Pizzeria & Restaurant,43.60128,-79.545028,Pizza Place
+"Alderwood,Long Branch",43.60241370000001,-79.54348409999999,Toronto Gymnastics International,43.59983195234328,-79.54292448822379,Gym
+"Alderwood,Long Branch",43.60241370000001,-79.54348409999999,Timothy's Pub,43.60016508568706,-79.54469872722389,Pub
+"Alderwood,Long Branch",43.60241370000001,-79.54348409999999,Tim Hortons,43.60239631505536,-79.5450476557017,Coffee Shop
+"Alderwood,Long Branch",43.60241370000001,-79.54348409999999,Pizza Pizza,43.60534035117562,-79.54725175609202,Pizza Place
+"Alderwood,Long Branch",43.60241370000001,-79.54348409999999,Subway,43.599261522315125,-79.54433962697884,Sandwich Place
+"Alderwood,Long Branch",43.60241370000001,-79.54348409999999,Taras Shevchenko Ukrainian Community Centre,43.60220720982585,-79.54366246716957,Dance Studio
+"Alderwood,Long Branch",43.60241370000001,-79.54348409999999,Rexall,43.601951,-79.545694,Pharmacy
+"Alderwood,Long Branch",43.60241370000001,-79.54348409999999,Sir Adam Beck Rink,43.602526494798546,-79.5474551115246,Skating Rink
+"The Kingsway,Montgomery Road,Old Mill North",43.653653600000005,-79.5069436,Lambton-Kingsway Park,43.65708490159558,-79.5081446552562,Park
+"The Kingsway,Montgomery Road,Old Mill North",43.653653600000005,-79.5069436,Humber River Falls,43.65561677331574,-79.50170233015278,River
+"Humber Bay,King's Mill Park,Kingsway Park South East,Mimico NE,Old Mill South,The Queensway East,Royal York South East,Sunnylea",43.6362579,-79.49850909999999,Woodford Park,43.63315249748257,-79.49626581098377,Baseball Field
+"Humber Bay,King's Mill Park,Kingsway Park South East,Mimico NE,Old Mill South,The Queensway East,Royal York South East,Sunnylea",43.6362579,-79.49850909999999,Robar Hardwood Flooring,43.636416808883915,-79.49310064315796,Home Service
+"Kingsway Park South West,Mimico NW,The Queensway West,Royal York South West,South of Bloor",43.6288408,-79.52099940000001,South St. Burger,43.63131374571208,-79.51840794740386,Burger Joint
+"Kingsway Park South West,Mimico NW,The Queensway West,Royal York South West,South of Bloor",43.6288408,-79.52099940000001,Wingporium,43.630275355081025,-79.51816911632163,Wings Joint
+"Kingsway Park South West,Mimico NW,The Queensway West,Royal York South West,South of Bloor",43.6288408,-79.52099940000001,Dollarama,43.629883,-79.518627,Discount Store
+"Kingsway Park South West,Mimico NW,The Queensway West,Royal York South West,South of Bloor",43.6288408,-79.52099940000001,Healthy Planet,43.63021350898869,-79.51849539043684,Supplement Shop
+"Kingsway Park South West,Mimico NW,The Queensway West,Royal York South West,South of Bloor",43.6288408,-79.52099940000001,Artisano Bakery Café,43.63100591046913,-79.51817164574096,Bakery
+"Kingsway Park South West,Mimico NW,The Queensway West,Royal York South West,South of Bloor",43.6288408,-79.52099940000001,7-Eleven,43.6291072,-79.5174309,Convenience Store
+"Kingsway Park South West,Mimico NW,The Queensway West,Royal York South West,South of Bloor",43.6288408,-79.52099940000001,Jim & Maria's No Frills,43.631152,-79.518617,Grocery Store
+"Kingsway Park South West,Mimico NW,The Queensway West,Royal York South West,South of Bloor",43.6288408,-79.52099940000001,McDonald's,43.6300171,-79.5180371,Fast Food Restaurant
+"Kingsway Park South West,Mimico NW,The Queensway West,Royal York South West,South of Bloor",43.6288408,-79.52099940000001,Subway,43.631518004787885,-79.51885649450533,Sandwich Place
+"Kingsway Park South West,Mimico NW,The Queensway West,Royal York South West,South of Bloor",43.6288408,-79.52099940000001,Rona,43.6293926,-79.5183198,Hardware Store
+"Kingsway Park South West,Mimico NW,The Queensway West,Royal York South West,South of Bloor",43.6288408,-79.52099940000001,Islington Florist & Nursery,43.63015614347047,-79.51871819271057,Flower Shop
+"Kingsway Park South West,Mimico NW,The Queensway West,Royal York South West,South of Bloor",43.6288408,-79.52099940000001,Koala Tan Tanning Salon & Sunless Spa,43.63137,-79.519006,Tanning Salon
+"Kingsway Park South West,Mimico NW,The Queensway West,Royal York South West,South of Bloor",43.6288408,-79.52099940000001,Kingsway Boxing Club,43.627254438608404,-79.52668419449365,Gym
+"Kingsway Park South West,Mimico NW,The Queensway West,Royal York South West,South of Bloor",43.6288408,-79.52099940000001,Burrito Boyz,43.62665661432599,-79.52634931800284,Burrito Place
+"Bloordale Gardens,Eringate,Markland Wood,Old Burnhamthorpe",43.6435152,-79.57720079999999,LCBO,43.642098691959625,-79.5765915607928,Liquor Store
+"Bloordale Gardens,Eringate,Markland Wood,Old Burnhamthorpe",43.6435152,-79.57720079999999,Starbucks,43.641312,-79.576924,Coffee Shop
+"Bloordale Gardens,Eringate,Markland Wood,Old Burnhamthorpe",43.6435152,-79.57720079999999,The Beer Store,43.6413126,-79.5769248,Beer Store
+"Bloordale Gardens,Eringate,Markland Wood,Old Burnhamthorpe",43.6435152,-79.57720079999999,Shoppers Drug Mart,43.641312,-79.576924,Pharmacy
+"Bloordale Gardens,Eringate,Markland Wood,Old Burnhamthorpe",43.6435152,-79.57720079999999,Pizza Hut,43.64184465713319,-79.5765560607079,Pizza Place
+"Bloordale Gardens,Eringate,Markland Wood,Old Burnhamthorpe",43.6435152,-79.57720079999999,Cafe Sympatico,43.641820470953256,-79.57672066335874,Café
+"Bloordale Gardens,Eringate,Markland Wood,Old Burnhamthorpe",43.6435152,-79.57720079999999,Hasty Market,43.641870640831144,-79.5763695106309,Convenience Store
+"Bloordale Gardens,Eringate,Markland Wood,Old Burnhamthorpe",43.6435152,-79.57720079999999,Burnhamthrope Mall,43.64174083240465,-79.57689075245096,Shopping Plaza
+"Bloordale Gardens,Eringate,Markland Wood,Old Burnhamthorpe",43.6435152,-79.57720079999999,Pet Valu,43.64166745232465,-79.57704986776474,Pet Store
+Humber Summit,43.7563033,-79.56596329999999,The Famous Mama Mia,43.75882,-79.570637,Empanada Restaurant
+"Emery,Humberlea",43.7247659,-79.53224240000002,Sunset Aluminum,43.722971,-79.53222,Construction & Landscaping
+"Emery,Humberlea",43.7247659,-79.53224240000002,Strathburn Park,43.721765047523654,-79.53285448549357,Baseball Field
+Weston,43.706876,-79.51818840000001,Elm Park,43.70613889238497,-79.51586870967138,Park
+Weston,43.706876,-79.51818840000001,Olympic convenience store,43.70448603955921,-79.51578933384089,Convenience Store
+Westmount,43.696319,-79.53224240000002,Starbucks,43.696405,-79.533479,Coffee Shop
+Westmount,43.696319,-79.53224240000002,Mayflower Chinese Food,43.69275315666511,-79.53156594082111,Chinese Restaurant
+Westmount,43.696319,-79.53224240000002,Pizza Hut,43.69643127748791,-79.53323325309887,Pizza Place
+Westmount,43.696319,-79.53224240000002,Subway,43.69292687319966,-79.5314711469564,Sandwich Place
+Westmount,43.696319,-79.53224240000002,Pizza Nova,43.69281687469844,-79.53156995754804,Pizza Place
+Westmount,43.696319,-79.53224240000002,Dixon & Royal York,43.70001307201072,-79.53440797155301,Intersection
+"Kingsview Village,Martin Grove Gardens,Richview Gardens,St. Phillips",43.6889054,-79.55472440000001,Wincott Park,43.68930102613731,-79.55180191329336,Park
+"Kingsview Village,Martin Grove Gardens,Richview Gardens,St. Phillips",43.6889054,-79.55472440000001,TTC Bus 45 Kipling,43.69090730623053,-79.55706596374512,Bus Line
+"Kingsview Village,Martin Grove Gardens,Richview Gardens,St. Phillips",43.6889054,-79.55472440000001,Ital Pizza,43.69013634101567,-79.55997904562093,Pizza Place
+"Kingsview Village,Martin Grove Gardens,Richview Gardens,St. Phillips",43.6889054,-79.55472440000001,Rogers,43.69262,-79.557402,Mobile Phone Shop
+"Albion Gardens,Beaumond Heights,Humbergate,Jamestown,Mount Olive,Silverstone,South Steeles,Thistletown",43.739416399999996,-79.5884369,Subway,43.742421428383224,-79.58947097431394,Sandwich Place
+"Albion Gardens,Beaumond Heights,Humbergate,Jamestown,Mount Olive,Silverstone,South Steeles,Thistletown",43.739416399999996,-79.5884369,Shoppers Drug Mart,43.741685,-79.584487,Pharmacy
+"Albion Gardens,Beaumond Heights,Humbergate,Jamestown,Mount Olive,Silverstone,South Steeles,Thistletown",43.739416399999996,-79.5884369,Popeyes Louisiana Kitchen,43.74120165509377,-79.58454469276013,Fried Chicken Joint
+"Albion Gardens,Beaumond Heights,Humbergate,Jamestown,Mount Olive,Silverstone,South Steeles,Thistletown",43.739416399999996,-79.5884369,Sheriff's No Frills,43.741696,-79.584379,Grocery Store
+"Albion Gardens,Beaumond Heights,Humbergate,Jamestown,Mount Olive,Silverstone,South Steeles,Thistletown",43.739416399999996,-79.5884369,The Beer Store,43.7416936,-79.5843728,Beer Store
+"Albion Gardens,Beaumond Heights,Humbergate,Jamestown,Mount Olive,Silverstone,South Steeles,Thistletown",43.739416399999996,-79.5884369,Pizza Pizza,43.74156896801906,-79.58448886871338,Pizza Place
+"Albion Gardens,Beaumond Heights,Humbergate,Jamestown,Mount Olive,Silverstone,South Steeles,Thistletown",43.739416399999996,-79.5884369,Sunny Foodmart,43.74184023292111,-79.59056069637506,Grocery Store
+"Albion Gardens,Beaumond Heights,Humbergate,Jamestown,Mount Olive,Silverstone,South Steeles,Thistletown",43.739416399999996,-79.5884369,McDonald's,43.7417571,-79.5842303,Fast Food Restaurant
+"Albion Gardens,Beaumond Heights,Humbergate,Jamestown,Mount Olive,Silverstone,South Steeles,Thistletown",43.739416399999996,-79.5884369,Dollarama,43.742018,-79.591076,Discount Store
+"Albion Gardens,Beaumond Heights,Humbergate,Jamestown,Mount Olive,Silverstone,South Steeles,Thistletown",43.739416399999996,-79.5884369,NORI SUSHI,43.742775,-79.586985,Japanese Restaurant
+Northwest,43.706748299999994,-79.5940544,Economy Rent A Car,43.708471,-79.589943,Rental Car Location
+Northwest,43.706748299999994,-79.5940544,Logistics Distribution,43.707554,-79.589252,Bar
+Northwest,43.706748299999994,-79.5940544,Saand Rexdale,43.70507157610408,-79.59872534770956,Drugstore
