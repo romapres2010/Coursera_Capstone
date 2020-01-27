@@ -109,11 +109,6 @@ Moscow_df.replace('\n', '', regex=True, inplace=True)
 Moscow_df["OKATO_Borough_Code"] = Moscow_df["OKATO_Borough_Code"].astype(int)
 Moscow_df["OKTMO_District_Code"] = Moscow_df["OKTMO_District_Code"].astype(int)
 
-# Delete some Boroughs that far from the center of the Moscow city and have not enough statistics 
-Moscow_df.drop(Moscow_df[Moscow_df['Borough_Type'].isin(['Городской округ', 'Поселение'])].index, inplace=True)
-Moscow_df.drop(Moscow_df[Moscow_df['District_Name'].isin(['ЗелАО'])].index, inplace=True)
-Moscow_df.drop(Moscow_df[Moscow_df['Borough_Name'].isin(['Некрасовка', 'Косино-Ухтомский', 'Восточный', 'Внуково', 'Молжаниновский', 'Куркино', 'Северный', 'Митино', 'Ново-Переделкино', 'Солнцево', 'Южное Бутово', 'Северное Бутово'])].index, inplace=True)
-
 # Take a look at the result dataframe
 print(Moscow_df.head())
 print(Moscow_df.dtypes)
@@ -139,8 +134,8 @@ Moscow_coord_df = pd.DataFrame(columns=column_names)
 geolocator = Nominatim(user_agent="foursquare_agent", timeout=2)
 
 # loop frough all Boroughs
-for Borough_Name, Borough_Type in zip(Moscow_df['Borough_Name'], Moscow_df['Borough_Type']):
-    address = '{}, {}, Москва, Россия'.format(Borough_Name, Borough_Type)
+for Borough_Name, Borough_Type, District_Name in zip(Moscow_df['Borough_Name'], Moscow_df['Borough_Type'], Moscow_df['District_Name']):
+    address = '{}, {}, {}, Москва, Россия'.format(Borough_Name, Borough_Type, District_Name)
     print(address)
 
     location = None
@@ -149,7 +144,7 @@ for Borough_Name, Borough_Type in zip(Moscow_df['Borough_Name'], Moscow_df['Boro
     while(location is None):
         location = geolocator.geocode(address)
 
-    print('The geograpical coordinate of {}, {} are {}, {}.'.format(Borough_Name, Borough_Type, location.latitude, location.longitude))
+    print('The geograpical coordinate of {}, {}, {} are {}, {}.'.format(Borough_Name, Borough_Type, District_Name, location.latitude, location.longitude))
 
     latitude = location.latitude
     longitude = location.longitude
@@ -165,6 +160,37 @@ Moscow_coord_df.to_csv("Moscow_coord_df.csv", index = False)
 # As service Nominatim not stable, load coordinate from previously saved file
 #Moscow_coord_df = pd.read_csv("Moscow_coord_df_new.csv")
 
+
+
+###############################################################################
+###############################################################################
+### Dowload GEOJSON for Moscow Boroughs
+###############################################################################
+###############################################################################
+# download geojson file
+url = 'http://gis-lab.info/data/mos-adm/mo.geojson'
+download_file = requests.get(url)
+mo_geojson_utf8 = 'mo.geojson.utf8'
+mo_geojson = 'mo.geojson'
+open(mo_geojson_utf8, 'wb').write(download_file.content)    
+print('GeoJSON file downloaded!')
+
+# Encode file from utf8 to cp1251 as my computer use Russian locale
+f = open(mo_geojson, "wb")
+for line in open(mo_geojson_utf8, "rb"):
+    f.write(line.decode('u8').encode('cp1251', 'ignore'))
+f = open(mo_geojson, "wb")
+for line in open(mo_geojson_utf8, "rb"):
+    f.write(line.decode('u8').encode('cp1251', 'ignore'))
+
+
+# validate geojson file    
+with open(mo_geojson) as json_file:
+    data = json_file.read()
+    try:
+        data = json.loads(data)
+    except ValueError as e:
+        print('invalid json: %s' % e)
 
 
 
@@ -335,38 +361,11 @@ Moscow_Borough_df.to_csv("Moscow_Borough_df.csv", index = False)
 
 
 
-###############################################################################
-###############################################################################
-### Dowload GEOJSON for Moscow Boroughs
-###############################################################################
-###############################################################################
-# download geojson file
-url = 'http://gis-lab.info/data/mos-adm/mo.geojson'
-download_file = requests.get(url)
-mo_geojson_utf8 = 'mo.geojson.utf8'
-mo_geojson = 'mo.geojson'
-open(mo_geojson_utf8, 'wb').write(download_file.content)    
-print('GeoJSON file downloaded!')
 
-# Encode file from utf8 to cp1251 as my computer use Russian locale
-f = open(mo_geojson, "wb")
-for line in open(mo_geojson_utf8, "rb"):
-    f.write(line.decode('u8').encode('cp1251', 'ignore'))
-f = open(mo_geojson, "wb")
-for line in open(mo_geojson_utf8, "rb"):
-    f.write(line.decode('u8').encode('cp1251', 'ignore'))
-
-
-# validate geojson file    
-with open(mo_geojson) as json_file:
-    data = json_file.read()
-    try:
-        data = json.loads(data)
-    except ValueError as e:
-        print('invalid json: %s' % e)
-
-
-
+# Delete some Boroughs that far from the center of the Moscow city and have not enough statistics 
+Moscow_df.drop(Moscow_df[Moscow_df['Borough_Type'].isin(['Городской округ', 'Поселение'])].index, inplace=True)
+Moscow_df.drop(Moscow_df[Moscow_df['District_Name'].isin(['ЗелАО'])].index, inplace=True)
+Moscow_df.drop(Moscow_df[Moscow_df['Borough_Name'].isin(['Некрасовка', 'Косино-Ухтомский', 'Восточный', 'Внуково', 'Молжаниновский', 'Куркино', 'Северный', 'Митино', 'Ново-Переделкино', 'Солнцево', 'Южное Бутово', 'Северное Бутово'])].index, inplace=True)
 
 
 
