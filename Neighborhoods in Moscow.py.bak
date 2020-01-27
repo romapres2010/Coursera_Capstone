@@ -1,0 +1,289 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jan 11 17:12:24 2020
+
+@author: Roman
+"""
+###############################################################################
+# import library
+###############################################################################
+import requests # library to handle requests
+import pandas as pd # library for data analsysis
+import numpy as np # library to handle data in a vectorized manner
+from bs4 import BeautifulSoup # library for html scrap
+from geopy.geocoders import Nominatim
+import folium
+
+
+###############################################################################
+# Define function for HTML table parse
+###############################################################################
+def parse_html_table(table):
+    n_columns = 0
+    n_rows=0
+    column_names = []
+
+    # Find number of rows and columns
+    # we also find the column titles if we can
+    for row in table.find_all('tr'):
+        
+        # Determine the number of rows in the table
+        td_tags = row.find_all('td')
+        if len(td_tags) > 0:
+            n_rows+=1
+            if n_columns == 0:
+                # Set the number of columns for our table
+                n_columns = len(td_tags)
+                
+        # Handle column names if we find them
+        th_tags = row.find_all('th') 
+        if len(th_tags) > 0 and len(column_names) == 0:
+            for th in th_tags:
+                column_names.append(th.get_text())
+
+    # Safeguard on Column Titles
+    if len(column_names) > 0 and len(column_names) != n_columns:
+        raise Exception("Column titles do not match the number of columns")
+
+    columns = column_names if len(column_names) > 0 else range(0,n_columns)
+    df = pd.DataFrame(columns = columns,
+                        index= range(0,n_rows))
+    row_marker = 0
+    for row in table.find_all('tr'):
+        column_marker = 0
+        columns = row.find_all('td')
+        for column in columns:
+            df.iat[row_marker,column_marker] = column.get_text()
+            column_marker += 1
+        if len(columns) > 0:
+            row_marker += 1
+            
+    # Convert to float if possible
+    for col in df:
+        try:
+            df[col] = df[col].astype(float)
+        except ValueError:
+            pass
+    
+    return df
+
+
+###############################################################################
+# Load and parse page "Муниципальные образования Москвы"
+###############################################################################
+url = "https://gis-lab.info/qa/moscow-atd.html"
+response = requests.get(url)
+
+# Take second HTML table with districts from the page and parse it into dataframe
+soup = BeautifulSoup(response.text, 'lxml')
+tables = soup.findAll('table', { 'class' : 'wikitable sortable' }, limit=2) 
+Moscow_df = parse_html_table(tables[1])  
+
+# Take a look at the dataframe
+print(Moscow_df.head())
+print(Moscow_df.shape)
+print(Moscow_df.dtypes)
+
+# Rename columns for dataframe
+Moscow_df.columns=["Borough_index", "Borough_Name", "District_Name", "Borough_Type", "OKATO_Borough_Code", "OKTMO_District_Code"]
+# Drop some colums 
+Moscow_df.drop("Borough_index", axis=1, inplace=True)
+# Replace "\n" in the end of the text data
+Moscow_df.replace('\n', '', regex=True, inplace=True)
+#Moscow_df['District_Name'].replace('\n', '', regex=True, inplace=True)
+#Moscow_df['Borough_Type'].replace('\n', '', regex=True, inplace=True)
+# convert float to int for code columns
+Moscow_df["OKATO_Borough_Code"] = Moscow_df["OKATO_Borough_Code"].astype(int)
+Moscow_df["OKTMO_District_Code"] = Moscow_df["OKTMO_District_Code"].astype(int)
+
+# Take a look at the dataframe
+print(Moscow_df.head())
+print(Moscow_df.dtypes)
+
+# Save copy of the dataframe
+Moscow_df.to_csv("Moscow_df.csv", index = False)
+
+
+###############################################################################
+# Load and parse page "Муниципальные образования Москвы - плотность населения"
+###############################################################################
+url = "https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%BE%D0%B2_%D0%B8_%D0%BF%D0%BE%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D1%8B"
+response = requests.get(url)
+
+# Take first HTML table with districts from the page and parse it into dataframe
+soup = BeautifulSoup(response.text, 'lxml')
+tables = soup.findAll('table', { 'class' : 'standard sortable' }, limit=1) 
+Moscow_dens_df = parse_html_table(tables[0]) 
+
+# Take a look at the dataframe
+print(Moscow_dens_df.head())
+print(Moscow_dens_df.shape)
+print(Moscow_dens_df.dtypes)
+
+# Drop some colums 
+Moscow_dens_df.drop([Moscow_dens_df.columns[0], Moscow_dens_df.columns[1], Moscow_dens_df.columns[2], Moscow_dens_df.columns[3], Moscow_dens_df.columns[5]], axis=1, inplace=True)
+
+# Rename columns for dataframe
+Moscow_dens_df.columns=["Borough_Name", "Borough_Area", "Borough_Population", "Borough_Population_Density", "Borough_Housing_Area", "Borough_Housing_Area_Per_Person"]
+
+# Clear Borough Name from additional information
+Moscow_dens_df["Borough_Name"].replace(', поселение ', '', regex=True, inplace=True)
+Moscow_dens_df["Borough_Name"].replace(', городской округ ', '', regex=True, inplace=True)
+Moscow_dens_df["Borough_Name"] = Moscow_dens_df["Borough_Name"].str.strip(' \n\t')
+Moscow_dens_df["Borough_Name"].replace('Мосрентген', '"Мосрентген"', regex=True, inplace=True)
+
+# Replace '\n' and ' ↗' in some columns
+Moscow_dens_df.replace('\n', '', regex=True, inplace=True)
+Moscow_dens_df.replace('↗', '', regex=True, inplace=True)
+Moscow_dens_df.replace('↘', '', regex=True, inplace=True)
+
+# Delete extra spaces in numeric columns
+Moscow_dens_df["Borough_Area"].replace(' ', '', regex=True, inplace=True)
+Moscow_dens_df["Borough_Population"].replace('\xa0', '', regex=True, inplace=True)
+Moscow_dens_df["Borough_Population"].replace(' ', '', regex=True, inplace=True)
+Moscow_dens_df["Borough_Population_Density"].replace(' ', '', regex=True, inplace=True)
+Moscow_dens_df["Borough_Housing_Area"].replace(' ', '', regex=True, inplace=True)
+Moscow_dens_df["Borough_Housing_Area_Per_Person"].replace(' ', '', regex=True, inplace=True)
+
+# Replace ',' to '.' for float columns
+Moscow_dens_df["Borough_Area"].replace(',', '.', regex=True, inplace=True)
+Moscow_dens_df["Borough_Housing_Area"].replace(',', '.', regex=True, inplace=True)
+Moscow_dens_df["Borough_Housing_Area_Per_Person"].replace(',', '.', regex=True, inplace=True)
+
+# Convert from string to numeric
+Moscow_dens_df["Borough_Population"] = Moscow_dens_df["Borough_Population"].astype(int)
+Moscow_dens_df["Borough_Population_Density"] = Moscow_dens_df["Borough_Population_Density"].astype(int)
+Moscow_dens_df["Borough_Area"] = Moscow_dens_df["Borough_Area"].astype(float)
+Moscow_dens_df['Borough_Housing_Area'] = pd.to_numeric(Moscow_dens_df['Borough_Housing_Area'], errors='coerce')
+Moscow_dens_df['Borough_Housing_Area_Per_Person'] = pd.to_numeric(Moscow_dens_df['Borough_Housing_Area_Per_Person'], errors='coerce')
+
+# Take a look at the dataframe
+print(Moscow_dens_df.head())
+print(Moscow_dens_df.dtypes)
+
+# Save copy of the dataframe
+Moscow_dens_df.to_csv("Moscow_dens_df.csv", index = False)
+
+
+###############################################################################
+# Get coordinate of Moscow Borough
+###############################################################################
+# define the dataframe columns
+column_names = ['Borough_Name', 'Latitude', 'Longitude'] 
+
+# instantiate the dataframe
+Moscow_coord_df = pd.DataFrame(columns=column_names)
+
+geolocator = Nominatim(user_agent="foursquare_agent", timeout=2)
+
+# loop all Postcode
+for Borough_Name in Moscow_df['Borough_Name']:
+    address = '{}, Москва, Россия'.format(Borough_Name)
+    print(address)
+
+    location = None
+
+ # loop until you get the coordinates
+    while(location is None):
+        location = geolocator.geocode(address)
+
+    print('The geograpical coordinate of {} are {}, {}.'.format(Borough_Name, location.latitude, location.longitude))
+
+    latitude = location.latitude
+    longitude = location.longitude
+    Moscow_coord_df = Moscow_coord_df.append({'Borough_Name': Borough_Name,
+                                        'Latitude': latitude,
+                                        'Longitude': longitude}, ignore_index=True) 
+
+# Take a look at the dataframe
+print(Moscow_coord_df.head())
+
+# Save copy of the dataframe
+#Moscow_coord_df.to_csv("Moscow_coord_df.csv", index = False)
+
+# As service Nominatim not stable, load coordinate from previously saved file
+Moscow_coord_df = pd.read_csv("Moscow_coord_df_new.csv")
+
+###############################################################################
+# Join datasets "Муниципальные образования Москвы"
+###############################################################################
+Moscow_Borough_df = pd.merge(left=Moscow_df, right=Moscow_dens_df, left_on='Borough_Name', right_on='Borough_Name')
+Moscow_Borough_df = pd.merge(left=Moscow_Borough_df, right=Moscow_coord_df, left_on='Borough_Name', right_on='Borough_Name')
+
+# Take a look at the dataframe
+print(Moscow_Borough_df.head())
+print(Moscow_Borough_df.dtypes)
+
+
+###############################################################################
+# Dowload GEOJSON for Moscow Borough
+###############################################################################
+# download geojson file
+url = 'http://gis-lab.info/data/mos-adm/mo.geojson'
+download_file = requests.get(url)
+mo_geojson_utf8 = 'mo.geojson.utf8'
+mo_geojson = 'mo.geojson'
+open(mo_geojson_utf8, 'wb').write(download_file.content)    
+print('GeoJSON file downloaded!')
+
+# Encode file from utf8 to cp1251 as my computer use Russian locale
+f = open(mo_geojson, "wb")
+for line in open(mo_geojson_utf8, "rb"):
+    f.write(line.decode('u8').encode('cp1251', 'ignore'))
+f = open(mo_geojson, "wb")
+for line in open(mo_geojson_utf8, "rb"):
+    f.write(line.decode('u8').encode('cp1251', 'ignore'))
+
+
+# validate geojson file    
+import json
+# read file
+with open(mo_geojson) as json_file:
+    data = json_file.read()
+    try:
+        data = json.loads(data)
+    except ValueError as e:
+        print('invalid json: %s' % e)
+
+
+###############################################################################
+# Visialize a map of Moscow Borough
+###############################################################################
+
+# Moscow latitude and longitude values
+latitude = 55.7504461
+longitude = 37.6174943
+
+# create map and display it
+Moscow_map = folium.Map(location=[latitude, longitude], zoom_start=10)
+
+# generate choropleth map
+Moscow_map.choropleth(
+    geo_data=mo_geojson,
+    data=Moscow_Borough_df,
+    name='Population Density',
+    columns=['Borough_Name', 'Borough_Population_Density'],
+    key_on='feature.properties.NAME',
+    fill_color='YlOrRd', 
+    fill_opacity=0.7, 
+    line_opacity=0.2,
+    legend_name='Borough in Moscow City'
+)
+
+folium.LayerControl().add_to(Moscow_map)
+
+# Add markers to map 
+for Borough_Name, lat, lng, Borough_Population_Density in zip(Moscow_Borough_df['Borough_Name'], Moscow_Borough_df['Latitude'], Moscow_Borough_df['Longitude'], Moscow_Borough_df['Borough_Population_Density']):
+    folium.features.CircleMarker(
+        [lat, lng],
+        radius=5, # define how big you want the circle markers to be
+        color='yellow',
+        fill=True,
+        popup='{}, Москва, Россия ({:})'.format(Borough_Name, Borough_Population_Density),
+        fill_color='blue',
+        fill_opacity=0.6
+    ).add_to(Moscow_map)
+
+# display map
+Moscow_map
+
