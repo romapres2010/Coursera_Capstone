@@ -162,3 +162,11 @@ The third task was to remove all the venues that placed outside of the Moscow bo
 The fourth tas was to get main category from the category list for each venue.  
 
 As the result I had list of 20864 venues placed in the Moscow Boroughs with their geographical coordinates and categories
+
+#### Example of the hexagonal grid of area candidates
+
+![Example of the hexagonal grid of area candidates](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/hexagonal_grid_example.png)
+
+#### Example of the some Moscow Boroughs and theis venues
+
+![Example of the some Moscow Boroughs and theis venues](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Borough_venues_example.png)
