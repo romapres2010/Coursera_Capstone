@@ -1,7 +1,5 @@
 # Venues Data Analysis of Moscow City
-
 # Introduction <a name="Introduction"></a>
-
 ## Background <a name="Background"></a>
 Moscow, one of the largest metropolises in the world with a population of more than 12 million people, covers an area of ​​more than 2561.5 km² with an average density of inheritance of 4924.96 people / km² [1](https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0).
 
@@ -28,7 +26,6 @@ I will use the approaches and methods of machine learning to determine the locat
 The main stakeholders of my research will be investors interested in opening new fitness centers.
 
 # Data acquisition and cleaning <a name="data"></a>
-
 ## Data requirements
 Based on the problem and the established selection criteria, to conduct the research, I will need the following information: 
 
