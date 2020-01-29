@@ -19,8 +19,8 @@ from sklearn.preprocessing import StandardScaler
 ###############################################################################
 # Load previously prepeared dataset 
 ###############################################################################
-Moscow_Borough_df = pd.read_csv("Moscow_Borough_df.csv")
-Moscow_venues_df = pd.read_csv("Moscow_venues_df.csv")
+Moscow_Borough_df = pd.read_csv("data\Moscow_Borough_df.csv")
+Moscow_venues_df = pd.read_csv("data\Moscow_venues_df.csv")
 mo_geojson = 'mo.geojson'
 
 
@@ -40,7 +40,7 @@ gym_categories = ['Gym / Fitness Center','Gym']
 Moscow_gym_venues_df = Moscow_venues_df[Moscow_venues_df['Venue_Category_Name'].isin(gym_categories)]
 
 # Make a copy ofthen dataframe
-Moscow_gym_venues_df.to_csv("Moscow_gym_venues_df.csv", index = False)
+Moscow_gym_venues_df.to_csv("data\Moscow_gym_venues_df.csv", index = False)
 
 # Количество фитнес центров по районам
 Moscow_gym_count_df = Moscow_gym_venues_df.groupby(['Borough_Name'],as_index=False).count()[['Borough_Name', 'Venue_Id']]
@@ -55,7 +55,7 @@ Moscow_Borough_Gym_df = pd.merge(left=Moscow_Borough_df, right=Moscow_gym_count_
 Moscow_Borough_Gym_df['Borough_Population_Per_Gym'] = Moscow_Borough_Gym_df['Borough_Population'] / Moscow_Borough_Gym_df['Gym_Count']
 
 # сохраним датасет
-Moscow_Borough_Gym_df.to_csv("Moscow_Borough_Gym_df.csv", index = False)
+Moscow_Borough_Gym_df.to_csv("data\Moscow_Borough_Gym_df.csv", index = False)
 
 
 
@@ -217,7 +217,7 @@ Moscow_grouped_df['Cluster_Labels'] = kmeans.labels_.astype(int)
 Moscow_Borough_Gym_Clustering_df = pd.merge(left=Moscow_Borough_Gym_df, right=Moscow_grouped_df, how='left', left_on='Borough_Name', right_on='Borough_Name')
 
 # сохраним датасет
-Moscow_Borough_Gym_Clustering_df.to_csv("Moscow_Borough_Gym_Clustering_df.csv", index = False)
+Moscow_Borough_Gym_Clustering_df.to_csv("data\Moscow_Borough_Gym_Clustering_df.csv", index = False)
 
 
 
@@ -225,8 +225,8 @@ Moscow_Borough_Gym_Clustering_df.to_csv("Moscow_Borough_Gym_Clustering_df.csv", 
 # Visualize the resulting clusters
 ###############################################################################
 # Read previously saved dataset
-Moscow_Borough_Gym_Clustering_df = pd.read_csv("Moscow_Borough_Gym_Clustering_df.csv")
-Moscow_gym_venues_df = pd.read_csv("Moscow_gym_venues_df.csv")
+Moscow_Borough_Gym_Clustering_df = pd.read_csv("data\Moscow_Borough_Gym_Clustering_df.csv")
+Moscow_gym_venues_df = pd.read_csv("data\Moscow_gym_venues_df.csv")
 
 # create map and display it
 Moscow_map = folium.Map(location=[Moscow_lat, Moscow_lng], zoom_start=11)
@@ -292,7 +292,7 @@ kmeans.fit(X2)
 Moscow_Borough_df['Cluster_Labels'] = kmeans.labels_.astype(int)
 
 # сохраним датасет
-Moscow_Borough_df.to_csv("Moscow_Borough_Gym_Clustering_df.csv", index = False)
+Moscow_Borough_df.to_csv("data\Moscow_Borough_Gym_Clustering_df.csv", index = False)
 
 # Analyze Clustres 
 groups = Moscow_Borough_df.groupby('Cluster_Labels')
@@ -305,7 +305,7 @@ Moscow_Recomended_Borough_list = Moscow_Borough_df[Moscow_Borough_df['Cluster_La
 
 # Delete Venues that placed outside our cluster 
 Moscow_gym_venues_df = Moscow_gym_venues_df[Moscow_gym_venues_df['Borough_Name'].isin(Moscow_Recomended_Borough_list)]
-Moscow_gym_venues_df.to_csv("Moscow_gym_venues_df.csv", index = False)
+Moscow_gym_venues_df.to_csv("data\Moscow_gym_venues_df.csv", index = False)
 
 
 print(Moscow_Clustering_df)

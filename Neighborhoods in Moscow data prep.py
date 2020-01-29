@@ -109,13 +109,13 @@ try:
     Moscow_df.columns=["Borough_index", "Borough_Name", "District_Name", "Borough_Type", "OKATO_Borough_Code", "OKTMO_District_Code"]
 
     # Save dataframe for future use
-    Moscow_df.to_csv("Moscow_df_raw.csv", index = False)
+    Moscow_df.to_csv("data\Moscow_df_raw.csv", index = False)
 
 except Exception as err: 
     print('Request Url "{}" failed. Load previously saved dataframe'.format(url))
     print('Error is: {}'.format(err))
     # Load previously saved dataframe
-    Moscow_df = pd.read_csv("Moscow_df_raw.csv")
+    Moscow_df = pd.read_csv("data\Moscow_df_raw.csv")
 
 # Take a look at the dataframe
 print('Take a look at the dataframe')
@@ -150,7 +150,7 @@ print('Take a look at the dataframe data types')
 print(Moscow_df.dtypes)
 
 # Save dataframe for future use
-Moscow_df.to_csv("Moscow_df.csv", index = False)
+Moscow_df.to_csv("data\Moscow_df.csv", index = False)
 
 
 
@@ -196,13 +196,13 @@ try:
         raise geopy.exc.GeocoderTimedOut
 
     # Save copy of the dataframe as service Nominatim not stable
-    Moscow_coord_df.to_csv("Moscow_coord_df.csv", index = False)
+    Moscow_coord_df.to_csv("data\Moscow_coord_df.csv", index = False)
 
 except Exception as err:
     print('')
     print(err)
     print('Request Nominatim failed. Load previously saved dataframe')
-    Moscow_coord_df = pd.read_csv("Moscow_coord_df.csv")
+    Moscow_coord_df = pd.read_csv("data\Moscow_coord_df.csv")
 
 # Take a look at the dataframe
 print('Take a look at the dataframe'.format(url))
@@ -225,11 +225,11 @@ try:
     download_file = requests.get(url)
     print('Url "{}" requested. '.format(url))
 
-    mo_geojson_utf8 = 'mo.geojson.utf8'
+    mo_geojson_utf8 = 'data\mo.geojson.utf8'
     open(mo_geojson_utf8, 'wb').write(download_file.content)    
     print('GeoJSON file downloaded!')
 
-    mo_geojson = 'mo.geojson'
+    mo_geojson = 'data\mo.geojson'
 
     # Encode file from utf8 to cp1251 as my computer use Russian locale
     f = open(mo_geojson, "wb")
@@ -249,7 +249,7 @@ try:
 
 except: 
     print('Request Url "{}" failed'.format(url))
-    mo_geojson = 'mo.geojson'
+    mo_geojson = 'data\mo.geojson'
     print('GeoJSON file downloaded!')
 
 
@@ -278,13 +278,13 @@ try:
     print('Success extract dataset from HTML table'.format(url))
 
     # Save dataframe for future use
-    Moscow_housing_price_df.to_csv("Moscow_housing_price_df_raw.csv", index = False)
+    Moscow_housing_price_df.to_csv("data\Moscow_housing_price_df_raw.csv", index = False)
 
 except Exception as err: 
     print('Request Url "{}" failed. Load previously saved dataframe'.format(url))
     print('Error is: {}'.format(err))
     # Load previously saved dataframe
-    Moscow_housing_price_df = pd.read_csv("Moscow_housing_price_df_raw.csv")
+    Moscow_housing_price_df = pd.read_csv("data\Moscow_housing_price_df_raw.csv")
 
 # Take a look at the dataframe
 print('Take a look at the dataframe')
@@ -347,7 +347,7 @@ print(Moscow_housing_price_df.shape)
 print(Moscow_housing_price_df.dtypes)
 
 # Save copy of the dataframe
-Moscow_housing_price_df.to_csv("Moscow_housing_price_df.csv", index = False)
+Moscow_housing_price_df.to_csv("data\Moscow_housing_price_df.csv", index = False)
 
 
 ###############################################################################
@@ -375,13 +375,13 @@ try:
     print('Success extract dataset from HTML table'.format(url))
 
     # Save dataframe for future use
-    Moscow_dens_df.to_csv("Moscow_dens_df_raw.csv", index = False)
+    Moscow_dens_df.to_csv("data\Moscow_dens_df_raw.csv", index = False)
 
 except Exception as err: 
     print('Request Url "{}" failed. Load previously saved dataframe'.format(url))
     print('Error is: {}'.format(err))
     # Load previously saved dataframe
-    Moscow_dens_df = pd.read_csv("Moscow_dens_df_raw.csv")
+    Moscow_dens_df = pd.read_csv("data\Moscow_dens_df_raw.csv")
 
 # Take a look at the dataframe
 print('Take a look at the dataframe')
@@ -443,7 +443,7 @@ print('Take a look at the dataframe data types')
 print(Moscow_dens_df.dtypes)
 
 # Save copy of the dataframe
-Moscow_dens_df.to_csv("Moscow_dens_df.csv", index = False)
+Moscow_dens_df.to_csv("data\Moscow_dens_df.csv", index = False)
 
 
 
@@ -457,7 +457,7 @@ Moscow_Borough_df = pd.merge(left=Moscow_df, right=Moscow_dens_df, how='left', l
 Moscow_Borough_df = pd.merge(left=Moscow_Borough_df, right=Moscow_coord_df, how='left', left_on='Borough_Name', right_on='Borough_Name')
 Moscow_Borough_df = pd.merge(left=Moscow_Borough_df, right=Moscow_housing_price_df, how='left', left_on='Borough_Name', right_on='Borough_Name')
 
-# We do not have statistics on “housing prices” and “housing area” for all boroughs, so we exclude these boroughs from our analysis
+# We do not have statistics about “housing prices” and “housing area” for all boroughs, so we exclude these boroughs from our analysis
 print('Print Boroughs without Housing Price')
 Moscow_Borough_df[pd.isnull(Moscow_Borough_df['Borough_Housing_Price'])]
 print('Delete Boroughs without Housing Price')
@@ -467,6 +467,8 @@ print('Print Boroughs without Housing Area')
 Moscow_Borough_df[pd.isnull(Moscow_Borough_df['Borough_Housing_Area'])]
 print('Delete Boroughs without Housing Area')
 Moscow_Borough_df.dropna(subset=['Borough_Housing_Area'], inplace=True)
+
+
 
 # reset index
 Moscow_Borough_df.reset_index(drop=True, inplace=True)
@@ -480,7 +482,7 @@ print('Take a look at the dataframe data types')
 print(Moscow_Borough_df.dtypes)
 
 # Save result dataframe
-Moscow_Borough_df.to_csv("Moscow_Borough_df.csv", index = False)
+Moscow_Borough_df.to_csv("data\Moscow_Borough_df.csv", index = False)
 
 
 
@@ -492,6 +494,9 @@ Moscow_Borough_df.to_csv("Moscow_Borough_df.csv", index = False)
 # Moscow latitude and longitude values
 Moscow_lat= 55.7504461
 Moscow_lng= 37.6174943
+
+Moscow_Borough_df = pd.read_csv("data\Moscow_Borough_df.csv")
+mo_geojson = 'mo.geojson'
 
 # create map and display it
 Moscow_map = folium.Map(location=[Moscow_lat, Moscow_lng], zoom_start=10)
@@ -528,6 +533,7 @@ for Borough_Name, lat, lng, Borough_Population in zip(Moscow_Borough_df['Borough
 
 # display map
 Moscow_map
+
 
 
 
