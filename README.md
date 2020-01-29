@@ -143,6 +143,11 @@ So I needed to adjust they manually in the map.
 
 GEOJSON file downloaded from the page [Moscow Boroughs GEOJSON](http://gis-lab.info/data/mos-adm/mo.geojson) was quite good and not requied any addition clearing.
 
+#### Boroughs Population in Moscow City
+
+![Boroughs Population in Moscow City](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Moscow_borough_population_dans.png)
+
+
 ### Moscow Boroughs venues cleansing
 
 Usning **Forsquare API** I obtrained 34460 venues in 7899 cells.  
