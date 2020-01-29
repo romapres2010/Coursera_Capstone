@@ -111,7 +111,7 @@ Fortunately, they all had a low population density, which meat criteria of my re
 
 ### Moscow Boroughs geographical coordinates cleansing
 Nominatim service not only quite unstable.  
-It also have a occasionally problem with russian leter **ё**. So I have to manyaly obtain coordinates for such bourhs as:
+It also have a occasionally problem with russian leter **ё**. So I have to manyaly obtain coordinates for such boroughs as:
  - Дес**ё**новское, Поселение, Новомосковский  
  - Сав**ё**лки, Муниципальный округ, ЗелАО
  - Кл**ё**новское, Поселение, Троицкий  
