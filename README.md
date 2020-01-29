@@ -124,7 +124,8 @@ Fortunately, they all had a low population density, which meat criteria of my re
 
 #### The result Moscow Boroughs dataset
 
-![Moscow Boroughs dataset](./img/Moscow_borough_df.png)
+![Moscow Boroughs dataset](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Moscow_borough_df.png)
+
 
 ### Moscow Boroughs geographical coordinates cleansing
 
