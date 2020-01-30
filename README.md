@@ -1,8 +1,8 @@
 # Venues Data Analysis of Moscow City
 
-## Introduction <a name="Introduction"></a>
+## 1. Introduction <a name="Introduction"></a>
 
-### Background <a name="Background"></a>
+### 1.1 Background <a name="Background"></a>
 
 Moscow, one of the largest metropolises in the world with a population of more than 12 million people, covers an area of ​​more than 2561.5 km² with an average density of inheritance of 4924.96 people / km² [1](https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0).
 
@@ -12,7 +12,7 @@ Moscow has a very uneven population density from 30429 people / km² for the "З
 
 The average cost of real estate varies from 68,768 rubles / m² for the "Кленовское" borough to 438,568 rubles / m² for the "Арбат" borough [3](https://www.mirkvartir.ru/journal/analytics/2018/02/25/reiting-raionov-moskvi-po-stoimosti-kvartir).
 
-### Business Problem <a name="Business Problem"></a>
+### 1.2 Business Problem <a name="Business Problem"></a>
 
 Owners of cafes, fitness centers and other social facilities are expected to prefer boroughs with a high population density. Investors will prefer areas with low housing costs and low competitiveness.
 
@@ -30,9 +30,9 @@ I will use the approaches and methods of machine learning to determine the locat
 
 The main stakeholders of my research will be investors interested in opening new fitness centers.
 
-## Data acquisition and cleaning <a name="data"></a>
+## 2. Data acquisition and cleaning <a name="data"></a>
 
-### Data requirements
+### 2.2. Data requirements
 
 Based on the problem and the established selection criteria, to conduct the research, I will need the following information: 
 
@@ -48,9 +48,9 @@ Based on the problem and the established selection criteria, to conduct the rese
 3. shape of the each Moscow Borough in GEOJSON format
 4. list of venues placed in the each Moscow Borough with their geographical coordinates and categories
 
-### Decribe data sources
+### 2.3. Decribe data sources
 
-#### Moscow Boroughs dataset
+#### 2.3.1. Moscow Boroughs dataset
 
 Data for Moscow Boroughs dataset were downloaded from multiple HTTP page combined into one pandas dataframe.
 
@@ -65,16 +65,16 @@ A special Python function has been developed for HTML table parse. This function
 - to convert string to float, if posible
 - return result in form of the Pandas dataframe
 
-#### Moscow Boroughs geographical coordinates
+#### 2.3.2. Moscow Boroughs geographical coordinates
 
 Geographical coordinates of the each Moscow Borough were queried through Nominatim service.
 As the Nominatim service are quite unstable it was quite a challenge to request coordinate in several iterations.
 
-#### Moscow Boroughs shape in GEOJSON format
+#### 2.3.3. Moscow Boroughs shape in GEOJSON format
 
 Shape of the each Moscow Borough in GEOJSON format was downloaded from the page [Moscow Boroughs GEOJSON](http://gis-lab.info/data/mos-adm/mo.geojson)
 
-#### Moscow Boroughs venues
+#### 2.3.4. Moscow Boroughs venues
 
 To determine **venues** the service **Forsquare API** was used.  
 The API of **Forsquare** service have the restriction of 100 **venues**, which it can return in one request.  
@@ -92,9 +92,9 @@ Foursquare API have a certain limitation for API call in one day to explore venu
 In my case it was about 2000 calls per day.  
 So in addition I have to divide grid dataset into subset and call Foursquare API for several days.
 
-### Decribe data cleansing
+### 2.4. Decribe data cleansing
 
-#### Moscow Boroughs dataset cleansing
+#### 2.4.1. Moscow Boroughs dataset cleansing
 
 As data for Moscow Boroughs dataset were downloaded from multiple HTTP page it was necessary to perform a data cleaning. Such as:  
 
@@ -121,14 +121,12 @@ As the result I had a dataset with all 146 Moscow Boroughs. Result dataset conta
 - **Borough_Population_Density** - population density of the Moscow Borough
 - **Borough_Housing_Area** - housing area of the Moscow Borough in square meters
 - **Borough_Housing_Area_Per_Person** - housing area per person of the Moscow Borough in square meters
-- **Latitude** - geograprical Latitude of the Moscow Borough
-- **Longitude** - geograprical Longitude of the Moscow Borough
 - **Borough_Housing_Price** - average housing price of the Moscow Borough
 
-I had a problem to found proper statistics about “housing prices” and “housing area” for some Moscow boroughs, so I had to exclude 26 boroughs from my analysis.   
+I had a problem to found proper statistics about “housing prices” and “housing area” for some Moscow boroughs, so I had to exclude 26 boroughs from my analysis.
 Fortunately, they all had a low population density, which meat criteria of my research and did not reduce it quality.
 
-#### Moscow Boroughs geographical coordinates cleansing
+#### 2.4.2. Moscow Boroughs geographical coordinates cleansing
 
 Nominatim service not only quite unstable.  
 It also have a occasionally problem with russian leter **ё**. So I have to manyaly obtain coordinates for such boroughs as:
@@ -141,11 +139,17 @@ It also have a occasionally problem with russian leter **ё**. So I have to many
 Another problem with Nominatim service is that it return not very accurate coordinate of some Boroughs.  
 So I needed to adjust they manually in the map.
 
-#### Moscow Boroughs shape in GEOJSON format cleansing
+As the result I had a dataset with all 146 Moscow Boroughs geographical coordinates:
+
+- **Borough_Name** - name of the Moscow Borough
+- **Latitude** - geograprical Latitude of the Moscow Borough
+- **Longitude** - geograprical Longitude of the Moscow Borough
+
+#### 2.4.3. Moscow Boroughs shape in GEOJSON format cleansing
 
 GEOJSON file downloaded from the page [Moscow Boroughs GEOJSON](http://gis-lab.info/data/mos-adm/mo.geojson) was quite good and not requied any addition clearing.
 
-#### Moscow Boroughs venues cleansing
+#### 2.4.4. Moscow Boroughs venues cleansing
 
 Usning **Forsquare API** I obtrained 34460 venues in 7899 cells.  
 As I used a quite bigger radius (350 meters) for venue explorations than circle of a grid (300 meters), there was a need to remove duplicates venus.  
@@ -160,20 +164,36 @@ The fourth tas was to get main category from the category list for each venue.
 
 As the result I had list of 20864 venues placed in the Moscow Boroughs with their geographical coordinates and categories
 
-### Example of the resulting dataset
+### 2.5. Example of the resulting datasets
 
-#### The result Moscow Boroughs dataset
+#### 2.5.1. The result Moscow Boroughs dataset
+
+The prepared and cleared Moscow Boroughs dataset can be downloaded by link [Moscow Boroughs dataset](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/data/Moscow_Borough_df.csv)
+
+The picture below shows a small part of the Moscow Boroughs dataset
 
 ![Moscow Boroughs dataset](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Moscow_borough_df.png)
 
-#### Boroughs Population in Moscow City
+#### 2.5.2. Boroughs population in Moscow City map
+
+The picture below shows a choropleth map of the Moscow Boroughs population and the center of each boroughs.  
+As we can see, use center of the broughs for searching venues is quite useless as each borough have very sophisticated shape.  
+So I needed to present Moscow area in the form of a regular grid of circles of quite small diameter inside the circle of 28 000 meter in radius, which cover all the Moscow Boroughs in my research.
 
 ![Boroughs Population in Moscow City](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Moscow_borough_population_dans.png)
 
-#### Example of the hexagonal grid of area candidates
+The picture below shows an Example of such hexagonal grid of area candidates
 
 ![Example of the hexagonal grid of area candidates](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/hexagonal_grid_example.png)
 
-#### Example of the some Moscow Boroughs and theis venues
+#### 2.5.3. The result Moscow venues dataset
+
+The prepared and cleared Moscow venues dataset can be downloaded by link [Moscow venues dataset](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/data/Moscow_venues_df.csv)
+
+The picture below shows a small part of the Moscow Boroughs dataset
+
+![Moscow venues dataset](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Moscow_venues_df.png)
+
+The picture below shows a example of the some Moscow Boroughs and theis venues
 
 ![Example of the some Moscow Boroughs and theis venues](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Borough_venues_example.png)
