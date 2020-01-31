@@ -29,6 +29,13 @@ mo_geojson = 'data\mo.geojson'
 
 Moscow_Borough_df.columns
 
+
+###############################################################################
+###############################################################################
+# Exploratory Data Analysis
+###############################################################################
+###############################################################################
+
 ###############################################################################
 # Сreate subset of the features
 ###############################################################################
@@ -112,14 +119,196 @@ pearson_coef, p_value = stats.pearsonr(Moscow_Borough_Feature_df['Housing_Area']
 print("The Pearson Correlation Coefficient 'Housing_Area' to 'Area' is", pearson_coef, " with a P-value of P =", p_value)  
 
 
+# plt.figure(figsize=(12, 10))
+# sns.regplot(x="Housing_Area", y="Population_Density", data=Moscow_Borough_Feature_df)
+# plt.ylim(0,)
 
-plt.figure(figsize=(12, 10))
-sns.regplot(x="Housing_Area", y="Population_Density", data=Moscow_Borough_Feature_df)
-plt.ylim(0,)
 
 
-pearson_coef, p_value = stats.pearsonr(Moscow_Borough_Feature_df['Housing_Area'], Moscow_Borough_Feature_df['Population_Density'])
-print("The Pearson Correlation Coefficient is", pearson_coef, " with a P-value of P =", p_value)  
+###############################################################################
+###############################################################################
+# K-Means Clustering
+###############################################################################
+###############################################################################
+
+###############################################################################
+# Define the function clustering using k-means with elbow visualizations
+###############################################################################
+def KMeans_elbow(X, max_clusters=10):
+   
+    #==============================================================================
+    # Building the clustering model and calculating the values of the Distortion and Inertia
+    #==============================================================================
+    distortions = [] 
+    inertias = [] 
+    mapping1 = {} 
+    mapping2 = {} 
+    K = range(1,max_clusters) 
+    
+     
+    for k in K: 
+        #Building and fitting the model 
+        kmeans = KMeans(init = "k-means++", n_clusters=k, random_state=0, n_init = 12)
+        kmeans.fit(X) 
+          
+        distortions.append(sum(np.min(cdist(X, kmeans.cluster_centers_, 'euclidean'), axis=1)) / X.shape[0]) 
+        inertias.append(kmeans.inertia_) 
+      
+        mapping1[k] = sum(np.min(cdist(X, kmeans.cluster_centers_, 'euclidean'), axis=1)) / X.shape[0] 
+        mapping2[k] = kmeans.inertia_ 
+    
+    
+    #==============================================================================
+    # Visualizing the results using the different values of Distortion
+    #==============================================================================
+    print('Visualizing the results using the different values of Distortion')
+    for key,val in mapping1.items(): 
+        print(str(key)+' : '+str(val))
+    
+    plt.plot(K, distortions, 'bx-') 
+    plt.xlabel('Values of K') 
+    plt.ylabel('Distortion') 
+    plt.title('The Elbow Method using Distortion') 
+    plt.show() 
+    
+    #==============================================================================
+    # Visualizing the results using the different values of Inertia
+    #==============================================================================
+    print('Visualizing the results using the different values of Inertia')
+    for key,val in mapping2.items(): 
+        print(str(key)+' : '+str(val)) 
+        
+    plt.plot(K, inertias, 'bx-') 
+    plt.xlabel('Values of K') 
+    plt.ylabel('Inertia') 
+    plt.title('The Elbow Method using Inertia') 
+    plt.show() 
+
+
+
+###############################################################################
+# Prepare the dataset and calculate result ncluster value using elbow method
+###############################################################################
+# prepare dataset for K-means clustering
+X2 = Moscow_Borough_df[['Borough_Population','Borough_Housing_Price']]
+
+# Normalizing over the standard deviation
+X2 = StandardScaler().fit_transform(X2)
+
+# itterate from 1 to 10 n_clusters, calculate distortion and inertia, visualize it
+KMeans_elbow(X2, 10)
+
+
+###############################################################################
+# Analyze 3 centroid KMeans clustering
+###############################################################################
+#==============================================================================
+# Analyze 3 centroid KMeans clustering
+#==============================================================================
+kclusters = 3
+
+# run k-means clustering
+kmeans = KMeans(init = "k-means++", n_clusters=kclusters, random_state=0, n_init = 12)
+kmeans.fit(X2)
+
+# Add clustering labels
+Moscow_Borough_df['Cluster_Labels'] = kmeans.labels_.astype(int)
+
+# Analyze Clustres 
+groups = Moscow_Borough_df.groupby('Cluster_Labels')
+Moscow_population = Moscow_Borough_df['Borough_Population'].sum()
+Moscow_area = Moscow_Borough_df['Borough_Area'].sum()
+Moscow_Clustering_df = groups.mean().reset_index()[['Cluster_Labels', 'Borough_Population', 'Borough_Housing_Price']]
+Moscow_Clustering_df.columns = ['Cluster_Labels', 'Population_Mean', 'Housing_Price_Mean']
+Moscow_Clustering_df['Population_Sum'] = groups.sum().reset_index()[['Borough_Population']]
+Moscow_Clustering_df['Population_%'] = Moscow_Clustering_df['Population_Sum'] / Moscow_population * 100
+Moscow_Clustering_df['Borough_Count'] = groups.count().reset_index()[['Borough_Name']]
+Moscow_Clustering_df['Area_Sum'] = groups.sum().reset_index()[['Borough_Area']]
+Moscow_Clustering_df['Area_%'] = Moscow_Clustering_df['Area_Sum'] / Moscow_area * 100
+Moscow_Clustering_df['Population_Density'] = Moscow_Clustering_df['Population_Sum'] / Moscow_Clustering_df['Area_Sum']
+
+# Print clusters 
+Moscow_Clustering_df.head()
+
+#==============================================================================
+# Vizualize clusters using boxplots visualization
+#==============================================================================
+print ("Let's look at the relationship between 'Cluster_Labels' and 'Borough_Housing_Price'")
+sns.boxplot(x="Cluster_Labels", y="Borough_Housing_Price", data=Moscow_Borough_df)
+
+print ("Let's look at the relationship between 'Cluster_Labels' and 'Borough_Population'")
+sns.boxplot(x="Cluster_Labels", y="Borough_Population", data=Moscow_Borough_df)
+
+
+#==============================================================================
+# Vizualize clusters using choropleth map
+#==============================================================================
+mo_geojson = 'data\mo.geojson'
+
+# Moscow latitude and longitude values
+Moscow_lat= 55.7504461
+Moscow_lng= 37.6174943
+
+# create map 
+Moscow_map = folium.Map(location=[Moscow_lat, Moscow_lng], zoom_start=10)
+
+# generate choropleth map
+Moscow_map.choropleth(
+    geo_data=mo_geojson,
+    data=Moscow_Borough_df,
+    name='Population Density',
+    columns=['Borough_Name', 'Cluster_Labels'],
+    key_on='feature.properties.NAME',
+    fill_color='YlOrRd', 
+    fill_opacity=0.7, 
+    line_opacity=0.2,
+    legend_name='Borough Gym Clustering in Moscow City')
+
+
+# Add Borougs center as markers to Moscow map 
+for Borough_Name, lat, lng, Borough_Population in zip(Moscow_Borough_df['Borough_Name'], Moscow_Borough_df['Latitude'], Moscow_Borough_df['Longitude'], Moscow_Borough_df['Borough_Population']):
+    folium.features.CircleMarker(
+        [lat, lng],
+        radius=5, # define how big you want the circle markers to be
+        color='yellow',
+        fill=True,
+        #popup='{}, Москва, Россия ({:})'.format(Borough_Name, Borough_Population),
+        popup=folium.Popup('{}, Москва, Россия ({:})'.format(Borough_Name, Borough_Population), parse_html=True),
+        fill_color='blue',
+        fill_opacity=0.6
+    ).add_to(Moscow_map)
+
+Moscow_map
+
+
+
+
+
+
+
+
+
+
+
+
+Moscow_Recomended_Borough_list = Moscow_Borough_df[Moscow_Borough_df['Cluster_Labels'].isin(['1'])]['Borough_Name']
+
+
+Moscow_Borough_df.to_csv("data\Moscow_Borough_Clustering_df.csv", index = False)
+
+
+
+
+# Delete Venues that placed outside our cluster 
+Moscow_gym_venues_df = Moscow_gym_venues_df[Moscow_gym_venues_df['Borough_Name'].isin(Moscow_Recomended_Borough_list)]
+Moscow_gym_venues_df.to_csv("data\Moscow_gym_venues_df.csv", index = False)
+
+
+print(Moscow_Clustering_df)
+
+
+
+
 
 
 
@@ -235,60 +424,6 @@ for hood in Moscow_grouped_df['Borough_Name']:
 ###############################################################################
 
 #==============================================================================
-# Define the function clustering using k-means with elbow visualizations
-#==============================================================================
-def KMeans_elbow(X, max_clusters=10):
-   
-    #==============================================================================
-    # Building the clustering model and calculating the values of the Distortion and Inertia
-    #==============================================================================
-    distortions = [] 
-    inertias = [] 
-    mapping1 = {} 
-    mapping2 = {} 
-    K = range(1,max_clusters) 
-    
-     
-    for k in K: 
-        #Building and fitting the model 
-        kmeans = KMeans(init = "k-means++", n_clusters=k, random_state=0, n_init = 12)
-        kmeans.fit(X) 
-          
-        distortions.append(sum(np.min(cdist(X, kmeans.cluster_centers_, 'euclidean'), axis=1)) / X.shape[0]) 
-        inertias.append(kmeans.inertia_) 
-      
-        mapping1[k] = sum(np.min(cdist(X, kmeans.cluster_centers_, 'euclidean'), axis=1)) / X.shape[0] 
-        mapping2[k] = kmeans.inertia_ 
-    
-    
-    #==============================================================================
-    # Visualizing the results using the different values of Distortion
-    #==============================================================================
-    print('Visualizing the results using the different values of Distortion')
-    for key,val in mapping1.items(): 
-        print(str(key)+' : '+str(val))
-    
-    plt.plot(K, distortions, 'bx-') 
-    plt.xlabel('Values of K') 
-    plt.ylabel('Distortion') 
-    plt.title('The Elbow Method using Distortion') 
-    plt.show() 
-    
-    #==============================================================================
-    # Visualizing the results using the different values of Inertia
-    #==============================================================================
-    print('Visualizing the results using the different values of Inertia')
-    for key,val in mapping2.items(): 
-        print(str(key)+' : '+str(val)) 
-        
-    plt.plot(K, inertias, 'bx-') 
-    plt.xlabel('Values of K') 
-    plt.ylabel('Inertia') 
-    plt.title('The Elbow Method using Inertia') 
-    plt.show() 
-
-
-#==============================================================================
 # Prepare the dataset and calculate result ncluster value using elbow method
 #==============================================================================
 X = Moscow_grouped_df.drop('Borough_Name', 1)
@@ -366,74 +501,5 @@ Moscow_map
 ###############################################################################
 # 
 ###############################################################################
-#==============================================================================
-# Prepare the dataset and calculate result ncluster value using elbow method
-#==============================================================================
-Moscow_Borough_df.columns
 
-
-
-
-
-# create subset 
-#X2 = Moscow_Borough_df[['Borough_Population','Borough_Housing_Area','Borough_Housing_Price']]
-X2 = Moscow_Borough_df[['Borough_Population','Borough_Housing_Price']]
-#X2 = Moscow_Borough_df[['Borough_Population','Borough_Population_Density','Borough_Housing_Price']]
-#X2 = Moscow_Borough_df[['Borough_Population_Housing_Price']]
-
-# Normalizing over the standard deviation¶
-X2 = StandardScaler().fit_transform(X2)
-
-KMeans_elbow(X2, 10)
-
-kclusters = 5
-
-# run k-means clustering
-kmeans = KMeans(init = "k-means++", n_clusters=kclusters, random_state=0, n_init = 12)
-kmeans.fit(X2)
-
-# Add clustering labels
-Moscow_Borough_df['Cluster_Labels'] = kmeans.labels_.astype(int)
-
-# сохраним датасет
-Moscow_Borough_df.to_csv("data\Moscow_Borough_Clustering_df.csv", index = False)
-
-# Analyze Clustres 
-groups = Moscow_Borough_df.groupby('Cluster_Labels')
-Moscow_population = Moscow_Borough_df['Borough_Population'].sum()
-Moscow_area = Moscow_Borough_df['Borough_Area'].sum()
-Moscow_Clustering_df = groups.mean().reset_index()[['Cluster_Labels', 'Borough_Population', 'Borough_Housing_Price']]
-Moscow_Clustering_df.columns = ['Cluster_Labels', 'Population_Mean', 'Housing_Price_Mean']
-Moscow_Clustering_df['Population_Sum'] = groups.sum().reset_index()[['Borough_Population']]
-Moscow_Clustering_df['Population_%'] = Moscow_Clustering_df['Population_Sum'] / Moscow_population * 100
-Moscow_Clustering_df['Borough_Count'] = groups.count().reset_index()[['Borough_Name']]
-Moscow_Clustering_df['Area_Sum'] = groups.sum().reset_index()[['Borough_Area']]
-Moscow_Clustering_df['Area_%'] = Moscow_Clustering_df['Area_Sum'] / Moscow_area * 100
-Moscow_Clustering_df['Population_Density'] = Moscow_Clustering_df['Population_Sum'] / Moscow_Clustering_df['Area_Sum']
-
-Moscow_Recomended_Borough_list = Moscow_Borough_df[Moscow_Borough_df['Cluster_Labels'].isin(['1'])]['Borough_Name']
-
-
-print ("Let's look at the relationship between 'Cluster_Labels' and 'Borough_Housing_Price'")
-sns.boxplot(x="Cluster_Labels", y="Borough_Housing_Price", data=Moscow_Borough_df)
-
-print ("Let's look at the relationship between 'Cluster_Labels' and 'Borough_Population'")
-sns.boxplot(x="Cluster_Labels", y="Borough_Population", data=Moscow_Borough_df)
-
-print ("Let's look at the relationship between 'Cluster_Labels' and 'Borough_Population_Density'")
-sns.boxplot(x="Cluster_Labels", y="Borough_Population_Density", data=Moscow_Borough_df)
-
-
-# Delete Venues that placed outside our cluster 
-Moscow_gym_venues_df = Moscow_gym_venues_df[Moscow_gym_venues_df['Borough_Name'].isin(Moscow_Recomended_Borough_list)]
-Moscow_gym_venues_df.to_csv("data\Moscow_gym_venues_df.csv", index = False)
-
-
-print(Moscow_Clustering_df)
-
-
-# Normalizing over the standard deviation¶
-from sklearn.preprocessing import StandardScaler
-X = np.nan_to_num(X)
-Clus_dataSet = StandardScaler().fit_transform(X)
 
