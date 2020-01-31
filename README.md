@@ -198,7 +198,7 @@ The picture below shows a example of the some Moscow Boroughs and their venues
 
 ![Example of the some Moscow Boroughs and theis venues](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Borough_venues_example.png)
 
-## Exploratory Data Analysis
+## Methodology - Exploratory Data Analysis
 
 The key criteria for my research are:
 
@@ -255,5 +255,60 @@ So we can exclude 'Population_Density' from our considerations.
 
 ![Correlation matrix](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/correlation_matrix.png)
 
-## K-Means Clustering
+## Methodology - Clustering
 
+In my research, I decided to perform Moscow Boroughs segmentation with K-Means to detect Boroughs that have highest population and smallest housing price.  
+
+### K-Means Clustering with elbow method
+
+To determine right number of clusters, I used elbow method.
+According elbow method I implemented K-Means clustering from 1 to 10 centroids and calculate distortion and inertia for each variant.  
+
+The next pictures show elbow method using Distortion and Inertia. We can see that there are elbows at 3 and 5 centroid.  
+I decided to use 3 centroid In my research.  
+
+!['Elbow_Method_Distortion'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Elbow_Method_Distortion.png)
+
+!['Elbow_Method_Inertia'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Elbow_Method_Inertia.png)
+
+### Analyze K-Means clusters
+
+To analyze K-Means clusters I calculated some statistics:
+
+- count boroughs in the cluster
+- sum population in the cluster
+- sum area of the cluster
+- mean population in the boroughs in the cluster
+- mean housing price in the boroughs in the cluster
+- % population in the cluster to all Moscow City population
+- % area of the cluster to all Moscow City area
+- population density in the cluster
+
+The next pictures show these statistics
+
+!['Moscow_Clustering'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Moscow_Clustering.png)
+
+As we can see, there are 3 clusters  
+
+- "0" Cluster - characterized by low mean population (78538 people per Borough), relatively high mean housing price (173695 rubles/m²) and low population density (10328 people/km²) 
+- "1" Cluster - characterized by highest mean population (153187 people per Borough), smallest mean housing price (160741 rubles/m²) and highest population density (13312 people/km²)
+- "2" Cluster - characterized by low mean population (79805 people per Borough), highest mean housing price (333794 rubles/m²) and low population density (10533 people/km²)
+
+The next pictures show these clusters using boxplots visualization.  
+
+!['Cluster_Borough_Population_boxplot'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Cluster_Borough_Population_boxplot.png)
+
+!['Cluster_Borough_Housing_Price_boxplot'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Cluster_Borough_Housing_Price_boxplot.png)
+
+Very good result of the KMean clustering.  
+
+"1" Cluster perfectly fits my research criteria:  
+
+- boroughs from this cluster have highest mean population and smallest mean housing price
+- in 34 boroughs about 43% of the Moscow population occupied only 37% of the Moscow City area, that mean the highest population density
+
+### Vizualize clusters on choropleth map
+
+The next picture shows clusters on choropleth map.  
+
+!['Moscow_Clustering_map'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Moscow_Clustering_map.png)
