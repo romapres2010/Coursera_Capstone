@@ -22,7 +22,7 @@ In my research, I will try to determine the optimal places for the location of f
 
 The key criteria for selecting suitable locations for fitness centers will be:
 
-- High density of the borough population
+- High population of the borough
 - Low cost of real estate in the area
 - The absence in the immediate vicinity of other fitness facilities of a similar profile
 
@@ -48,7 +48,7 @@ Based on the problem and the established selection criteria, to conduct the rese
 3. shape of the each Moscow Borough in GEOJSON format
 4. list of venues placed in the each Moscow Borough with their geographical coordinates and categories
 
-### 2.3. Decribe data sources
+### 2.3. Describe data sources
 
 #### 2.3.1. Moscow Boroughs dataset
 
@@ -61,8 +61,8 @@ Data for Moscow Boroughs dataset were downloaded from multiple HTTP page combine
 A special Python function has been developed for HTML table parse. This function help me:
 
 - to find number of rows and columns in a HTML table
-- to get cloumns titles, if posible
-- to convert string to float, if posible
+- to get columns  titles, if possible
+- to convert string to float, if possible
 - return result in form of the Pandas dataframe
 
 #### 2.3.2. Moscow Boroughs geographical coordinates
@@ -92,7 +92,7 @@ Foursquare API have a certain limitation for API call in one day to explore venu
 In my case it was about 2000 calls per day.  
 So in addition I have to divide grid dataset into subset and call Foursquare API for several days.
 
-### 2.4. Decribe data cleansing
+### 2.4. Describe data cleansing
 
 #### 2.4.1. Moscow Boroughs dataset cleansing
 
@@ -109,7 +109,7 @@ As data for Moscow Boroughs dataset were downloaded from multiple HTTP page it w
 - convert from float to int for integer columns
 - convert from string to float for numeric columns
 
-As the result I had a dataset with all 146 Moscow Boroughs. Result dataset contains columns:
+As the result I, had a dataset with all 146 Moscow Boroughs. Result dataset contains columns:
 
 - **Borough_Name** - name of the Moscow Borough - is a unique key of the dataset
 - **District_Name** - name of the Moscow District in which Borough is belong to
@@ -129,7 +129,7 @@ Fortunately, they all had a low population density, which meat criteria of my re
 #### 2.4.2. Moscow Boroughs geographical coordinates cleansing
 
 Nominatim service not only quite unstable.  
-It also have a occasionally problem with russian leter **ё**. So I have to manyaly obtain coordinates for such boroughs as:
+It also have an occasionally problem with russian leter **ё**. So I have to manyaly obtain coordinates for such boroughs as:
 
 - Дес**ё**новское, Поселение, Новомосковский  
 - Сав**ё**лки, Муниципальный округ, ЗелАО
@@ -139,30 +139,30 @@ It also have a occasionally problem with russian leter **ё**. So I have to many
 Another problem with Nominatim service is that it return not very accurate coordinate of some Boroughs.  
 So I needed to adjust they manually in the map.
 
-As the result I had a dataset with all 146 Moscow Boroughs geographical coordinates:
+As the result I, had a dataset with all 146 Moscow Boroughs geographical coordinates:
 
 - **Borough_Name** - name of the Moscow Borough
-- **Latitude** - geograprical Latitude of the Moscow Borough
-- **Longitude** - geograprical Longitude of the Moscow Borough
+- **Latitude** - geographical Latitude of the Moscow Borough
+- **Longitude** - geographical Longitude of the Moscow Borough
 
 #### 2.4.3. Moscow Boroughs shape in GEOJSON format cleansing
 
-GEOJSON file downloaded from the page [Moscow Boroughs GEOJSON](http://gis-lab.info/data/mos-adm/mo.geojson) was quite good and not requied any addition clearing.
+GEOJSON file downloaded from the page [Moscow Boroughs GEOJSON](http://gis-lab.info/data/mos-adm/mo.geojson) was quite good and not required any addition clearing.
 
 #### 2.4.4. Moscow Boroughs venues cleansing
 
-Usning **Forsquare API** I obtrained 34460 venues in 7899 cells.  
-As I used a quite bigger radius (350 meters) for venue explorations than circle of a grid (300 meters), there was a need to remove duplicates venus.  
+Using **Forsquare API** I obtained 34460 venues in 7899 cells.  
+As I used a quite bigger radius (350 meters) for venue explorations than circle of a grid (300 meters), there was a need to remove duplicates venues.  
 After duplicates removal I had 27622 unique venues in the circle radius of 28 000 meters around the Moscow City.  
 
 The second task was to bind each venue to Moscow Boroughs in which borders they were placed.  
-To perform this task I created a polygons for each Moscow Borough from GEOJSON file and found wich venues coordinate included into each polygon.  
+To perform this task I created a polygon for each Moscow Borough from GEOJSON file and found which venues coordinate included into each polygon.  
 
 The third task was to remove all the venues that placed outside of the Moscow boroughs.  
 
-The fourth tas was to get main category from the category list for each venue.  
+The fourth task was to get main category from the category list for each venue.  
 
-As the result I had list of 20864 venues placed in the Moscow Boroughs with their geographical coordinates and categories
+As the result, I had list of 20864 venues placed in the Moscow Boroughs with their geographical coordinates and categories
 
 ### 2.5. Example of the resulting datasets
 
@@ -177,7 +177,7 @@ The picture below shows a small part of the Moscow Boroughs dataset
 #### 2.5.2. Boroughs population in Moscow City map
 
 The picture below shows a choropleth map of the Moscow Boroughs population and the center of each boroughs.  
-As we can see, use center of the broughs for searching venues is quite useless as each borough have very sophisticated shape.  
+As we can see, use center of the boroughs for searching venues is quite useless as each borough have very sophisticated shape.  
 So I needed to present Moscow area in the form of a regular grid of circles of quite small diameter inside the circle of 28 000 meter in radius, which cover all the Moscow Boroughs in my research.
 
 ![Boroughs Population in Moscow City](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Moscow_borough_population_dans.png)
@@ -194,6 +194,64 @@ The picture below shows a small part of the Moscow Boroughs dataset
 
 ![Moscow venues dataset](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Moscow_venues_df.png)
 
-The picture below shows a example of the some Moscow Boroughs and theis venues
+The picture below shows a example of the some Moscow Boroughs and their venues
 
 ![Example of the some Moscow Boroughs and theis venues](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Borough_venues_example.png)
+
+## Exploratory Data Analysis
+
+The key criteria for my research are:
+
+- high population of the borough
+- low cost of real estate in the area
+
+We have theese key features in Moscow Boroughs dataset:
+
+- District - name of the Moscow District in which Borough is belong to
+- Area - area of the Moscow Borough in square kilometers
+- Population_Density - population density of the Moscow Borough
+- Housing_Area - housing area of the Moscow Borough in square meters
+
+Let's analyze features and key criteria using:
+
+- descriptive statistical analysis
+- categorical variables  analysis
+- сorrelation analysis
+
+### Descriptive statistical analysis
+
+The picture below shows basic statistics for all features.  
+As we can see, Moscow Boroughs has a very uneven population from 12 194 people to 253 943 people.  
+The average cost of real estate varies from 109 421 rubles/m² to 438 568 rubles/m².
+
+![Descriptive statistical analysis](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Descriptive_statistical_analysis.png)
+
+### Categorical variables analysis
+
+I have one categorical variable - name of the Moscow District in which Borough is belong to.  
+Let's analize relationship between categorical feature 'District' and key criteria using boxplots visualization.  
+
+The picture below shows relationship between 'District' and 'Population'.  
+We can see that the distributions of Population between Boroughs in the different Districts have aт overlap, but we can estimate, that the most populated Boroughs are placed in 'ЮЗАО', 'ЮАО', 'СЗАО' and 'ЗАО' Districts.  
+
+!['District' and 'Population'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/District_Population_boxplot.png)
+
+The next picture shows relationship between 'District' and 'Housing Price'.  
+We see that the distributions of Housing Price between Boroughs in the different Districts are distinct enough.  
+As the result of boxplots visualization, categorical feature 'District' would be a good potential redictor only of Housing Price.  
+
+!['District' and 'Housing Price'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/District_Housing_Price_boxplot.png)
+
+### Correlation analysis
+
+The picture below shows correlation matrix.  
+Correlation between 'Area', 'Population_Density' and 'Population' is statistically significant, although the linear relationship isn't extremely strong.  
+Correlation between 'Housing_Are' and 'Population' is statistically hughly significant, and the linear relationship is extremely strong.  
+Correlation between 'Area', 'Population_Density', 'Housing_Area' and 'Housing_Price' is not statistically significant, although the linear relationship isn't strong.  
+Correlation between 'Area' to 'Population_Density' is statistically hughly significant, and the linear relationship is extremely strong.  
+So we can exclude 'Population_Density' from our considerations.  
+
+![Correlation matrix](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/correlation_matrix.png)
+
+![Correlation matrix values](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/correlation_matrix_values.png)
+

@@ -409,10 +409,11 @@ Moscow_venues_df.reset_index(inplace = True)
 print('Take a look at the dataframe shape')
 print(Moscow_venues_df.shape)
 
+
 # Save result dataset with Venues 
 Moscow_venues_df.to_csv("data\Moscow_venues_df.csv", index = False)
 
-
+#Moscow_venues_test_df = Moscow_venues_df[['Cell_id', 'Venue_Id', 'Borough_Name', 'Venue_Name', 'Venue_Latitude', 'Venue_Longitude', 'Venue_Category_Name' ]]
 
 ###############################################################################
 # Visialize a map of some Moscow Boroughs with venues in it

@@ -10,18 +10,120 @@ Created on Sat Jan 11 17:12:24 2020
 import pandas as pd # library for data analsysis
 import folium
 from folium.plugins import HeatMap
-import matplotlib.cm as cm
-import matplotlib.colors as colors
 import numpy as np # library to handle data in a vectorized manner
 from sklearn.preprocessing import StandardScaler
-
+from sklearn.cluster import KMeans
+from scipy.spatial.distance import cdist 
+import matplotlib.pyplot as plt 
+import matplotlib.cm as cm
+import matplotlib.colors as colors
+import seaborn as sns
+from scipy import stats
 
 ###############################################################################
 # Load previously prepeared dataset 
 ###############################################################################
 Moscow_Borough_df = pd.read_csv("data\Moscow_Borough_df.csv")
 Moscow_venues_df = pd.read_csv("data\Moscow_venues_df.csv")
-mo_geojson = 'mo.geojson'
+mo_geojson = 'data\mo.geojson'
+
+Moscow_Borough_df.columns
+
+###############################################################################
+# Сreate subset of the features
+###############################################################################
+# list of the potential features
+Moscow_Borough_Feature_list = ['Borough_Name', 'District_Name', 'Borough_Area', 'Borough_Population_Density', 'Borough_Housing_Area', 'Borough_Population', 'Borough_Housing_Price']
+
+# create subset of the potential features
+Moscow_Borough_Feature_df = Moscow_Borough_df[Moscow_Borough_Feature_list]
+
+# rename columns for easier understanding
+Moscow_Borough_Feature_df.columns = ['Borough', 'District', 'Area', 'Population_Density', 'Housing_Area', 'Population', 'Housing_Price']
+
+# Take a look at the correlation matrix 
+print('Take a look at the features dataframe')
+Moscow_Borough_Feature_df.head(10)
+
+
+###############################################################################
+# Descriptive ctatistical analysis
+###############################################################################
+# the count of that variable
+# the mean
+# the standard deviation (std)
+# the minimum value
+# the IQR (Interquartile Range: 25%, 50% and 75%)
+# the maximum value
+
+print('Take a look at the basic statistics')
+Moscow_Borough_Feature_df.describe()
+
+
+###############################################################################
+# Categorical variables analysis
+###############################################################################
+print ("Let's look at the relationship between 'District' and 'Population'")
+sns.boxplot(x="District", y="Population", data=Moscow_Borough_Feature_df)
+
+print ("Let's look at the relationship between 'District' and 'Housing_Price'")
+sns.boxplot(x="District", y="Housing_Price", data=Moscow_Borough_Feature_df)
+
+
+
+###############################################################################
+# Correlation analysis
+###############################################################################
+# calculate correlation matrix 
+Moscow_Borough_Feature_corr = Moscow_Borough_Feature_df.corr()
+
+# visualize correlation matrix 
+f, ax = plt.subplots(figsize=(10, 8))
+sns.heatmap(Moscow_Borough_Feature_corr, mask=np.zeros_like(Moscow_Borough_Feature_corr, dtype=np.bool), cmap=sns.diverging_palette(220, 10, as_cmap=True),
+            square=True, ax=ax)
+
+# Take a look at the correlation matrix 
+print('Take a look at the correlation matrix ')
+Moscow_Borough_Feature_corr.head(6)
+
+
+# Let's estimate the significant of the correlations between 'Area', 'Population_Density', 'Housing_Area' and 'Population'
+pearson_coef, p_value = stats.pearsonr(Moscow_Borough_Feature_df['Area'], Moscow_Borough_Feature_df['Population'])
+print("The Pearson Correlation Coefficient 'Area' to 'Population' is", pearson_coef, " with a P-value of P =", p_value)  
+pearson_coef, p_value = stats.pearsonr(Moscow_Borough_Feature_df['Population_Density'], Moscow_Borough_Feature_df['Population'])
+print("The Pearson Correlation Coefficient 'Population_Density' to 'Population' is", pearson_coef, " with a P-value of P =", p_value)  
+pearson_coef, p_value = stats.pearsonr(Moscow_Borough_Feature_df['Housing_Area'], Moscow_Borough_Feature_df['Population'])
+print("The Pearson Correlation Coefficient 'Housing_Area' to 'Population' is", pearson_coef, " with a P-value of P =", p_value)  
+
+#Let's estimate the significant of the correlations between 'Area', 'Population_Density', 'Housing_Area' and 'Housing_Price'
+pearson_coef, p_value = stats.pearsonr(Moscow_Borough_Feature_df['Area'], Moscow_Borough_Feature_df['Housing_Price'])
+print("The Pearson Correlation Coefficient 'Area' to 'Housing_Price' is", pearson_coef, " with a P-value of P =", p_value)  
+pearson_coef, p_value = stats.pearsonr(Moscow_Borough_Feature_df['Population_Density'], Moscow_Borough_Feature_df['Housing_Price'])
+print("The Pearson Correlation Coefficient 'Population_Density' to 'Housing_Price' is", pearson_coef, " with a P-value of P =", p_value)  
+pearson_coef, p_value = stats.pearsonr(Moscow_Borough_Feature_df['Housing_Area'], Moscow_Borough_Feature_df['Housing_Price'])
+print("The Pearson Correlation Coefficient 'Housing_Area' to 'Housing_Price' is", pearson_coef, " with a P-value of P =", p_value)  
+
+#Let's estimate the significant of the correlations between 'Area', 'Population_Density', 'Housing_Area'
+pearson_coef, p_value = stats.pearsonr(Moscow_Borough_Feature_df['Area'], Moscow_Borough_Feature_df['Population_Density'])
+print("The Pearson Correlation Coefficient 'Area' to 'Population_Density' is", pearson_coef, " with a P-value of P =", p_value)  
+pearson_coef, p_value = stats.pearsonr(Moscow_Borough_Feature_df['Housing_Area'], Moscow_Borough_Feature_df['Population_Density'])
+print("The Pearson Correlation Coefficient 'Housing_Area' to 'Population_Density' is", pearson_coef, " with a P-value of P =", p_value)  
+pearson_coef, p_value = stats.pearsonr(Moscow_Borough_Feature_df['Housing_Area'], Moscow_Borough_Feature_df['Area'])
+print("The Pearson Correlation Coefficient 'Housing_Area' to 'Area' is", pearson_coef, " with a P-value of P =", p_value)  
+
+
+
+plt.figure(figsize=(12, 10))
+sns.regplot(x="Housing_Area", y="Population_Density", data=Moscow_Borough_Feature_df)
+plt.ylim(0,)
+
+
+pearson_coef, p_value = stats.pearsonr(Moscow_Borough_Feature_df['Housing_Area'], Moscow_Borough_Feature_df['Population_Density'])
+print("The Pearson Correlation Coefficient is", pearson_coef, " with a P-value of P =", p_value)  
+
+
+
+
 
 
 ###############################################################################
@@ -131,9 +233,6 @@ for hood in Moscow_grouped_df['Borough_Name']:
 ###############################################################################
 # Cluster Boroughs venue categories using k-means with elbow method
 ###############################################################################
-from sklearn.cluster import KMeans
-from scipy.spatial.distance import cdist 
-import matplotlib.pyplot as plt 
 
 #==============================================================================
 # Define the function clustering using k-means with elbow visualizations
@@ -272,9 +371,14 @@ Moscow_map
 #==============================================================================
 Moscow_Borough_df.columns
 
+
+
+
+
 # create subset 
 #X2 = Moscow_Borough_df[['Borough_Population','Borough_Housing_Area','Borough_Housing_Price']]
 X2 = Moscow_Borough_df[['Borough_Population','Borough_Housing_Price']]
+#X2 = Moscow_Borough_df[['Borough_Population','Borough_Population_Density','Borough_Housing_Price']]
 #X2 = Moscow_Borough_df[['Borough_Population_Housing_Price']]
 
 # Normalizing over the standard deviation¶
@@ -282,7 +386,7 @@ X2 = StandardScaler().fit_transform(X2)
 
 KMeans_elbow(X2, 10)
 
-kclusters = 3
+kclusters = 5
 
 # run k-means clustering
 kmeans = KMeans(init = "k-means++", n_clusters=kclusters, random_state=0, n_init = 12)
@@ -292,16 +396,33 @@ kmeans.fit(X2)
 Moscow_Borough_df['Cluster_Labels'] = kmeans.labels_.astype(int)
 
 # сохраним датасет
-Moscow_Borough_df.to_csv("data\Moscow_Borough_Gym_Clustering_df.csv", index = False)
+Moscow_Borough_df.to_csv("data\Moscow_Borough_Clustering_df.csv", index = False)
 
 # Analyze Clustres 
 groups = Moscow_Borough_df.groupby('Cluster_Labels')
+Moscow_population = Moscow_Borough_df['Borough_Population'].sum()
+Moscow_area = Moscow_Borough_df['Borough_Area'].sum()
 Moscow_Clustering_df = groups.mean().reset_index()[['Cluster_Labels', 'Borough_Population', 'Borough_Housing_Price']]
-Moscow_Clustering_df.columns = ['Cluster_Labels', 'Mean_Population', 'Mean_Housing_Price']
-Moscow_Clustering_df['Sum_Population'] = groups.sum().reset_index()[['Borough_Population']]
-Moscow_Clustering_df['Count_Borough'] = groups.count().reset_index()[['Borough_Name']]
+Moscow_Clustering_df.columns = ['Cluster_Labels', 'Population_Mean', 'Housing_Price_Mean']
+Moscow_Clustering_df['Population_Sum'] = groups.sum().reset_index()[['Borough_Population']]
+Moscow_Clustering_df['Population_%'] = Moscow_Clustering_df['Population_Sum'] / Moscow_population * 100
+Moscow_Clustering_df['Borough_Count'] = groups.count().reset_index()[['Borough_Name']]
+Moscow_Clustering_df['Area_Sum'] = groups.sum().reset_index()[['Borough_Area']]
+Moscow_Clustering_df['Area_%'] = Moscow_Clustering_df['Area_Sum'] / Moscow_area * 100
+Moscow_Clustering_df['Population_Density'] = Moscow_Clustering_df['Population_Sum'] / Moscow_Clustering_df['Area_Sum']
 
 Moscow_Recomended_Borough_list = Moscow_Borough_df[Moscow_Borough_df['Cluster_Labels'].isin(['1'])]['Borough_Name']
+
+
+print ("Let's look at the relationship between 'Cluster_Labels' and 'Borough_Housing_Price'")
+sns.boxplot(x="Cluster_Labels", y="Borough_Housing_Price", data=Moscow_Borough_df)
+
+print ("Let's look at the relationship between 'Cluster_Labels' and 'Borough_Population'")
+sns.boxplot(x="Cluster_Labels", y="Borough_Population", data=Moscow_Borough_df)
+
+print ("Let's look at the relationship between 'Cluster_Labels' and 'Borough_Population_Density'")
+sns.boxplot(x="Cluster_Labels", y="Borough_Population_Density", data=Moscow_Borough_df)
+
 
 # Delete Venues that placed outside our cluster 
 Moscow_gym_venues_df = Moscow_gym_venues_df[Moscow_gym_venues_df['Borough_Name'].isin(Moscow_Recomended_Borough_list)]
