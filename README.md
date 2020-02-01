@@ -379,7 +379,7 @@ The picture below shows a part of this dataset.
 
 The interactive choropleth map and heatmap of competitive fitness facilities can be accessible by link **[Interactive map](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/map/Moscow_gym_heatmap.html)**  
 
-[Interactive map](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/map/MMoscow_gym_heatmap.zip)
+[Interactive map](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/map/Moscow_gym_heatmap.zip)
 
 The pictures below show a part of the this map.
 
