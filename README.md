@@ -1,10 +1,26 @@
 # Venues Data Analysis of Moscow City
 
+## Table of contents
+* [1. Introduction](#Introduction)
+  * 1.1 Background
+  * 1.2 Business Problem
+* [2. Data acquisition and cleaning](#data)
+  * 2.2. Data requirements
+  * 2.3. Describe data sources
+  * 2.4. Describe data cleansing
+  * 2.5. Example of the resulting datasets
+* [3. Methodology](#Methodology)
+  * 3.1. Exploratory Data Analysis
+  * 3.2. Clustering
+* [4. Result](#Result)
+* [5. Discussion](#Discussion)
+* [6. Conclusion](#Conclusion)
+
 ## 1. Introduction <a name="Introduction"></a>
 
-### 1.1 Background <a name="Background"></a>
+### 1.1 Background
 
-Moscow, one of the largest metropolises in the world with a population of more than 12 million people, covers an area of ​​more than 2561.5 km² with an average density of inheritance of 4924.96 people / km² [1](https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0).
+Moscow, one of the largest metropolises in the world with a population of more than 12 million people, covers an area of more than 2561.5 km² with an average density of inheritance of 4924.96 people / km² [1](https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0).
 
 Moscow is divided into 12 districts (125 boroughs, 2 urban boroughs, 19 settlement boroughs).
 
@@ -12,7 +28,7 @@ Moscow has a very uneven population density from 30429 people / km² for the "З
 
 The average cost of real estate varies from 68,768 rubles / m² for the "Кленовское" borough to 438,568 rubles / m² for the "Арбат" borough [3](https://www.mirkvartir.ru/journal/analytics/2018/02/25/reiting-raionov-moskvi-po-stoimosti-kvartir).
 
-### 1.2 Business Problem <a name="Business Problem"></a>
+### 1.2 Business Problem
 
 Owners of cafes, fitness centers and other social facilities are expected to prefer boroughs with a high population density. Investors will prefer areas with low housing costs and low competitiveness.
 
@@ -198,7 +214,7 @@ The picture below shows a example of the some Moscow Boroughs and their venues
 
 ![Example of the some Moscow Boroughs and theis venues](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Borough_venues_example.png)
 
-## 3. Methodology 
+## 3. Methodology <a name="Methodology"></a>
 
 The key criteria for my research are:
 
@@ -209,11 +225,11 @@ The key criteria for my research are:
 So I need to perform at least two tasks during analysis:
 
 - first is to find boroughs with highest population and smallest housing price
-- second is to provide a tool or methodology for determining vicinity of other fitness facilities in the borough
+- second is to provide a tool or methodology for determining vicinity of other fitness facilities in the boroughs
 
 For the first task I try to use some approaches and methods of machine learning. And found out, what of the approaches suits my tasks best. I will use:  
 
-- exploratory data analysis, including descriptive statistical analys, categorical variables analysis and сorrelation analysis
+- exploratory data analysis, including descriptive statistical analysis, categorical variables analysis and сorrelation analysis
 - segmentation with K-Means clustering
 
 For the second task I decided to use visualization approach to mapping fitness facilities on to the interactive choropleth map and heatmap.  
@@ -254,7 +270,7 @@ We can see that the distributions of Population between Boroughs in the differen
 
 The next picture shows relationship between 'District' and 'Housing Price'.  
 We can see that the distributions of Housing Price between Boroughs in the different Districts are distinct enough.  
-As the result of boxplots visualization, categorical feature 'District' would be a good potential redictor only of Housing Price.  
+As the result of boxplots visualization, categorical feature 'District' would be a good potential predictor only of Housing Price.  
 
 !['District' and 'Housing Price'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/District_Housing_Price_boxplot.png)
 
@@ -331,7 +347,7 @@ But not all of the periphery Boroughs are well populated so not meet our criteri
 
 !['Moscow_Clustering_map'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Moscow_Clustering_map.png)
 
-## 4. Result
+## 4. Result <a name="Result"></a>
 
 The result of my research consisted of:
 
@@ -361,6 +377,8 @@ The picture below shows a part of this dataset.
 
 ### 4.2. Dataset of the competitive fitness facilities
 
+There are 928 venues of "Gym / Fitness Center" subcategories of all 20864 venues in Moscow City and only 259 of them are placed in the optimal Boroughs.
+
 The result dataset of the competitive fitness facilities can be downloaded by link [Competitive fitness facilities](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/data/Moscow_gym_venues_df.csv)  
 Result dataset contains columns:
 
@@ -377,12 +395,44 @@ The picture below shows a part of this dataset.
 
 ### 4.3. Choropleth map and heatmap of competitive fitness facilities
 
-The interactive choropleth map and heatmap of competitive fitness facilities can be accessible by link **[Interactive map](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/map/Moscow_gym_heatmap.html)**  
+The interactive choropleth map and heatmap of competitive fitness facilities can be accessible by link **[Interactive map](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/map/Moscow_gym_heatmap.zip)**  
 
-[Interactive map](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/map/Moscow_gym_heatmap.zip)
-
-The pictures below show a part of the this map.
+The pictures below show a part of this map.
 
 ![gym_heatmap_big](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/gym_heatmap_big.png)
 
 ![gym_heatmap_smal](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/gym_heatmap_smal.png)
+
+The pictures below show a part of the competitive fitness facilities and circle in 250 meter around them.
+![gym_250](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/gym_250.png)
+
+## 5. Discussion <a name="Discussion"></a>
+
+In the course of my research I gathered a lot of informations about Moscow Boroughs, such as:
+
+- area of the each Moscow Borough in square kilometers
+- the population of the each Moscow Borough
+- housing area of the each Moscow Borough in square meters
+- average housing price of the each Moscow Borough
+- geographical coordinates of the each Moscow Borough
+- shape of the each Moscow Borough in GEOJSON format
+- list of venues placed in the each Moscow Borough with their geographical coordinates and categories  
+
+All this informations was cleared and hosted on GitHub and can be accessed in future research.
+
+I have used segmentation with K-Means clustering to detect Boroughs that have highest population and smallest housing price. When I tested the elbow method, I set the optimum k value to 3, but there are another elbow at 5 centroid. Additional analysis can be done with 5 clusters, that can present slightly another set of optimal Boroughs for the location of fitness centers. So recommended boroughs list should therefore be considered only as a starting point for more detailed analysis.  
+
+To determining vicinity of other fitness facilities in the boroughs I used visualization approach to mapping fitness centers on to the interactive choropleth map and heatmap.
+
+Our visual analysis of the competitive fitness facilities shows that although there is a great number of fitness facilities (more than 250), there are pockets of low density in our list of the optimal Boroughs set.
+
+In the future, research can be done additional analysis using categorical segmentations of the fitness facilities and calculate grid of location candidates taking into account fitness centers density.
+
+## 6. Conclusion <a name="Conclusion"></a>
+
+Purpose of my project was to identify the optimal places for the location of fitness centers in Moscow boroughs, taking into account the dencity of population, the cost of real estate and the density of other fitness facilities in order to aid stakeholders in narrowing down the search for optimal location for a new fitness centers.
+
+Results provided by me research can ease new investors to found out potentially best place for new a new fitness centers.
+
+Best regards,  
+Presnyakov Roman.
