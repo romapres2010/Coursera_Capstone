@@ -333,7 +333,7 @@ But not all of the periphery Boroughs are well populated so not meet our criteri
 
 ## 4. Result
 
-The result of my research will be consist of:
+The result of my research consisted of:
 
 - List of the optimal Boroughs for the location of fitness centers, according to the main criterias
   - high population of the borough
@@ -378,6 +378,8 @@ The picture below shows a part of this dataset.
 ### 4.3. Choropleth map and heatmap of competitive fitness facilities
 
 The interactive choropleth map and heatmap of competitive fitness facilities can be accessible by link **[Interactive map](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/map/Moscow_gym_heatmap.html)**  
+
+[Interactive map](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/map/MMoscow_gym_heatmap.zip)
 
 The pictures below show a part of the this map.
 
