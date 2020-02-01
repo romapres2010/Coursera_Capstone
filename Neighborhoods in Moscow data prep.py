@@ -533,19 +533,3 @@ for Borough_Name, lat, lng, Borough_Population in zip(Moscow_Borough_df['Borough
 
 # display map
 Moscow_map
-
-
-
-
-
-
-
-
-
-# Delete some Boroughs that far from the center of the Moscow city and have not enough statistics 
-Moscow_df.drop(Moscow_df[Moscow_df['Borough_Type'].isin(['Городской округ', 'Поселение'])].index, inplace=True)
-Moscow_df.drop(Moscow_df[Moscow_df['District_Name'].isin(['ЗелАО'])].index, inplace=True)
-Moscow_df.drop(Moscow_df[Moscow_df['Borough_Name'].isin(['Некрасовка', 'Косино-Ухтомский', 'Восточный', 'Внуково', 'Молжаниновский', 'Куркино', 'Северный', 'Митино', 'Ново-Переделкино', 'Солнцево', 'Южное Бутово', 'Северное Бутово'])].index, inplace=True)
-
-# Calculate index with highest populstions and lower housing price = Population / Housing_Price
-Moscow_Borough_df['Borough_Population_Housing_Price'] = Moscow_Borough_df['Borough_Population'] / Moscow_Borough_df['Borough_Housing_Price']

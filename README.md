@@ -23,8 +23,8 @@ In my research, I will try to determine the optimal places for the location of f
 The key criteria for selecting suitable locations for fitness centers will be:
 
 - High population of the borough
-- Low cost of real estate in the area
-- The absence in the immediate vicinity of other fitness facilities of a similar profile
+- Low cost of real estate in the borough
+- The absence in the immediate vicinity of other fitness facilities
 
 I will use the approaches and methods of machine learning to determine the location of fitness centers in accordance with the specified criteria.
 
@@ -119,7 +119,7 @@ As the result I, had a dataset with all 146 Moscow Boroughs. Result dataset cont
 - **Borough_Area** - area of the Moscow Borough in square kilometers
 - **Borough_Population** - population of the Moscow Borough
 - **Borough_Population_Density** - population density of the Moscow Borough
-- **Borough_Housing_Area** - housing area of the Moscow Borough in square meters
+- **Borough_Housing_Area** - housing area of the Moscow Borough in thousands of square meters
 - **Borough_Housing_Area_Per_Person** - housing area per person of the Moscow Borough in square meters
 - **Borough_Housing_Price** - average housing price of the Moscow Borough
 
@@ -198,14 +198,30 @@ The picture below shows a example of the some Moscow Boroughs and their venues
 
 ![Example of the some Moscow Boroughs and theis venues](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Borough_venues_example.png)
 
-## Methodology - Exploratory Data Analysis
+## 3. Methodology 
 
 The key criteria for my research are:
 
-- high population of the borough
-- low cost of real estate in the area
+- high population of the boroughs 
+- low cost of real estate in the boroughs area
+- the absence in the immediate vicinity of the other fitness facilities
 
-We have theese key features in Moscow Boroughs dataset:
+So I need to perform at least two tasks during analysis:
+
+- first is to find boroughs with highest population and smallest housing price
+- second is to provide a tool or methodology for determining vicinity of other fitness facilities in the borough
+
+For the first task I try to use some approaches and methods of machine learning. And found out, what of the approaches suits my tasks best. I will use:  
+
+- exploratory data analysis, including descriptive statistical analys, categorical variables analysis and сorrelation analysis
+- segmentation with K-Means clustering
+
+For the second task I decided to use visualization approach to mapping fitness facilities on to the interactive choropleth map and heatmap.  
+This approach can be easily used by stakeholders of my research to identify vicinity of other fitness facilities in the eache Boroughs.
+
+### 3.1. Exploratory Data Analysis
+
+We have following key features in Moscow Boroughs dataset:
 
 - District - name of the Moscow District in which Borough is belong to
 - Area - area of the Moscow Borough in square kilometers
@@ -215,10 +231,10 @@ We have theese key features in Moscow Boroughs dataset:
 Let's analyze features and key criteria using:
 
 - descriptive statistical analysis
-- categorical variables  analysis
+- categorical variables analysis
 - сorrelation analysis
 
-### Descriptive statistical analysis
+#### 3.1.1. Descriptive statistical analysis
 
 The picture below shows basic statistics for all features.  
 As we can see, Moscow Boroughs has a very uneven population from 12 194 people to 253 943 people.  
@@ -226,7 +242,7 @@ The average cost of real estate varies from 109 421 rubles/m² to 438 568 rubles
 
 ![Descriptive statistical analysis](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Descriptive_statistical_analysis.png)
 
-### Categorical variables analysis
+#### 3.1.2. Categorical variables analysis
 
 I have one categorical variable - name of the Moscow District in which Borough is belong to.  
 Let's analize relationship between categorical feature 'District' and key criteria using boxplots visualization.  
@@ -242,7 +258,7 @@ As the result of boxplots visualization, categorical feature 'District' would be
 
 !['District' and 'Housing Price'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/District_Housing_Price_boxplot.png)
 
-### Correlation analysis
+#### 3.1.3. Correlation analysis
 
 The picture below shows correlation matrix.  
 Correlation between 'Area', 'Population_Density' and 'Population' is statistically significant, although the linear relationship isn't extremely strong.  
@@ -255,25 +271,25 @@ So we can exclude 'Population_Density' from our considerations.
 
 ![Correlation matrix](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/correlation_matrix.png)
 
-## Methodology - Clustering
+### 3.2. Clustering
 
-In my research, I decided to perform Moscow Boroughs segmentation with K-Means to detect Boroughs that have highest population and smallest housing price.  
+In my research, I decided to try segmentation with K-Means clustering to detect Boroughs that have highest population and smallest housing price.  
 
-### K-Means Clustering with elbow method
+#### 3.2.1. K-Means Clustering with elbow method
 
 To determine right number of clusters, I used elbow method.
 According elbow method I implemented K-Means clustering from 1 to 10 centroids and calculate distortion and inertia for each variant.  
 
 The next pictures show elbow method using Distortion and Inertia. We can see that there are elbows at 3 and 5 centroid.  
-I decided to use 3 centroid In my research.  
+I decided to use 3 centroid in my research.  
 
 !['Elbow_Method_Distortion'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Elbow_Method_Distortion.png)
 
 !['Elbow_Method_Inertia'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Elbow_Method_Inertia.png)
 
-### Analyze K-Means clusters
+#### 3.2.2. Analyze K-Means clusters
 
-To analyze K-Means clusters I calculated some statistics:
+To analyze K-Means clusters I calculated some additional statistics:
 
 - count boroughs in the cluster
 - sum population in the cluster
@@ -288,7 +304,7 @@ The next pictures show these statistics
 
 !['Moscow_Clustering'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Moscow_Clustering.png)
 
-As we can see, there are 3 clusters  
+As we can see, there are 3 clusters:  
 
 - "0" Cluster - characterized by low mean population (78538 people per Borough), relatively high mean housing price (173695 rubles/m²) and low population density (10328 people/km²) 
 - "1" Cluster - characterized by highest mean population (153187 people per Borough), smallest mean housing price (160741 rubles/m²) and highest population density (13312 people/km²)
@@ -307,8 +323,64 @@ Very good result of the KMean clustering.
 - boroughs from this cluster have highest mean population and smallest mean housing price
 - in 34 boroughs about 43% of the Moscow population occupied only 37% of the Moscow City area, that mean the highest population density
 
-### Vizualize clusters on choropleth map
+#### 3.2.3. Vizualize clusters on choropleth map
 
-The next picture shows clusters on choropleth map.  
+The next picture shows all clusters on choropleth map.  
+As we can see Boroughs in our target "1" Cluster mostly placed in the periphery of the Moscow City.  
+But not all of the periphery Boroughs are well populated so not meet our criteria.
 
 !['Moscow_Clustering_map'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Moscow_Clustering_map.png)
+
+## 4. Result
+
+The result of my research will be consist of:
+
+- List of the optimal Boroughs for the location of fitness centers, according to the main criterias
+  - high population of the borough
+  - low cost of real estate in the borough
+- List of the other competitive fitness facilities in the each Borough from the optimal list
+- Interactive choropleth map and heatmap with other competitive fitness facilities in the each Borough
+
+### 4.1. Dataset of the optimal Boroughs 
+
+The result dataset of the optimal Boroughs for the location of fitness centers can be downloaded by link [Moscow Recomended Borough](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/data/Moscow_Recomended_Borough_df.csv)  
+Result dataset contains columns:
+
+- **Borough_Name** - name of the Moscow Borough
+- **District_Name** - name of the Moscow District in which Borough is belong to
+- **Borough_Type** - type of the Moscow Borough
+- **Borough_Area** - area of the Moscow Borough in square kilometers
+- **Borough_Population** - population of the Moscow Borough
+- **Borough_Population_Density** - population density of the Moscow Borough
+- **Borough_Housing_Area** - housing area of the Moscow Borough in thousands of square meters
+- **Borough_Housing_Price** - average housing price of the Moscow Borough
+
+The picture below shows a part of this dataset.
+
+![Moscow_Recomended_Borough_df](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Moscow_Recomended_Borough_df.png)
+
+### 4.2. Dataset of the competitive fitness facilities
+
+The result dataset of the competitive fitness facilities can be downloaded by link [Competitive fitness facilities](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/data/Moscow_gym_venues_df.csv)  
+Result dataset contains columns:
+
+- **Borough_Name** - name of the Moscow Borough
+- **Venue_Name** - name of the fitness facilities
+- **Venue_Category_Name** - category of the fitness facilities
+- **Venue_Location** - address of the fitness facilities
+- **Venue_Latitude** - latitude of the fitness facilities
+- **Venue_Longitude** - longitude of the fitness facilities
+
+The picture below shows a part of this dataset.
+
+![Moscow_gym_venues_df](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Moscow_gym_venues_df.png)
+
+### 4.3. Choropleth map and heatmap of competitive fitness facilities
+
+The interactive choropleth map and heatmap of competitive fitness facilities can be accessible by link **[Interactive map](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/map/Moscow_gym_heatmap.html)**  
+
+The pictures below show a part of the this map.
+
+![gym_heatmap_big](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/gym_heatmap_big.png)
+
+![gym_heatmap_smal](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/gym_heatmap_smal.png)
