@@ -1,52 +1,26 @@
-# Venues Data Analysis of Moscow City
+# Venues data analysis of Moscow City with machine learning approach
 
-## Table of contents
-* [1. Introduction](#Introduction)
-  * 1.1 Background
-  * 1.2 Business Problem
-* [2. Data acquisition and cleaning](#data)
-  * 2.2. Data requirements
-  * 2.3. Describe data sources
-  * 2.4. Describe data cleansing
-  * 2.5. Example of the resulting datasets
-* [3. Methodology](#Methodology)
-  * 3.1. Exploratory Data Analysis
-  * 3.2. Clustering
-* [4. Result](#Result)
-* [5. Discussion](#Discussion)
-* [6. Conclusion](#Conclusion)
-
-## 1. Introduction <a name="Introduction"></a>
+## 1. Introduction
 
 ### 1.1 Background
 
-Moscow, one of the largest metropolises in the world with a population of more than 12 million people, covers an area of more than 2561.5 km² with an average density of inheritance of 4924.96 people / km² [1](https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0).
-
-Moscow is divided into 12 districts (125 boroughs, 2 urban boroughs, 19 settlement boroughs).
-
-Moscow has a very uneven population density from 30429 people / km² for the "Зябликово" borough, to 560 people / km² for the "Молжаниновский" borough [2](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B9%D0%BE%D0%BD%D1%8B_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D1%8B).
-
-The average cost of real estate varies from 68,768 rubles / m² for the "Кленовское" borough to 438,568 rubles / m² for the "Арбат" borough [3](https://www.mirkvartir.ru/journal/analytics/2018/02/25/reiting-raionov-moskvi-po-stoimosti-kvartir).
+Moscow, one of the largest metropolises in the world with a population of more than 12 million people, covers an area of more than 2561.5 km² with an average density of inheritance of 4924.96 people / km².
+Moscow has a very uneven population density from 30429 people / km² for the "Зябликово" borough, to 560 people / km² for the "Молжаниновский" borough.
+The average cost of real estate varies from 68,768 rubles / m² for the "Кленовское" borough to 438,568 rubles / m² for the "Арбат" borough.
 
 ### 1.2 Business Problem
 
 Owners of cafes, fitness centers and other social facilities are expected to prefer boroughs with a high population density. Investors will prefer areas with low housing costs and low competitiveness.
-
-On the part of residents, the preference is expected for a boroughs with a low cost of housing and good accessibility of social places.
-
-In my research, I will try to determine the optimal places for the location of fitness centers in Moscow boroughs, taking into account the number of people, the cost of real estate and the density of other fitness facilities.
-
+In my research, I will try to determine the optimal places for the location of fitness centers in Moscow boroughs, taking into account the population density,the cost of real estate and the density of other fitness facilities.
 The key criteria for selecting suitable locations for fitness centers will be:
-
-- High population of the borough
-- Low cost of real estate in the borough
-- The absence in the immediate vicinity of other fitness facilities
+- high population of the borough
+- low cost of real estate in the borough
+- the absence in the immediate vicinity of other fitness facilities  
 
 I will use the approaches and methods of machine learning to determine the location of fitness centers in accordance with the specified criteria.
-
 The main stakeholders of my research will be investors interested in opening new fitness centers.
 
-## 2. Data acquisition and cleaning <a name="data"></a>
+## 2. Data acquisition and cleaning
 
 ### 2.2. Data requirements
 
@@ -74,13 +48,6 @@ Data for Moscow Boroughs dataset were downloaded from multiple HTTP page combine
 - Information about area of the each Moscow Borough in square kilometers, their population and housing area in square meters were downloaded from the page [Moscow Boroughs Population Density](https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%BE%D0%B2_%D0%B8_%D0%BF%D0%BE%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D1%8B)
 - Information about housing price of the each Moscow Borough were downloaded from the page [Moscow Boroughs Housing Price](https://www.mirkvartir.ru/journal/analytics/2018/02/25/reiting-raionov-moskvi-po-stoimosti-kvartir)
 
-A special Python function has been developed for HTML table parse. This function help me:
-
-- to find number of rows and columns in a HTML table
-- to get columns  titles, if possible
-- to convert string to float, if possible
-- return result in form of the Pandas dataframe
-
 #### 2.3.2. Moscow Boroughs geographical coordinates
 
 Geographical coordinates of the each Moscow Borough were queried through Nominatim service.
@@ -100,66 +67,19 @@ To obtain list of all **venues** I used the following approach:
 - perform exploration using **Forsquare API** with quite bigger radius than circle of a grid to make sure it overlaps/full coverage to don't miss any venues
 - cleaning list of venues from duplicates.  
 
-This approach and some of the Python code was taken from the work presented here. https://cocl.us/coursera_capstone_notebook
-
-Circle of 28 000 meter in radius cover all Moscow Boroughs.  
-In my research grid of circles contains 7899 cells with radius 300 meter.  
-Foursquare API have a certain limitation for API call in one day to explore venues.  
-In my case it was about 2000 calls per day.  
-So in addition I have to divide grid dataset into subset and call Foursquare API for several days.
-
 ### 2.4. Describe data cleansing
 
 #### 2.4.1. Moscow Boroughs dataset cleansing
 
-As data for Moscow Boroughs dataset were downloaded from multiple HTTP page it was necessary to perform a data cleaning. Such as:  
-
-- remove some unused colums
-- strip text columns from additional information like ' \n\t'
-- replace some Borough_Name as of russian letters "е" and "ё" 
-- change places of some words in Borough_Name
-- clear Borough Name from additional information, such as ', поселение ', ', городской округ '
-- replace '\n', ' ↗' and '↘' in some columns
-- delete extra spaces in numeric columns
-- replace ',' to '.' for float columns
-- convert from float to int for integer columns
-- convert from string to float for numeric columns
-
-As the result I, had a dataset with all 146 Moscow Boroughs. Result dataset contains columns:
-
-- **Borough_Name** - name of the Moscow Borough - is a unique key of the dataset
-- **District_Name** - name of the Moscow District in which Borough is belong to
-- **Borough_Type** - type of the Moscow Borough
-- **OKATO_Borough_Code** - numeric code of the Moscow Borough
-- **OKTMO_District_Code** - numeric code of the Moscow District
-- **Borough_Area** - area of the Moscow Borough in square kilometers
-- **Borough_Population** - population of the Moscow Borough
-- **Borough_Population_Density** - population density of the Moscow Borough
-- **Borough_Housing_Area** - housing area of the Moscow Borough in thousands of square meters
-- **Borough_Housing_Area_Per_Person** - housing area per person of the Moscow Borough in square meters
-- **Borough_Housing_Price** - average housing price of the Moscow Borough
-
-I had a problem to found proper statistics about “housing prices” and “housing area” for some Moscow boroughs, so I had to exclude 26 boroughs from my analysis.
+As data for Moscow Boroughs dataset were downloaded from multiple HTTP page it was necessary to perform a data cleaning.  
+I had a problem to found proper statistics about “housing prices” and “housing area” for some Moscow boroughs, so I had to exclude 26 boroughs from my analysis.  
 Fortunately, they all had a low population density, which meat criteria of my research and did not reduce it quality.
 
 #### 2.4.2. Moscow Boroughs geographical coordinates cleansing
 
-Nominatim service not only quite unstable.  
-It also have an occasionally problem with russian leter **ё**. So I have to manyaly obtain coordinates for such boroughs as:
+When I gathered Moscow Boroughs geographical coordinates, using Nominatim service, I have an occasionally problem with russian leter ё. So I have to manyaly obtain coordinates for such boroughs. 
 
-- Дес**ё**новское, Поселение, Новомосковский  
-- Сав**ё**лки, Муниципальный округ, ЗелАО
-- Кл**ё**новское, Поселение, Троицкий  
-- And some others.
-
-Another problem with Nominatim service is that it return not very accurate coordinate of some Boroughs.  
-So I needed to adjust they manually in the map.
-
-As the result I, had a dataset with all 146 Moscow Boroughs geographical coordinates:
-
-- **Borough_Name** - name of the Moscow Borough
-- **Latitude** - geographical Latitude of the Moscow Borough
-- **Longitude** - geographical Longitude of the Moscow Borough
+Another problem with Nominatim service is that it return not very accurate coordinate of some Boroughs. So I needed to adjust they manually in the map.
 
 #### 2.4.3. Moscow Boroughs shape in GEOJSON format cleansing
 
@@ -167,12 +87,11 @@ GEOJSON file downloaded from the page [Moscow Boroughs GEOJSON](http://gis-lab.i
 
 #### 2.4.4. Moscow Boroughs venues cleansing
 
-Using **Forsquare API** I obtained 34460 venues in 7899 cells.  
+Using **Forsquare API** I obtained 34460 venues in 7899 cells of regular grid around center of Moscow City.  
 As I used a quite bigger radius (350 meters) for venue explorations than circle of a grid (300 meters), there was a need to remove duplicates venues.  
 After duplicates removal I had 27622 unique venues in the circle radius of 28 000 meters around the Moscow City.  
 
-The second task was to bind each venue to Moscow Boroughs in which borders they were placed.  
-To perform this task I created a polygon for each Moscow Borough from GEOJSON file and found which venues coordinate included into each polygon.  
+The second task was to bind each venue to Moscow Boroughs in which borders they were placed. To perform this task I created a polygon for each Moscow Borough from GEOJSON file and found which venues coordinate included into each polygon.  
 
 The third task was to remove all the venues that placed outside of the Moscow boroughs.  
 
@@ -180,7 +99,7 @@ The fourth task was to get main category from the category list for each venue.
 
 As the result, I had list of 20864 venues placed in the Moscow Boroughs with their geographical coordinates and categories
 
-### 2.5. The resulting datasets
+### 2.5. Example of the resulting datasets
 
 #### 2.5.1. The result Moscow Boroughs dataset
 
@@ -214,7 +133,7 @@ The picture below shows a example of the some Moscow Boroughs and their venues
 
 ![Example of the some Moscow Boroughs and theis venues](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Borough_venues_example.png)
 
-## 3. Methodology
+## 3. Methodology <a name="Methodology"></a>
 
 The key criteria for my research are:
 
@@ -347,7 +266,7 @@ But not all of the periphery Boroughs are well populated so not meet our criteri
 
 !['Moscow_Clustering_map'](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/Moscow_Clustering_map.png)
 
-## 4. Result
+## 4. Result <a name="Result"></a>
 
 The result of my research consisted of:
 
@@ -406,7 +325,7 @@ The pictures below show a part of this map.
 The pictures below show a part of the competitive fitness facilities and circle in 250 meter around them.
 ![gym_250](https://raw.githubusercontent.com/romapres2010/Coursera_Capstone/master/img/gym_250.png)
 
-## 5. Discussion
+## 5. Discussion <a name="Discussion"></a>
 
 In the course of my research I gathered a lot of informations about Moscow Boroughs, such as:
 
@@ -428,7 +347,7 @@ Our visual analysis of the competitive fitness facilities shows that although th
 
 In the future, research can be done additional analysis using categorical segmentations of the fitness facilities and calculate grid of location candidates taking into account fitness centers density.
 
-## 6. Conclusion
+## 6. Conclusion <a name="Conclusion"></a>
 
 Purpose of my project was to identify the optimal places for the location of fitness centers in Moscow boroughs, taking into account the dencity of population, the cost of real estate and the density of other fitness facilities in order to aid stakeholders in narrowing down the search for optimal location for a new fitness centers.
 
